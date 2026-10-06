@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-06T18:05:59.583983Z",
+  "generatedAt": "2026-10-06T20:08:08.481979Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,41 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-06T18:03:43Z",
-    "fetchedAt": "2026-10-06T18:05:59.583983Z",
+    "sourceAt": "2026-10-06T20:06:30Z",
+    "fetchedAt": "2026-10-06T20:08:08.481979Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:270651:26",
+        "id": "lmm:alert:270672:26",
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are running with delays while we address a signal problem near Court Sq-23 St.",
-        "description": "Some uptown [F] trains are running via Roosevelt Island from Manhattan to Queens.\n\nSome uptown [F] trains are rerouted via Roosevelt Island from 47-50 Sts-Rockefeller Ctr to Jackson Heights-Roosevelt Av.",
+        "header": "[E][F] trains are running with delays in both directions after an earlier signal problem near Court Sq-23 St.",
+        "description": "",
         "periods": [
           {
-            "start": 1791304745,
+            "start": 1791317105,
             "end": null
           }
         ],
-        "createdAt": 1791304745,
-        "updatedAt": 1791309822
-      },
-      {
-        "id": "lmm:alert:270653:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[A][C][E] trains are running with delays in both directions after NYPD assisted with an unauthorized person on the tracks near 42 St-Port Authority Bus Terminal.",
-        "description": "[A] trains have resumed making express stops in both directions between 59 St-Columbus Circle and Canal St.",
-        "periods": [
-          {
-            "start": 1791305498,
-            "end": null
-          }
-        ],
-        "createdAt": 1791305498,
-        "updatedAt": 1791307071
+        "createdAt": 1791317105,
+        "updatedAt": 1791317105
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806861823
+            "end": 1806869189
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5228eeb4d761848fba0280664a88a230a1687a666ba4bffd06fc7e137dd04fc1"
+    "sha256": "6e3bcce120c7f14bbc3c89bb7d749f7e4874eacc42e2c74d76646aa605c8236b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-06T18:05:59.583983Z",
+    "fetchedAt": "2026-10-06T20:08:08.481979Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
