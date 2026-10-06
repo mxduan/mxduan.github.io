@@ -35,36 +35,50 @@ jobs:
         run: |
           git config user.name 'rail-reliability-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add rail-reliability/data/dashboard.json
-          if ! git diff --cached --quiet; then
+          # This runner checkout is disposable. Save only generated public JSON,
+          # then base each attempt on the current remote to preserve other writers.
+          cache_copy=$(mktemp)
+          cp rail-reliability/data/dashboard.json "$cache_copy"
+          python -m json.tool "$cache_copy" >/dev/null
+          git restore --staged --worktree rail-reliability/data/dashboard.json
+          pushed=false
+          for attempt in 1 2 3; do
+            git fetch origin master
+            git checkout -B transit-publication FETCH_HEAD
+            python - "$cache_copy" <<'PYCODE'
+          import json,sys
+          from pathlib import Path
+          path=Path('rail-reliability/data/dashboard.json')
+          generated=json.loads(Path(sys.argv[1]).read_text())
+          current=json.loads(path.read_text())
+          # Keep newer evidence when an older queued run finishes later.
+          if generated['generatedAt'] > current['generatedAt']:
+              path.write_text(json.dumps(generated,indent=2)+'\n')
+          PYCODE
+            git add rail-reliability/data/dashboard.json
+            if git diff --cached --quiet; then pushed=true; break; fi
             git commit -m 'Refresh official public transit snapshots'
-            # The local observer updates a different file on this branch. Preserve both writers.
-            pushed=false
-            for attempt in 1 2 3; do
-              git pull --rebase origin master
-              if git push origin HEAD:master; then pushed=true; break; fi
-            done
-            test "$pushed" = true
-          fi
+            if git push origin HEAD:master; then pushed=true; break; fi
+          done
+          test "$pushed" = true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: public-transit-evidence
           path: rail-reliability/data/dashboard.json
           retention-days: 7
-      - name: Assemble public viewer and preserve entry
-        if: always()
+      - name: Validate and assemble public viewer
         run: |
+          python -m json.tool rail-reliability/data/dashboard.json >/dev/null
+          python -m json.tool rail-reliability/data/observations.json >/dev/null
           mkdir -p _site
           cp index.html README.md _site/
           cp -R rail-reliability _site/
       - uses: actions/upload-pages-artifact@v3
-        if: always()
         with:
           path: _site
       - name: Deploy public viewer
         id: deployment
-        if: always()
         uses: actions/deploy-pages@v4
       - name: Surface source failures
         if: steps.fetch.outcome == 'failure'
