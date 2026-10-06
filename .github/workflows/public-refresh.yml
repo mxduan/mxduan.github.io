@@ -1,0 +1,65 @@
+name: Refresh public transit snapshots
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ['rail-reliability/**', 'ops/refresh.py', '.github/workflows/public-refresh.yml', 'index.html']
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: transit-public-cache
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install gtfs-realtime-bindings==1.0.0 'protobuf>=5,<7'
+      - name: Refresh cached official snapshots
+        id: fetch
+        continue-on-error: true
+        run: python ops/refresh.py
+      - name: Preserve cache and failure state
+        if: always()
+        run: |
+          git config user.name 'rail-reliability-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add rail-reliability/data/dashboard.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh official public transit snapshots'
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-transit-evidence
+          path: rail-reliability/data/dashboard.json
+          retention-days: 7
+      - name: Assemble public viewer and preserve entry
+        if: always()
+        run: |
+          mkdir -p _site
+          cp index.html README.md _site/
+          cp -R rail-reliability _site/
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with:
+          path: _site
+      - name: Deploy public viewer
+        id: deployment
+        if: always()
+        uses: actions/deploy-pages@v4
+      - name: Surface source failures
+        if: steps.fetch.outcome == 'failure'
+        run: exit 1
