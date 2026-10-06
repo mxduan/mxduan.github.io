@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-06T20:15:29.551251Z",
+  "generatedAt": "2026-10-06T20:37:25.117368Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-06T20:08:11Z",
-    "fetchedAt": "2026-10-06T20:15:29.551251Z",
+    "sourceAt": "2026-10-06T20:36:10Z",
+    "fetchedAt": "2026-10-06T20:37:25.117368Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after an earlier signal problem near Court Sq-23 St.",
-        "description": "",
+        "header": "[E][F] trains are running with delays in both directions while we address a signal problem near Court Sq-23 St.",
+        "description": "Some uptown [F] trains will run via Roosevelt Island from 47-50 Sts-Rockefeller Ctr to Jackson Heights-Roosevelt Av. \nListen for announcements to hear how trains will run.",
         "periods": [
           {
             "start": 1791317105,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791317105,
-        "updatedAt": 1791317105
+        "updatedAt": 1791318432
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806869290
+            "end": 1806870969
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "eb04aa4825ae47feff3e0c8db328d90c8c249aa3ea88df411a7bee973e27119d"
+    "sha256": "c2781705269596a7bbc4fd0800c5e9bc66ec8efc59b9082047578e46e413bff4"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-06T20:15:29.551251Z",
+    "fetchedAt": "2026-10-06T20:37:25.117368Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
