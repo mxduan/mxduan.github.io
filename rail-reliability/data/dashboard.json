@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-06T23:38:31.272139Z",
+  "generatedAt": "2026-10-06T23:53:28.493285Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-06T23:35:40Z",
-    "fetchedAt": "2026-10-06T23:38:31.272139Z",
+    "sourceAt": "2026-10-06T23:46:03Z",
+    "fetchedAt": "2026-10-06T23:53:28.493285Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F]  trains are running with delays in both directions while we address a signal problem near Court Sq-23 St.",
+        "header": "[E][F]  trains are running with delays in both directions after an earlier signal problem near Court Sq-23 St.",
         "description": "",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791329377,
-        "updatedAt": 1791329377
+        "updatedAt": 1791330362
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806881739
+            "end": 1806882362
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ad5ed14efe332a0e52f0553300a63533e8ee07ebdf24d274db214f24b389fee0"
+    "sha256": "746eaae99b4874b1c24c8a306cb6a9a16e36f699eb497a49b91bb84fce6d8afc"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-06T23:38:31.272139Z",
+    "fetchedAt": "2026-10-06T23:53:28.493285Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
