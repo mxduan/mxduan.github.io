@@ -123,7 +123,7 @@ def history(rows, coverage_end, now, weeks=16):
     # Calendar aggregates use the same full-history first-event dedup as weeks.
     today=now.astimezone(NY).date(); lower=min((local_date(r['date']).date() for r in rows),default=today)
     periods={}
-    for kind,length in [('day',14),('month',12),('year',7)]:
+    for kind,length in [('day',120),('month',12),('year',7)]:
         result=[]
         for index in range(length-1,-1,-1):
             if kind=='day':begin=today-timedelta(days=index);finish=begin+timedelta(days=1)
@@ -188,7 +188,7 @@ def main():
     for name, job in jobs.items():
         try:
             cached = previous.get(name, {})
-            if name in ('history', 'performance') and (name!='history' or 'periods' in cached) and cached.get('state') == 'ok' and cached.get('fetchedAt') and (now - datetime.fromisoformat(cached['fetchedAt'].replace('Z','+00:00'))).total_seconds() < 86400:
+            if name in ('history', 'performance') and (name!='history' or len(cached.get('periods',{}).get('day',[]))>=120) and cached.get('state') == 'ok' and cached.get('fetchedAt') and (now - datetime.fromisoformat(cached['fetchedAt'].replace('Z','+00:00'))).total_seconds() < 86400:
                 output[name] = cached
             else: output[name] = job()
         except Exception as error:

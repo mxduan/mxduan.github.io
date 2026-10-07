@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [master]
-    paths: ['rail-reliability/**', '!rail-reliability/data/rider.json', 'ops/refresh.py', '.github/workflows/public-refresh.yml', 'index.html']
+    paths: ['rail-reliability/**', '!rail-reliability/data/rider.json', '!rail-reliability/data/rider/**', 'ops/refresh.py', '.github/workflows/public-refresh.yml', 'index.html']
   schedule:
     - cron: '7,22,37,52 * * * *'
 permissions:
