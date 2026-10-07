@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T22:35:35.188814Z",
+  "generatedAt": "2026-10-07T22:50:37.519443Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T22:25:40Z",
-    "fetchedAt": "2026-10-07T22:35:35.188814Z",
+    "sourceAt": "2026-10-07T22:45:14Z",
+    "fetchedAt": "2026-10-07T22:50:37.519443Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:270826:26",
-        "type": "Delays",
+        "id": "lmm:alert:270826:30",
+        "type": "Severe Delays",
         "planned": false,
-        "priority": 26,
-        "header": "[E][F][M][R] disrupted between Manhattan and Queens.\nExpect [E][F][M][R] delays in both directions.\nTake [7][N][W] trains, LIRR, or Q32 or Q60 buses.",
-        "description": "Service Changes:\n\n[E][F] Service:\nSome Jamaica-bound [E][F] trains are running local from Queens Plaza to Forest Hills-71 Av.\n\nSome Jamaica-bound [E] trains are rerouted via the [C] from 50 St to 168 St, where they will end and turn back for downtown service.\n\nSome Jamaica-bound [F] trains are rerouted via Roosevelt Island from 47-50 Sts-Rockefeller Ctr to Jackson Heights-Roosevelt Av.\n\nSome uptown [F] trains are rerouted via the [G] from Bergen St to Court Sq, bypassing Manhattan.\nSome rerouted [F] trains will end at Bedford-Nostrand Avs on the [G] line , where they will turn back for Coney Island-Stillwell Av-bound service.\n\n[M] Service:\nSome Forest Hills-bound [M] trains will end at Essex St or 21 St-Queensbridge, where they will turn back for Metropolitan Av-bound service.\n\n[R] Service:\nSome Forest Hills-bound [R] trains are rerouted via the [Q] from 57 St/7 Av to 96 St/2 Av, where they will end and turn back for downtown service.\n\nListen for crew announcements to hear how your train will run.\n\nWhat's Happening?\nWe're continuing to address a signal problem at Jackson Heights-Roosevelt Av.\n\nTravel Alternatives:\nConsider [7][N][W] trains.\n\nLIRR is cross-honoring NYCT riders at no additional cost between Grand Central/Penn Station and Jamaica in both directions.\n\nConsider Q32 or Q60 buses.",
+        "priority": 30,
+        "header": "[E][F][M]  trains are running with severe delays in both directions.\n[R] trains are running with delays in both directions.",
+        "description": "What Happened?\nWe addressed a signal problem at Jackson Heights-Roosevelt Av\n.\nWhile we get trains back on schedule, consider [N][W][7] trains between Manhattan and Queens.",
         "periods": [
           {
             "start": 1791408499,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791408499,
-        "updatedAt": 1791411107
+        "updatedAt": 1791412724
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806963936
+            "end": 1806965114
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "60c23c030a1d304c25da254ae2e826c0410508be82fd4dcefa5ee8fe009d9419"
+    "sha256": "88b4aeed27dc30dd83588536aba3750b30a58b35482cf57905cec75665769cb6"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T22:35:35.188814Z",
+    "fetchedAt": "2026-10-07T22:50:37.519443Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
