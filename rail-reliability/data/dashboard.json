@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T23:35:41.197122Z",
+  "generatedAt": "2026-10-07T23:50:47.502411Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T23:27:54Z",
-    "fetchedAt": "2026-10-07T23:35:41.197122Z",
+    "sourceAt": "2026-10-07T23:42:56Z",
+    "fetchedAt": "2026-10-07T23:50:47.502411Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F][M] [R] trains are running with delays in both directions after we addressed a signal problem at Jackson Heights-Roosevelt Av.",
+        "header": "[E][F][M]  trains are running with delays in both directions after we addressed a signal problem at Jackson Heights-Roosevelt Av.",
         "description": "",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791408499,
-        "updatedAt": 1791414900
+        "updatedAt": 1791416315
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806967671
+            "end": 1806968576
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "0b10cb22c1943383f874afc9ce842dd102ad1eb58cbf28f2aabe64838696bd84"
+    "sha256": "e10d855ca2f19d75a4c7ab21f2993a2bde2da9f739b497a4fd96d99607df5ce0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T23:35:41.197122Z",
+    "fetchedAt": "2026-10-07T23:50:47.502411Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
