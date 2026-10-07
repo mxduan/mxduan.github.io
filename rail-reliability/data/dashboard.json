@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T08:13:07.679345Z",
+  "generatedAt": "2026-10-07T08:28:17.912823Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T08:08:35Z",
-    "fetchedAt": "2026-10-07T08:13:07.679345Z",
+    "sourceAt": "2026-10-07T08:19:08Z",
+    "fetchedAt": "2026-10-07T08:28:17.912823Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,32 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions while we perform track maintenance in Queens.",
+        "header": "[E][F] trains are running with delays in both directions after track maintenance in Queens concluded.",
         "description": "",
         "periods": [
           {
             "start": 1791346893,
-            "end": 1791363600
+            "end": 1791363540
           }
         ],
         "createdAt": 1791346893,
-        "updatedAt": 1791347274
-      },
-      {
-        "id": "lmm:alert:270743:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays. \nDowntown [E] trains have resumed running via Court Sq from Manhattan to Queens.",
-        "description": "Downtown [E] trains have resumed regular service.",
-        "periods": [
-          {
-            "start": 1791356040,
-            "end": 1791360900
-          }
-        ],
-        "createdAt": 1791356040,
-        "updatedAt": 1791360210
+        "updatedAt": 1791361134
       },
       {
         "id": "lmm:planned_work:34439",
@@ -90,7 +74,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806912513
+            "end": 1806913147
           }
         ],
         "createdAt": 1784303199,
@@ -126,11 +110,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3375277df59d202fe36859e90cd7d849fdd966f12679b56f0ac462e7596dbcff"
+    "sha256": "8ea7103f540e8fab0e63d5de8f043bd7d04f95836e4ab280a67357116c5d905d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T08:13:07.679345Z",
+    "fetchedAt": "2026-10-07T08:28:17.912823Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
