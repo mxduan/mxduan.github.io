@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T00:38:29.731639Z",
+  "generatedAt": "2026-10-07T00:53:30.690144Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T00:38:07Z",
-    "fetchedAt": "2026-10-07T00:38:29.731639Z",
+    "sourceAt": "2026-10-07T00:49:21Z",
+    "fetchedAt": "2026-10-07T00:53:30.690144Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:270710:26",
-        "type": "Delays",
+        "id": "lmm:alert:270710:34",
+        "type": "Part Suspended",
         "planned": false,
-        "priority": 26,
-        "header": "[E] trains are delayed in both directions while we investigate what activated a train's brakes near Sutphin Blvd/Archer Av-JFK Airport.",
-        "description": "",
+        "priority": 34,
+        "header": "There is no [E] train service between Briarwood and Jamaica Center-Parsons/Archer\n.\n[F] trains are running with delays in both directions.",
+        "description": "What's Happening?\nWe are investigating what activated a train's brakes near Sutphin Blvd/Archer Av-JFK Airport\n.\nService Changes:\nThe last stop on some Jamaica Center-Parsons/Archer-bound [E] trains is Forest Hills-71 Av or Jamaica-179 St on the [F] line.\nListen for announcements on how your train will run.",
         "periods": [
           {
             "start": 1791333256,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791333256,
-        "updatedAt": 1791333486
+        "updatedAt": 1791334161
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806885487
+            "end": 1806886161
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "216b3d1e7a0d758ab8eaf7a8add4dcdb7689b8265308d3fd23f82f295fd4af72"
+    "sha256": "77796c63a74f4d1e1c8f7f3e9b92e9011340a9b7296eb5cbe3dc918ccbf5227c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T00:38:29.731639Z",
+    "fetchedAt": "2026-10-07T00:53:30.690144Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-07T00:16:46Z",
-            "toDate": "2026-10-07T03:37:14Z",
+            "toDate": "2026-10-07T03:51:15Z",
             "isNow": true
           }
         ]
