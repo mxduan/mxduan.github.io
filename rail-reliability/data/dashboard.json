@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T09:58:10.373215Z",
+  "generatedAt": "2026-10-07T10:13:11.401786Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T09:44:04Z",
-    "fetchedAt": "2026-10-07T09:58:10.373215Z",
+    "sourceAt": "2026-10-07T10:00:10Z",
+    "fetchedAt": "2026-10-07T10:13:11.401786Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,57 +34,29 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806918244
+            "end": 1806919209
           }
         ],
         "createdAt": 1784303199,
         "updatedAt": 1784303262
-      },
-      {
-        "id": "lmm:planned_work:35278",
-        "type": "Station Notice",
-        "planned": true,
-        "priority": 3,
-        "header": "[airplane icon] JFK AirTrain service is suspended and replaced by free shuttle buses",
-        "description": "Note: AirTrain is operated by the Port Authority of New York and New Jersey.\n\nLearn more and view additional travel alternatives",
-        "periods": [
-          {
-            "start": 1791252000,
-            "end": 1791280800
-          },
-          {
-            "start": 1791338400,
-            "end": 1791367200
-          },
-          {
-            "start": 1791943200,
-            "end": 1791972000
-          },
-          {
-            "start": 1792029600,
-            "end": 1792058400
-          }
-        ],
-        "createdAt": 1790865231,
-        "updatedAt": 1790965123
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2beefb31534bb2a747d4c27ed381a66bb89e1fdc40401b790a103d82cf5cc191"
+    "sha256": "2d4334153abf27fe5da484839dd014b32a1661a4ceeac9b793c49efdc0640917"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T09:58:10.373215Z",
+    "fetchedAt": "2026-10-07T10:13:11.401786Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to train cancellations. London Underground tickets will be accepted on London buses, Weaver line, Suffragette line, Great Northern, Greater Anglia, South Western railways and Southeastern.",
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to train cancellations.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-07T04:46:40Z",
+            "fromDate": "2026-10-07T10:11:08Z",
             "toDate": "2026-10-08T00:29:00Z",
             "isNow": true
           }
