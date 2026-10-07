@@ -175,7 +175,7 @@ def archive_rows():
     return rows
 
 def main():
-    now = datetime.now(timezone.utc); target = ROOT/'public/data/dashboard.json'
+    now = datetime.now(timezone.utc); target = ROOT/'rail-reliability/data/dashboard.json'
     previous = json.loads(target.read_text()) if target.exists() else {}
     output = {'schema': 1, 'generatedAt': iso(now), 'tozai': previous.get('tozai', {'state':'unavailable'})}
     jobs = {
