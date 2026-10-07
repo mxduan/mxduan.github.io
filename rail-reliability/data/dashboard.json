@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T23:05:42.142919Z",
+  "generatedAt": "2026-10-07T23:20:40.631328Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T22:57:11Z",
-    "fetchedAt": "2026-10-07T23:05:42.142919Z",
+    "sourceAt": "2026-10-07T23:15:01Z",
+    "fetchedAt": "2026-10-07T23:20:40.631328Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:270826:30",
-        "type": "Severe Delays",
+        "id": "lmm:alert:270826:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 30,
-        "header": "[E][F][M]  trains are running with severe delays in both directions.\n[R] trains are running with delays in both directions.",
-        "description": "What Happened?\nWe addressed a signal problem at Jackson Heights-Roosevelt Av\n.\nWhile we get trains back on schedule, consider [N][W][7] trains between Manhattan and Queens.",
+        "priority": 26,
+        "header": "[E][F][M] [R] trains are running with delays in both directions after we addressed a signal problem at Jackson Heights-Roosevelt Av.",
+        "description": "",
         "periods": [
           {
             "start": 1791408499,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791408499,
-        "updatedAt": 1791412724
+        "updatedAt": 1791414900
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806965829
+            "end": 1806966900
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "cbd0a8c5b307f8c4a7c299dbb1f2aebbf9d6f4caed01c67d8b89ebcbe7c0f3cf"
+    "sha256": "c41c1dfd685cae80f63a111a047f8cfef805387c5df565a554af65006f98576f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T23:05:42.142919Z",
+    "fetchedAt": "2026-10-07T23:20:40.631328Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
