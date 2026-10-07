@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T02:45:36.263051Z",
+  "generatedAt": "2026-10-07T02:59:00.821165Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T02:41:27Z",
-    "fetchedAt": "2026-10-07T02:45:36.263051Z",
+    "sourceAt": "2026-10-07T02:58:36Z",
+    "fetchedAt": "2026-10-07T02:59:00.821165Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806892882
+            "end": 1806893912
           }
         ],
         "createdAt": 1784303199,
@@ -70,11 +70,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a64672e4ec4e458b4b341a6075fc14c2d20a837eb18ff0ddff5bd262521e275d"
+    "sha256": "9be53c8c530f99d95402bdf832c4905208eae172c2db51455686f06ca6c86d1f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T02:45:36.263051Z",
+    "fetchedAt": "2026-10-07T02:59:00.821165Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -85,7 +85,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-07T00:16:46Z",
-            "toDate": "2026-10-07T05:43:28Z",
+            "toDate": "2026-10-07T05:58:28Z",
             "isNow": true
           }
         ]
@@ -95,8 +95,990 @@
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",
-    "fetchedAt": "2026-10-06T18:05:59.583983Z",
+    "fetchedAt": "2026-10-07T02:59:00.821165Z",
     "source": "https://data.ny.gov/resource/7kct-peq7.json",
+    "periods": {
+      "day": [
+        {
+          "start": "2026-06-09",
+          "end": "2026-06-10",
+          "coverage": "archive-window",
+          "count": 7,
+          "days": 1
+        },
+        {
+          "start": "2026-06-10",
+          "end": "2026-06-11",
+          "coverage": "archive-window",
+          "count": 5,
+          "days": 1
+        },
+        {
+          "start": "2026-06-11",
+          "end": "2026-06-12",
+          "coverage": "archive-window",
+          "count": 5,
+          "days": 1
+        },
+        {
+          "start": "2026-06-12",
+          "end": "2026-06-13",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-06-13",
+          "end": "2026-06-14",
+          "coverage": "archive-window",
+          "count": 5,
+          "days": 1
+        },
+        {
+          "start": "2026-06-14",
+          "end": "2026-06-15",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-06-15",
+          "end": "2026-06-16",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-06-16",
+          "end": "2026-06-17",
+          "coverage": "archive-window",
+          "count": 2,
+          "days": 1
+        },
+        {
+          "start": "2026-06-17",
+          "end": "2026-06-18",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-06-18",
+          "end": "2026-06-19",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-06-19",
+          "end": "2026-06-20",
+          "coverage": "archive-window",
+          "count": 3,
+          "days": 1
+        },
+        {
+          "start": "2026-06-20",
+          "end": "2026-06-21",
+          "coverage": "archive-window",
+          "count": 3,
+          "days": 1
+        },
+        {
+          "start": "2026-06-21",
+          "end": "2026-06-22",
+          "coverage": "archive-window",
+          "count": 1,
+          "days": 1
+        },
+        {
+          "start": "2026-06-22",
+          "end": "2026-06-23",
+          "coverage": "archive-window",
+          "count": 3,
+          "days": 1
+        },
+        {
+          "start": "2026-06-23",
+          "end": "2026-06-24",
+          "coverage": "archive-window",
+          "count": 5,
+          "days": 1
+        },
+        {
+          "start": "2026-06-24",
+          "end": "2026-06-25",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-06-25",
+          "end": "2026-06-26",
+          "coverage": "archive-window",
+          "count": 1,
+          "days": 1
+        },
+        {
+          "start": "2026-06-26",
+          "end": "2026-06-27",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-06-27",
+          "end": "2026-06-28",
+          "coverage": "archive-window",
+          "count": 5,
+          "days": 1
+        },
+        {
+          "start": "2026-06-28",
+          "end": "2026-06-29",
+          "coverage": "archive-window",
+          "count": 0,
+          "days": 0
+        },
+        {
+          "start": "2026-06-29",
+          "end": "2026-06-30",
+          "coverage": "archive-window",
+          "count": 11,
+          "days": 1
+        },
+        {
+          "start": "2026-06-30",
+          "end": "2026-07-01",
+          "coverage": "archive-window",
+          "count": 0,
+          "days": 0
+        },
+        {
+          "start": "2026-07-01",
+          "end": "2026-07-02",
+          "coverage": "archive-window",
+          "count": 9,
+          "days": 1
+        },
+        {
+          "start": "2026-07-02",
+          "end": "2026-07-03",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-07-03",
+          "end": "2026-07-04",
+          "coverage": "archive-window",
+          "count": 1,
+          "days": 1
+        },
+        {
+          "start": "2026-07-04",
+          "end": "2026-07-05",
+          "coverage": "archive-window",
+          "count": 2,
+          "days": 1
+        },
+        {
+          "start": "2026-07-05",
+          "end": "2026-07-06",
+          "coverage": "archive-window",
+          "count": 1,
+          "days": 1
+        },
+        {
+          "start": "2026-07-06",
+          "end": "2026-07-07",
+          "coverage": "archive-window",
+          "count": 3,
+          "days": 1
+        },
+        {
+          "start": "2026-07-07",
+          "end": "2026-07-08",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-07-08",
+          "end": "2026-07-09",
+          "coverage": "archive-window",
+          "count": 3,
+          "days": 1
+        },
+        {
+          "start": "2026-07-09",
+          "end": "2026-07-10",
+          "coverage": "archive-window",
+          "count": 9,
+          "days": 1
+        },
+        {
+          "start": "2026-07-10",
+          "end": "2026-07-11",
+          "coverage": "archive-window",
+          "count": 2,
+          "days": 1
+        },
+        {
+          "start": "2026-07-11",
+          "end": "2026-07-12",
+          "coverage": "archive-window",
+          "count": 3,
+          "days": 1
+        },
+        {
+          "start": "2026-07-12",
+          "end": "2026-07-13",
+          "coverage": "archive-window",
+          "count": 1,
+          "days": 1
+        },
+        {
+          "start": "2026-07-13",
+          "end": "2026-07-14",
+          "coverage": "archive-window",
+          "count": 5,
+          "days": 1
+        },
+        {
+          "start": "2026-07-14",
+          "end": "2026-07-15",
+          "coverage": "archive-window",
+          "count": 9,
+          "days": 1
+        },
+        {
+          "start": "2026-07-15",
+          "end": "2026-07-16",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-07-16",
+          "end": "2026-07-17",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-07-17",
+          "end": "2026-07-18",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-07-18",
+          "end": "2026-07-19",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-07-19",
+          "end": "2026-07-20",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-07-20",
+          "end": "2026-07-21",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-07-21",
+          "end": "2026-07-22",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-07-22",
+          "end": "2026-07-23",
+          "coverage": "archive-window",
+          "count": 8,
+          "days": 1
+        },
+        {
+          "start": "2026-07-23",
+          "end": "2026-07-24",
+          "coverage": "archive-window",
+          "count": 7,
+          "days": 1
+        },
+        {
+          "start": "2026-07-24",
+          "end": "2026-07-25",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-07-25",
+          "end": "2026-07-26",
+          "coverage": "archive-window",
+          "count": 1,
+          "days": 1
+        },
+        {
+          "start": "2026-07-26",
+          "end": "2026-07-27",
+          "coverage": "archive-window",
+          "count": 3,
+          "days": 1
+        },
+        {
+          "start": "2026-07-27",
+          "end": "2026-07-28",
+          "coverage": "archive-window",
+          "count": 5,
+          "days": 1
+        },
+        {
+          "start": "2026-07-28",
+          "end": "2026-07-29",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-07-29",
+          "end": "2026-07-30",
+          "coverage": "archive-window",
+          "count": 13,
+          "days": 1
+        },
+        {
+          "start": "2026-07-30",
+          "end": "2026-07-31",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-07-31",
+          "end": "2026-08-01",
+          "coverage": "archive-window",
+          "count": 0,
+          "days": 0
+        },
+        {
+          "start": "2026-08-01",
+          "end": "2026-08-02",
+          "coverage": "archive-window",
+          "count": 7,
+          "days": 1
+        },
+        {
+          "start": "2026-08-02",
+          "end": "2026-08-03",
+          "coverage": "archive-window",
+          "count": 1,
+          "days": 1
+        },
+        {
+          "start": "2026-08-03",
+          "end": "2026-08-04",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-08-04",
+          "end": "2026-08-05",
+          "coverage": "archive-window",
+          "count": 5,
+          "days": 1
+        },
+        {
+          "start": "2026-08-05",
+          "end": "2026-08-06",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-08-06",
+          "end": "2026-08-07",
+          "coverage": "archive-window",
+          "count": 6,
+          "days": 1
+        },
+        {
+          "start": "2026-08-07",
+          "end": "2026-08-08",
+          "coverage": "archive-window",
+          "count": 2,
+          "days": 1
+        },
+        {
+          "start": "2026-08-08",
+          "end": "2026-08-09",
+          "coverage": "archive-window",
+          "count": 0,
+          "days": 0
+        },
+        {
+          "start": "2026-08-09",
+          "end": "2026-08-10",
+          "coverage": "archive-window",
+          "count": 4,
+          "days": 1
+        },
+        {
+          "start": "2026-08-10",
+          "end": "2026-08-11",
+          "coverage": "archive-window",
+          "count": 2,
+          "days": 1
+        },
+        {
+          "start": "2026-08-11",
+          "end": "2026-08-12",
+          "coverage": "partial",
+          "count": 3,
+          "days": 1
+        },
+        {
+          "start": "2026-08-12",
+          "end": "2026-08-13",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-13",
+          "end": "2026-08-14",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-14",
+          "end": "2026-08-15",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-15",
+          "end": "2026-08-16",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-16",
+          "end": "2026-08-17",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-17",
+          "end": "2026-08-18",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-18",
+          "end": "2026-08-19",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-19",
+          "end": "2026-08-20",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-20",
+          "end": "2026-08-21",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-21",
+          "end": "2026-08-22",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-22",
+          "end": "2026-08-23",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-23",
+          "end": "2026-08-24",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-24",
+          "end": "2026-08-25",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-25",
+          "end": "2026-08-26",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-26",
+          "end": "2026-08-27",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-27",
+          "end": "2026-08-28",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-28",
+          "end": "2026-08-29",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-29",
+          "end": "2026-08-30",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-30",
+          "end": "2026-08-31",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-08-31",
+          "end": "2026-09-01",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-01",
+          "end": "2026-09-02",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-02",
+          "end": "2026-09-03",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-03",
+          "end": "2026-09-04",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-04",
+          "end": "2026-09-05",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-05",
+          "end": "2026-09-06",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-06",
+          "end": "2026-09-07",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-07",
+          "end": "2026-09-08",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-08",
+          "end": "2026-09-09",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-09",
+          "end": "2026-09-10",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-10",
+          "end": "2026-09-11",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-11",
+          "end": "2026-09-12",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-12",
+          "end": "2026-09-13",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-13",
+          "end": "2026-09-14",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-14",
+          "end": "2026-09-15",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-15",
+          "end": "2026-09-16",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-16",
+          "end": "2026-09-17",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-17",
+          "end": "2026-09-18",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-18",
+          "end": "2026-09-19",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-19",
+          "end": "2026-09-20",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-20",
+          "end": "2026-09-21",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-21",
+          "end": "2026-09-22",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-22",
+          "end": "2026-09-23",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-23",
+          "end": "2026-09-24",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-24",
+          "end": "2026-09-25",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-25",
+          "end": "2026-09-26",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-26",
+          "end": "2026-09-27",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-27",
+          "end": "2026-09-28",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-28",
+          "end": "2026-09-29",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-29",
+          "end": "2026-09-30",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-09-30",
+          "end": "2026-10-01",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-01",
+          "end": "2026-10-02",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-02",
+          "end": "2026-10-03",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-03",
+          "end": "2026-10-04",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-04",
+          "end": "2026-10-05",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-05",
+          "end": "2026-10-06",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-06",
+          "end": "2026-10-07",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        }
+      ],
+      "month": [
+        {
+          "start": "2025-11-01",
+          "end": "2025-12-01",
+          "coverage": "archive-window",
+          "count": 113,
+          "days": 29
+        },
+        {
+          "start": "2025-12-01",
+          "end": "2026-01-01",
+          "coverage": "archive-window",
+          "count": 134,
+          "days": 30
+        },
+        {
+          "start": "2026-01-01",
+          "end": "2026-02-01",
+          "coverage": "archive-window",
+          "count": 134,
+          "days": 29
+        },
+        {
+          "start": "2026-02-01",
+          "end": "2026-03-01",
+          "coverage": "archive-window",
+          "count": 129,
+          "days": 25
+        },
+        {
+          "start": "2026-03-01",
+          "end": "2026-04-01",
+          "coverage": "archive-window",
+          "count": 161,
+          "days": 30
+        },
+        {
+          "start": "2026-04-01",
+          "end": "2026-05-01",
+          "coverage": "archive-window",
+          "count": 157,
+          "days": 29
+        },
+        {
+          "start": "2026-05-01",
+          "end": "2026-06-01",
+          "coverage": "archive-window",
+          "count": 145,
+          "days": 30
+        },
+        {
+          "start": "2026-06-01",
+          "end": "2026-07-01",
+          "coverage": "archive-window",
+          "count": 135,
+          "days": 28
+        },
+        {
+          "start": "2026-07-01",
+          "end": "2026-08-01",
+          "coverage": "archive-window",
+          "count": 147,
+          "days": 30
+        },
+        {
+          "start": "2026-08-01",
+          "end": "2026-09-01",
+          "coverage": "partial",
+          "count": 40,
+          "days": 10
+        },
+        {
+          "start": "2026-09-01",
+          "end": "2026-10-01",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-01",
+          "end": "2026-11-01",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        }
+      ],
+      "year": [
+        {
+          "start": "2020-01-01",
+          "end": "2021-01-01",
+          "coverage": "partial",
+          "count": 384,
+          "days": 190
+        },
+        {
+          "start": "2021-01-01",
+          "end": "2022-01-01",
+          "coverage": "archive-window",
+          "count": 1055,
+          "days": 336
+        },
+        {
+          "start": "2022-01-01",
+          "end": "2023-01-01",
+          "coverage": "archive-window",
+          "count": 1295,
+          "days": 352
+        },
+        {
+          "start": "2023-01-01",
+          "end": "2024-01-01",
+          "coverage": "archive-window",
+          "count": 1514,
+          "days": 361
+        },
+        {
+          "start": "2024-01-01",
+          "end": "2025-01-01",
+          "coverage": "archive-window",
+          "count": 1561,
+          "days": 335
+        },
+        {
+          "start": "2025-01-01",
+          "end": "2026-01-01",
+          "coverage": "archive-window",
+          "count": 1449,
+          "days": 346
+        },
+        {
+          "start": "2026-01-01",
+          "end": "2027-01-01",
+          "coverage": "partial",
+          "count": 1048,
+          "days": 211
+        }
+      ]
+    },
+    "coverageStart": "2020-04-28",
     "weeks": [
       {
         "start": "2026-06-22",
