@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T10:43:15.316152Z",
+  "generatedAt": "2026-10-07T12:05:36.852803Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T10:00:10Z",
-    "fetchedAt": "2026-10-07T10:43:15.316152Z",
+    "sourceAt": "2026-10-07T11:55:56Z",
+    "fetchedAt": "2026-10-07T12:05:36.852803Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:270760:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica Ctr-bound [E] and Jamaica-179 St-bound [F] trains are running with delays after we moved a train that had its brakes activated near Briarwood.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1791373369,
+            "end": 1791375300
+          }
+        ],
+        "createdAt": 1791373369,
+        "updatedAt": 1791374155
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806919209
+            "end": 1806926155
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2d4334153abf27fe5da484839dd014b32a1661a4ceeac9b793c49efdc0640917"
+    "sha256": "b824970362758c7af2b39aa8daf380e19c1a965e2191aea621b33e9a60183cfa"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T10:43:15.316152Z",
+    "fetchedAt": "2026-10-07T12:05:36.852803Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
