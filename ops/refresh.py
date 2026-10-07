@@ -120,8 +120,23 @@ def history(rows, coverage_end, now, weeks=16):
     incidents = [{'eventId': key, 'firstDelayAt': row['date'], 'header': row['header'],
                   'labels': sorted(tokens(row['status_label'])), 'alertId': row['alert_id']} for key,row in events.items()]
     incidents.sort(key=lambda r:r['firstDelayAt'], reverse=True)
+    # Calendar aggregates use the same full-history first-event dedup as weeks.
+    today=now.astimezone(NY).date(); lower=min((local_date(r['date']).date() for r in rows),default=today)
+    periods={}
+    for kind,length in [('day',14),('month',12),('year',7)]:
+        result=[]
+        for index in range(length-1,-1,-1):
+            if kind=='day':begin=today-timedelta(days=index);finish=begin+timedelta(days=1)
+            elif kind=='month':
+                number=today.year*12+today.month-1-index;begin=datetime(number//12,number%12+1,1).date();finish=datetime((number+1)//12,(number+1)%12+1,1).date()
+            else:begin=datetime(today.year-index,1,1).date();finish=datetime(today.year-index+1,1,1).date()
+            stop=datetime.combine(finish,datetime.min.time(),NY)
+            status='unavailable' if end is None or begin>end.date() or finish<=lower else 'partial' if stop>end or begin<lower else 'archive-window'
+            subset=[r for r in events.values() if begin<=local_date(r['date']).date()<finish]
+            result.append({'start':str(begin),'end':str(finish),'coverage':status,'count':len(subset) if status!='unavailable' else None,'days':len({local_date(r['date']).date() for r in subset}) if status!='unavailable' else None})
+        periods[kind]=result
     return {'coverageEnd': coverage_end, 'fetchedAt': iso(now), 'source': ARCHIVE,
-            'weeks': weekly, 'incidents': [i for i in incidents if i['firstDelayAt'][:10] >= str(start)], 'state': 'ok',
+            'periods':periods,'coverageStart':str(lower),'weeks': weekly, 'incidents': [i for i in incidents if i['firstDelayAt'][:10] >= str(start)], 'state': 'ok',
             'qualifyingRows': sum(1 for r in rows if r.get('agency') == 'NYCT Subway' and 'E' in tokens(r.get('affected','')) and tokens(r.get('status_label','')) & DELAYS),
             'distinctEvents': len(events), 'queryRows': len(rows)}
 
@@ -160,7 +175,7 @@ def archive_rows():
     return rows
 
 def main():
-    now = datetime.now(timezone.utc); target = ROOT/'rail-reliability/data/dashboard.json'
+    now = datetime.now(timezone.utc); target = ROOT/'public/data/dashboard.json'
     previous = json.loads(target.read_text()) if target.exists() else {}
     output = {'schema': 1, 'generatedAt': iso(now), 'tozai': previous.get('tozai', {'state':'unavailable'})}
     jobs = {
@@ -173,7 +188,7 @@ def main():
     for name, job in jobs.items():
         try:
             cached = previous.get(name, {})
-            if name in ('history', 'performance') and cached.get('state') == 'ok' and cached.get('fetchedAt') and (now - datetime.fromisoformat(cached['fetchedAt'].replace('Z','+00:00'))).total_seconds() < 86400:
+            if name in ('history', 'performance') and (name!='history' or 'periods' in cached) and cached.get('state') == 'ok' and cached.get('fetchedAt') and (now - datetime.fromisoformat(cached['fetchedAt'].replace('Z','+00:00'))).total_seconds() < 86400:
                 output[name] = cached
             else: output[name] = job()
         except Exception as error:
