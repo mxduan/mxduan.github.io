@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T03:43:04.734525Z",
+  "generatedAt": "2026-10-07T03:58:05.121749Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,9 +21,33 @@
   },
   "current": {
     "sourceAt": "2026-10-07T03:27:09Z",
-    "fetchedAt": "2026-10-07T03:43:04.734525Z",
+    "fetchedAt": "2026-10-07T03:58:05.121749Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:34439",
+        "type": "Planned - Reroute",
+        "planned": true,
+        "priority": 18,
+        "header": "Jamaica Center-bound [E] runs via the Roosevelt Island [F] from W 4 St-Wash Sq, Manhattan to 21 St-Queensbridge, Queens, resuming service at 36 St",
+        "description": "[shuttle bus icon] Free Q96 buses run between Court Sq-23 St and 21 St-Queensbridge, stopping at Queens Plaza.\n\nTravel alternatives:\nFor 14 St, 23 St, 34 St-Penn Station, 42 St-Port Authority and 50 St, take the [A] or use nearby [F] stations along 6 Av.\n\nFor 7 Av, take the [D] instead.\n\nFor 5 Av/53 St, use nearby [F] stations at 57 St or 47-50 Sts.\n\nFor Lexington Av/53 St, use the nearby Lexington Av/59 St [N]  station.\n\nFor Court Sq-23 St, take the [7].\n\nFor Queens Plaza, take a Manhattan-bound [E] via transfer at Steinway St, use the nearby Queensboro Plaza [accessibility icon] | [7][N] station or take [shuttle bus icon] free shuttle buses.\n\nTransfer stations:\nW 4 St-Wash Sq [accessibility icon] | [A][E][D][F]\n34 St-Herald Sq [accessibility icon] | Jamaica Center-bound [E], [D][F][N]\n42 St-Port Authority/Times Sq/Bryant Park\n[7][A][E][D][F][N]\n47-50 Sts-Rockefeller Ctr [accessibility icon] | Jamaica Center-bound [E], [D][F]\n21 St-Queensbridge [accessibility icon] | Jamaica Center-bound [E], [F] [shuttle bus icon]\nQueens Plaza [accessibility icon] | Manhattan-bound [E] and [shuttle bus icon]\nSteinway St [E][F]\nJackson Hts-Roosevelt Av/74 St-Broadway [accessibility icon] | [7][E][F]\nWhat's happening?\nTrack maintenance\n\n[accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully accessible. Please contact 511 to plan your trip.",
+        "periods": [
+          {
+            "start": 1791344700,
+            "end": 1791363600
+          },
+          {
+            "start": 1791431100,
+            "end": 1791450000
+          },
+          {
+            "start": 1791517500,
+            "end": 1791536400
+          }
+        ],
+        "createdAt": 1788528743,
+        "updatedAt": 1791304376
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -74,14 +98,21 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T03:43:04.734525Z",
+    "fetchedAt": "2026-10-07T03:58:05.121749Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-10-07T03:56:14Z",
+            "toDate": "2026-10-08T00:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
