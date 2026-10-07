@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T06:58:10.028127Z",
+  "generatedAt": "2026-10-07T07:13:08.487552Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T06:55:58Z",
-    "fetchedAt": "2026-10-07T06:58:10.028127Z",
+    "sourceAt": "2026-10-07T07:06:11Z",
+    "fetchedAt": "2026-10-07T07:13:08.487552Z",
     "state": "ok",
     "alerts": [
       {
@@ -30,7 +30,7 @@
         "planned": false,
         "priority": 32,
         "header": "Downtown [E] trains are rerouted via Roosevelt Island from Queens to Manhattan.",
-        "description": "What's happening?\nWe are performing track maintenance near Queens Plaza. \n\nService Change: \nDowntown [E] trains are rerouted via Roosevelt Island from 36 St to 47-50 Sts-Rockefeller Ctr and then on the [F] line to W 4 St-Wash Sq.",
+        "description": "What's happening?\nWe are performing track maintenance near Queens Plaza.\n\nService Change:\nDowntown [E] trains are rerouted via Roosevelt Island from 36 St to 47-50 Sts-Rockefeller Ctr and then on the [F] line to W 4 St-Wash Sq.\n\nTravel Alternatives: \nFor service to/from Queens Plaza, use nearby Queensboro Plaza  ([7]/[N])  or 21 St-Queensbridge ([F]) station. \nFor service to/from Court Sq-23 St, use the [7] trains. \nFor service to/from Lexington Av/53 St, use [4][6] trains. \nFor service to/from 5 Av/53 St, use nearby 47-50 Sts-Rockefeller Ctr ([D]/[F]). \nFor service to/from 7 Av, use [D] trains. \nFor service along 8th Ave in Manhattan, use [A] trains. \n\nBoarding Change: \nAt W 4 St-Wash Sq board downtown [E] trains on the lower level [F] train platform. \n\nPlanned Work Reminder: \nQueens-bound [E] trains are rerouted via the [F] line W 4 St-Wash Sq to 36 St.",
         "periods": [
           {
             "start": 1791356040,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791356040,
-        "updatedAt": 1791356040
+        "updatedAt": 1791356429
       },
       {
         "id": "lmm:alert:270735:26",
@@ -90,7 +90,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806908157
+            "end": 1806908771
           }
         ],
         "createdAt": 1784303199,
@@ -126,11 +126,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5abe6cc61c743a0fe8907afb3638a04f946fe3268016082588e927713591e30b"
+    "sha256": "099e09997b5378b9b06c6bb1780076f9ca2699a6e5787c147783c8f6bdd13607"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T06:58:10.028127Z",
+    "fetchedAt": "2026-10-07T07:13:08.487552Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
