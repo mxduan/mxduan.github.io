@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T21:21:22.723155Z",
+  "generatedAt": "2026-10-07T21:36:30.906538Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T21:16:12Z",
-    "fetchedAt": "2026-10-07T21:21:22.723155Z",
+    "sourceAt": "2026-10-07T21:32:54Z",
+    "fetchedAt": "2026-10-07T21:36:30.906538Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:270826:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica-bound [E][F] trains are running with delays after we addressed a signal problem at Jackson Heights-Roosevelt Av.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1791408499,
+            "end": null
+          }
+        ],
+        "createdAt": 1791408499,
+        "updatedAt": 1791408499
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806959769
+            "end": 1806960773
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "d912f15423ac7e9b1f413f2b942428cceb55f466ca7491f360679d5fc3906027"
+    "sha256": "4749a9f3c9dc248fa170e25fabd3ecbadb2435a9eca8a559eb4f2525328f9c53"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T21:21:22.723155Z",
+    "fetchedAt": "2026-10-07T21:36:30.906538Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
