@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T13:43:35.470981Z",
+  "generatedAt": "2026-10-07T13:58:32.541958Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T13:33:14Z",
-    "fetchedAt": "2026-10-07T13:43:35.470981Z",
+    "sourceAt": "2026-10-07T13:43:50Z",
+    "fetchedAt": "2026-10-07T13:58:32.541958Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806931994
+            "end": 1806932628
           }
         ],
         "createdAt": 1784303199,
@@ -42,25 +42,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9be71332fc93de6f004244d97248b1394ecb2d30ad22ee99d4171f80a88f53f7"
+    "sha256": "6ab20d1da4ff610c38805fbc56bff81808f39bb374f15727de20b01989092406"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T13:43:35.470981Z",
+    "fetchedAt": "2026-10-07T13:58:32.541958Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-07T10:11:08Z",
-            "toDate": "2026-10-08T00:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
