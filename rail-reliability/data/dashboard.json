@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T13:28:26.584319Z",
+  "generatedAt": "2026-10-07T13:29:41.985237Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-10-07T13:15:07Z",
-    "fetchedAt": "2026-10-07T13:28:26.584319Z",
+    "fetchedAt": "2026-10-07T13:29:41.985237Z",
     "state": "ok",
     "alerts": [
       {
@@ -45,7 +45,7 @@
     "sha256": "0160de67689b95c2a42030be2e6c0b039b1cc8cfdc4943b4a6a9b05f56a27d41"
   },
   "victoria": {
-    "state": "ok",
+    "state": "error",
     "fetchedAt": "2026-10-07T13:28:26.584319Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
@@ -63,7 +63,9 @@
         ]
       }
     ],
-    "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
+    "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified.",
+    "attemptedAt": "2026-10-07T13:29:41.985237Z",
+    "error": "Official source fetch or validation failed"
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",
