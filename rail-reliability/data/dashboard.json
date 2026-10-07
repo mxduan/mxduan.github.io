@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T02:15:36.467107Z",
+  "generatedAt": "2026-10-07T02:30:33.468440Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T02:07:14Z",
-    "fetchedAt": "2026-10-07T02:15:36.467107Z",
+    "sourceAt": "2026-10-07T02:27:16Z",
+    "fetchedAt": "2026-10-07T02:30:33.468440Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:270710:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [E] trains are running with delays after we moved a train that had its brakes activated earlier near Sutphin Blvd/Archer Av-JFK Airport.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1791333256,
-            "end": null
-          }
-        ],
-        "createdAt": 1791333256,
-        "updatedAt": 1791338416
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806890833
+            "end": 1806892034
           }
         ],
         "createdAt": 1784303199,
@@ -86,11 +70,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "820cc97ef088f68b00fd9f008b7ad462be3a49c1c7696717d27dd3054f636969"
+    "sha256": "b47fc694a27f0c6bb350adcd6db34d77b248460b038514455b95d35454e7595d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T02:15:36.467107Z",
+    "fetchedAt": "2026-10-07T02:30:33.468440Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -101,7 +85,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-07T00:16:46Z",
-            "toDate": "2026-10-07T05:14:18Z",
+            "toDate": "2026-10-07T05:29:27Z",
             "isNow": true
           }
         ]
