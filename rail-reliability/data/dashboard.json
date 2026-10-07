@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T01:08:31.770199Z",
+  "generatedAt": "2026-10-07T01:23:30.122847Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-07T01:05:42Z",
-    "fetchedAt": "2026-10-07T01:08:31.770199Z",
+    "sourceAt": "2026-10-07T01:19:00Z",
+    "fetchedAt": "2026-10-07T01:23:30.122847Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after we moved a train that had its brakes activated near Sutphin Blvd/Archer Av-JFK Airport.",
+        "header": "[E]  trains are running with delays in both directions, downtown severely. \nWe moved a train that had its brakes activated near Sutphin Blvd/Archer Av-JFK Airport.",
         "description": "",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791333256,
-        "updatedAt": 1791335032
+        "updatedAt": 1791335939
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806887140
+            "end": 1806887939
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6bb19225f1e44913c84ac2aaa4c9d99ffaae568e32f3eed4f3fef01adfdf2a2c"
+    "sha256": "94eabb816cce5eb18697a8de93ecd9da0fcb71aeba4ae239f60b47ce778894e8"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-07T01:08:31.770199Z",
+    "fetchedAt": "2026-10-07T01:23:30.122847Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-07T00:16:46Z",
-            "toDate": "2026-10-07T04:07:16Z",
+            "toDate": "2026-10-07T04:23:17Z",
             "isNow": true
           }
         ]
