@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-08T05:00:55.968416Z",
+  "generatedAt": "2026-10-08T05:15:56.820946Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-10-08T04:59:41Z",
-    "fetchedAt": "2026-10-08T05:00:55.968416Z",
+    "fetchedAt": "2026-10-08T05:15:56.820946Z",
     "state": "ok",
     "alerts": [
       {
@@ -82,21 +82,14 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-08T05:00:55.968416Z",
+    "fetchedAt": "2026-10-08T05:15:56.820946Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor Delays due to Train cancellations",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-08T04:17:43Z",
-            "toDate": "2026-10-09T00:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
