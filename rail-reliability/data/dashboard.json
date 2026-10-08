@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-08T01:30:47.736722Z",
+  "generatedAt": "2026-10-08T01:45:52.704581Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-08T01:29:47Z",
-    "fetchedAt": "2026-10-08T01:30:47.736722Z",
+    "sourceAt": "2026-10-08T01:43:45Z",
+    "fetchedAt": "2026-10-08T01:45:52.704581Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:270826:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E]  trains are running with delays in both directions after we addressed a signal problem at Jackson Heights-Roosevelt Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1791408499,
-            "end": null
-          }
-        ],
-        "createdAt": 1791408499,
-        "updatedAt": 1791417873
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806974982
+            "end": 1806975823
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "717fd80d286122e9bc5e7bb15e1691ddfaa4b2abaa3d2f11954bb5b03c962935"
+    "sha256": "a4c5334d82883f185b7ea79b02ea9c107277f999883e43a3299e493a8e0d58a1"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-08T01:30:47.736722Z",
+    "fetchedAt": "2026-10-08T01:45:52.704581Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-08T00:29:36Z",
-            "toDate": "2026-10-08T04:29:32Z",
+            "toDate": "2026-10-08T04:44:33Z",
             "isNow": true
           }
         ]
