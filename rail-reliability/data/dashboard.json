@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-08T00:20:55.768501Z",
+  "generatedAt": "2026-10-08T00:35:58.477703Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-08T00:13:08Z",
-    "fetchedAt": "2026-10-08T00:20:55.768501Z",
+    "sourceAt": "2026-10-08T00:30:22Z",
+    "fetchedAt": "2026-10-08T00:35:58.477703Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1806970387
+            "end": 1806971422
           }
         ],
         "createdAt": 1784303199,
@@ -58,18 +58,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "749cbef7d08dcc23cbbd7b535d4c3ce4b594cf793e644d653138853d9e296193"
+    "sha256": "d14355b4bf4b67345594f0db1dae9406646f0cdc899809d7ec72d70486b6432f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-08T00:20:55.768501Z",
+    "fetchedAt": "2026-10-08T00:35:58.477703Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Service Closed",
+        "reason": "Victoria Line: Service will resume later this morning.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-10-08T00:29:36Z",
+            "toDate": "2026-10-08T03:33:31Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
