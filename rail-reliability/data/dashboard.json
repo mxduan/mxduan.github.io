@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-08T20:29:48.790188Z",
+  "generatedAt": "2026-10-08T20:44:45.278346Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-08T20:26:00Z",
-    "fetchedAt": "2026-10-08T20:29:48.790188Z",
+    "sourceAt": "2026-10-08T20:38:08Z",
+    "fetchedAt": "2026-10-08T20:44:45.278346Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:270957:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays after we investigated a report of smoke near Jackson Heights-Roosevelt Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1791491145,
-            "end": 1791491700
-          }
-        ],
-        "createdAt": 1791491145,
-        "updatedAt": 1791491160
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807043159
+            "end": 1807043888
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "4b3fa1acaba50f5d213722d1902cbcc28595ba0bb45bf999c9d8a41630fc98a0"
+    "sha256": "afc5a8da2a97486591d1580d4cae6f1d3fad2f03b791aeec723af73b31df09bc"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-08T20:29:48.790188Z",
+    "fetchedAt": "2026-10-08T20:44:45.278346Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
