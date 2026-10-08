@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-08T20:44:45.278346Z",
+  "generatedAt": "2026-10-08T20:59:48.696434Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-08T20:38:08Z",
-    "fetchedAt": "2026-10-08T20:44:45.278346Z",
+    "sourceAt": "2026-10-08T20:59:08Z",
+    "fetchedAt": "2026-10-08T20:59:48.696434Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:270962:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E] trains are running with delays after we requested NYPD for a person being disruptive on a train at Kew Gardens-Union Tpke.",
+        "description": "Downtown [E] trains have resumed express service from Jamaica-Van Wyck to 75 Av.",
+        "periods": [
+          {
+            "start": 1791492977,
+            "end": 1791493800
+          }
+        ],
+        "createdAt": 1791492977,
+        "updatedAt": 1791493148
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807043888
+            "end": 1807045148
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "afc5a8da2a97486591d1580d4cae6f1d3fad2f03b791aeec723af73b31df09bc"
+    "sha256": "1a597fe2b696005f358df0c527a907c75976a6c852cb04549862c654dba3fdba"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-08T20:44:45.278346Z",
+    "fetchedAt": "2026-10-08T20:59:48.696434Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
