@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-09T04:15:04.846722Z",
+  "generatedAt": "2026-10-09T04:29:52.647009Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-09T03:59:45Z",
-    "fetchedAt": "2026-10-09T04:15:04.846722Z",
+    "sourceAt": "2026-10-09T04:23:45Z",
+    "fetchedAt": "2026-10-09T04:29:52.647009Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271039:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [A][E] trains are running with delays after we moved a train that had its brakes activated at 14 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1791517655,
-            "end": 1791519600
-          }
-        ],
-        "createdAt": 1791517655,
-        "updatedAt": 1791518385
-      },
       {
         "id": "lmm:alert:271040:26",
         "type": "Delays",
@@ -82,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807070385
+            "end": 1807071823
           }
         ],
         "createdAt": 1784303199,
@@ -90,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1991b04d003a79c29105e5a727de4be2029cfea9d51d5c9d6dc25a717e226667"
+    "sha256": "a237073254a6306aac10157bc031f88cb009ca9639f1cc2324c7da7a79125a45"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-09T04:15:04.846722Z",
+    "fetchedAt": "2026-10-09T04:29:52.647009Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
