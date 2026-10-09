@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-09T03:44:53.799363Z",
+  "generatedAt": "2026-10-09T03:59:54.574642Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,58 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-09T03:38:12Z",
-    "fetchedAt": "2026-10-09T03:44:53.799363Z",
+    "sourceAt": "2026-10-09T03:59:45Z",
+    "fetchedAt": "2026-10-09T03:59:54.574642Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:271039:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [A][E] trains are running with delays after we moved a train that had its brakes activated at 14 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1791517655,
+            "end": 1791519600
+          }
+        ],
+        "createdAt": 1791517655,
+        "updatedAt": 1791518385
+      },
+      {
+        "id": "lmm:alert:271040:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E][F] trains are running with delays in both directions while we conduct track maintenance along the line in Queens.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1791518285,
+            "end": 1791536400
+          }
+        ],
+        "createdAt": 1791518285,
+        "updatedAt": 1791518299
+      },
+      {
+        "id": "lmm:planned_work:34439",
+        "type": "Planned - Reroute",
+        "planned": true,
+        "priority": 18,
+        "header": "Jamaica Center-bound [E] runs via the Roosevelt Island [F] from W 4 St-Wash Sq, Manhattan to 21 St-Queensbridge, Queens, resuming service at 36 St",
+        "description": "[shuttle bus icon] Free Q96 buses run between Court Sq-23 St and 21 St-Queensbridge, stopping at Queens Plaza.\n\nTravel alternatives:\nFor 14 St, 23 St, 34 St-Penn Station, 42 St-Port Authority and 50 St, take the [A] or use nearby [F] stations along 6 Av.\n\nFor 7 Av, take the [D] instead.\n\nFor 5 Av/53 St, use nearby [F] stations at 57 St or 47-50 Sts.\n\nFor Lexington Av/53 St, use the nearby Lexington Av/59 St [N]  station.\n\nFor Court Sq-23 St, take the [7].\n\nFor Queens Plaza, take a Manhattan-bound [E] via transfer at Steinway St, use the nearby Queensboro Plaza [accessibility icon] | [7][N] station or take [shuttle bus icon] free shuttle buses.\n\nTransfer stations:\nW 4 St-Wash Sq [accessibility icon] | [A][E][D][F]\n34 St-Herald Sq [accessibility icon] | Jamaica Center-bound [E], [D][F][N]\n42 St-Port Authority/Times Sq/Bryant Park\n[7][A][E][D][F][N]\n47-50 Sts-Rockefeller Ctr [accessibility icon] | Jamaica Center-bound [E], [D][F]\n21 St-Queensbridge [accessibility icon] | Jamaica Center-bound [E], [F] and [shuttle bus icon]\nQueens Plaza [accessibility icon] | Manhattan-bound [E] and [shuttle bus icon]\nSteinway St [E][F]\nJackson Hts-Roosevelt Av/74 St-Broadway [accessibility icon] | [7][E][F]\nWhat's happening?\nTrack maintenance\n\n[accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully accessible. Please contact 511 to plan your trip.",
+        "periods": [
+          {
+            "start": 1791517500,
+            "end": 1791536400
+          }
+        ],
+        "createdAt": 1788528743,
+        "updatedAt": 1791476394
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +82,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807069090
+            "end": 1807070385
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +90,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "4ff79895643f766aea4e501adf5e0916d70314c0189fc756fe9e1e2bc29da12a"
+    "sha256": "1991b04d003a79c29105e5a727de4be2029cfea9d51d5c9d6dc25a717e226667"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-09T03:44:53.799363Z",
+    "fetchedAt": "2026-10-09T03:59:54.574642Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
