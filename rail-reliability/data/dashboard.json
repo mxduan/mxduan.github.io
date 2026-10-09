@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-09T12:47:55.260904Z",
+  "generatedAt": "2026-10-09T13:02:58.088516Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-09T12:44:35Z",
-    "fetchedAt": "2026-10-09T12:47:55.260904Z",
+    "sourceAt": "2026-10-09T12:57:35Z",
+    "fetchedAt": "2026-10-09T13:02:58.088516Z",
     "state": "ok",
     "alerts": [
       {
@@ -30,7 +30,7 @@
         "planned": false,
         "priority": 26,
         "header": "Jamaica-bound [E][F] trains are running with delays while we address a signal problem at Jackson Heights-Roosevelt Av.",
-        "description": "",
+        "description": "Service Changes\n\nSome Jamaica-bound [E][F] trains will run local from Queens Plaza to Forest Hills-71 Av.\n\nListen to announcements on your train to hear how it will run. \n\nExpect delays on Forest Hills-71 Av-bound [R] trains while they share the track with rerouted trains.",
         "periods": [
           {
             "start": 1791549697,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791549697,
-        "updatedAt": 1791549697
+        "updatedAt": 1791550120
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807101873
+            "end": 1807102654
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3d85bbccc5301c83dff66d19bf45b85b5445a60bfd7c055937c8b31629651ad2"
+    "sha256": "c02130a2fa5e26adddc85f07c6dc3322783d1a618616512f2e2d65d6c83e2342"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-09T12:47:55.260904Z",
+    "fetchedAt": "2026-10-09T13:02:58.088516Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
