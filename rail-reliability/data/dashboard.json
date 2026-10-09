@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-09T08:45:22.185952Z",
+  "generatedAt": "2026-10-09T09:00:22.411671Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,42 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-09T08:33:41Z",
-    "fetchedAt": "2026-10-09T08:45:22.185952Z",
+    "sourceAt": "2026-10-09T09:00:08Z",
+    "fetchedAt": "2026-10-09T09:00:22.411671Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271040:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions while we conduct track maintenance along the line in Queens.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1791518285,
-            "end": 1791536400
-          }
-        ],
-        "createdAt": 1791518285,
-        "updatedAt": 1791518299
-      },
-      {
-        "id": "lmm:planned_work:34439",
-        "type": "Planned - Reroute",
-        "planned": true,
-        "priority": 18,
-        "header": "Jamaica Center-bound [E] runs via the Roosevelt Island [F] from W 4 St-Wash Sq, Manhattan to 21 St-Queensbridge, Queens, resuming service at 36 St",
-        "description": "[shuttle bus icon] Free Q96 buses run between Court Sq-23 St and 21 St-Queensbridge, stopping at Queens Plaza.\n\nTravel alternatives:\nFor 14 St, 23 St, 34 St-Penn Station, 42 St-Port Authority and 50 St, take the [A] or use nearby [F] stations along 6 Av.\n\nFor 7 Av, take the [D] instead.\n\nFor 5 Av/53 St, use nearby [F] stations at 57 St or 47-50 Sts.\n\nFor Lexington Av/53 St, use the nearby Lexington Av/59 St [N]  station.\n\nFor Court Sq-23 St, take the [7].\n\nFor Queens Plaza, take a Manhattan-bound [E] via transfer at Steinway St, use the nearby Queensboro Plaza [accessibility icon] | [7][N] station or take [shuttle bus icon] free shuttle buses.\n\nTransfer stations:\nW 4 St-Wash Sq [accessibility icon] | [A][E][D][F]\n34 St-Herald Sq [accessibility icon] | Jamaica Center-bound [E], [D][F][N]\n42 St-Port Authority/Times Sq/Bryant Park\n[7][A][E][D][F][N]\n47-50 Sts-Rockefeller Ctr [accessibility icon] | Jamaica Center-bound [E], [D][F]\n21 St-Queensbridge [accessibility icon] | Jamaica Center-bound [E], [F] and [shuttle bus icon]\nQueens Plaza [accessibility icon] | Manhattan-bound [E] and [shuttle bus icon]\nSteinway St [E][F]\nJackson Hts-Roosevelt Av/74 St-Broadway [accessibility icon] | [7][E][F]\nWhat's happening?\nTrack maintenance\n\n[accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully accessible. Please contact 511 to plan your trip.",
-        "periods": [
-          {
-            "start": 1791517500,
-            "end": 1791536400
-          }
-        ],
-        "createdAt": 1788528743,
-        "updatedAt": 1791476394
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -66,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807086819
+            "end": 1807088407
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "4a3c3ef325a0d97d2bfa3382d65a7450f238a133703f40203c9916fc2f6a9aa6"
+    "sha256": "d156c7e5d89cdba4bfb0242d6c4bf62a725d4e5e089cfe272a37830c727cb419"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-09T08:45:22.185952Z",
+    "fetchedAt": "2026-10-09T09:00:22.411671Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
