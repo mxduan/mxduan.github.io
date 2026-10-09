@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-09T06:59:55.092340Z",
+  "generatedAt": "2026-10-09T07:14:59.274718Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-09T06:59:19Z",
-    "fetchedAt": "2026-10-09T06:59:55.092340Z",
+    "sourceAt": "2026-10-09T07:08:14Z",
+    "fetchedAt": "2026-10-09T07:14:59.274718Z",
     "state": "ok",
     "alerts": [
       {
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807081154
+            "end": 1807081693
           }
         ],
         "createdAt": 1784303199,
@@ -74,21 +74,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "0f32aaab3fb1897035a288aee7acecb08bd26b7173fe6a8851f4fa582497f703"
+    "sha256": "25a9cb06d24108c9e52ce520c74b3832d9d1f2a865e67d2245167a5310a3ae87"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-09T06:59:55.092340Z",
+    "fetchedAt": "2026-10-09T07:14:59.274718Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "label": "Severe Delays",
+        "reason": "Victoria Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-09T04:02:05Z",
+            "fromDate": "2026-10-09T07:12:29Z",
             "toDate": "2026-10-10T00:29:00Z",
             "isNow": true
           }
