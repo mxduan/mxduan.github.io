@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-10T12:09:11.288052Z",
+  "generatedAt": "2026-10-10T12:24:14.390994Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-10T11:48:24Z",
-    "fetchedAt": "2026-10-10T12:09:11.288052Z",
+    "sourceAt": "2026-10-10T12:22:47Z",
+    "fetchedAt": "2026-10-10T12:24:14.390994Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807184903
+            "end": 1807186966
           }
         ],
         "createdAt": 1784303199,
@@ -42,22 +42,34 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7f5ddc8cc5c24cc273e0f979be32115bfcd97cc017dd6ae013d43e5e04adc3e6"
+    "sha256": "3ed7da0094247566cb095af004e2218ada114771a6b3781f53b4e314b5e3b53b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-10T12:09:11.288052Z",
+    "fetchedAt": "2026-10-10T12:24:14.390994Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Severe delays between Victoria and Brixton while we fix a faulty train at Brixton. London Buses are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line due to train cancellations.",
+        "label": "Severe Delays",
+        "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we respond to a fire alert at Blackhorse Road. SEVERE DELAYS on the rest of the line.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-10T11:52:59Z",
+            "fromDate": "2026-10-10T12:18:30Z",
             "toDate": "2026-10-11T00:29:00Z",
+            "isNow": true
+          }
+        ]
+      },
+      {
+        "label": "Part Suspended",
+        "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we respond to a fire alert at Blackhorse Road. SEVERE DELAYS on the rest of the line.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-10-10T12:18:30Z",
+            "toDate": "2026-10-10T15:23:40Z",
             "isNow": true
           }
         ]
