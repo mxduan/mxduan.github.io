@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-10T12:39:09.255826Z",
+  "generatedAt": "2026-10-10T12:54:08.417987Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-10T12:22:47Z",
-    "fetchedAt": "2026-10-10T12:39:09.255826Z",
+    "sourceAt": "2026-10-10T12:53:04Z",
+    "fetchedAt": "2026-10-10T12:54:08.417987Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807186966
+            "end": 1807188784
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3ed7da0094247566cb095af004e2218ada114771a6b3781f53b4e314b5e3b53b"
+    "sha256": "3fa2f42b79eb3dceca1d9788ec18a83304221dd99d6b506a9e494298a618c6a7"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-10T12:39:09.255826Z",
+    "fetchedAt": "2026-10-10T12:54:08.417987Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we respond to a fire alert at Blackhorse Road. SEVERE DELAYS on the rest of the line.",
+        "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we respond to a fire alert at Blackhorse Road. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia and South Western Railway services via any reasonable route.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-10T12:18:30Z",
+            "fromDate": "2026-10-10T12:39:32Z",
             "toDate": "2026-10-11T00:29:00Z",
             "isNow": true
           }
@@ -64,12 +64,12 @@
       },
       {
         "label": "Part Suspended",
-        "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we respond to a fire alert at Blackhorse Road. SEVERE DELAYS on the rest of the line.",
+        "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we respond to a fire alert at Blackhorse Road. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia and South Western Railway services via any reasonable route.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-10T12:18:30Z",
-            "toDate": "2026-10-10T15:37:41Z",
+            "fromDate": "2026-10-10T12:39:32Z",
+            "toDate": "2026-10-10T15:52:41Z",
             "isNow": true
           }
         ]
