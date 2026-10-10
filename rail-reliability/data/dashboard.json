@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-10T11:54:09.427278Z",
+  "generatedAt": "2026-10-10T12:09:11.288052Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-10-10T11:48:24Z",
-    "fetchedAt": "2026-10-10T11:54:09.427278Z",
+    "fetchedAt": "2026-10-10T12:09:11.288052Z",
     "state": "ok",
     "alerts": [
       {
@@ -46,17 +46,17 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-10T11:54:09.427278Z",
+    "fetchedAt": "2026-10-10T12:09:11.288052Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "reason": "Victoria Line: Severe delays between Victoria and Brixton while we fix a faulty train at Brixton. London Buses are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line due to train cancellations.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-10T08:15:54Z",
+            "fromDate": "2026-10-10T11:52:59Z",
             "toDate": "2026-10-11T00:29:00Z",
             "isNow": true
           }
