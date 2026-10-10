@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-10T01:53:12.523485Z",
+  "generatedAt": "2026-10-10T02:08:10.868117Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-10-10T01:43:51Z",
-    "fetchedAt": "2026-10-10T01:53:12.523485Z",
+    "fetchedAt": "2026-10-10T02:08:10.868117Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271226:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are running with delays after we conducted track maintenance near Jamaica-Van Wyck.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1791594479,
-            "end": 1791597900
-          }
-        ],
-        "createdAt": 1791594479,
-        "updatedAt": 1791596631
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-10T01:53:12.523485Z",
+    "fetchedAt": "2026-10-10T02:08:10.868117Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
