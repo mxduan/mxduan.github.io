@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-10T01:02:18.575259Z",
+  "generatedAt": "2026-10-10T01:08:07.122485Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-10T01:01:27Z",
-    "fetchedAt": "2026-10-10T01:02:18.575259Z",
+    "sourceAt": "2026-10-10T01:08:00Z",
+    "fetchedAt": "2026-10-10T01:08:07.122485Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:271226:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica-bound [E][F] trains are running with delays while we conduct track maintenance near Jamaica-Van Wyck.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1791594479,
+            "end": null
+          }
+        ],
+        "createdAt": 1791594479,
+        "updatedAt": 1791594479
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807146087
+            "end": 1807146478
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "c239feae3ef37ebbea100ace6a80befb9c9cfd6e35e2504e8424397a09480a32"
+    "sha256": "2469a8188507320da11cda454e84820a55f4e1ea18055b8ccc24e72e65f12349"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-10T01:02:18.575259Z",
+    "fetchedAt": "2026-10-10T01:08:07.122485Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
