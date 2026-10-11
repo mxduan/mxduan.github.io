@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-11T05:55:38.937807Z",
+  "generatedAt": "2026-10-11T06:10:38.237679Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-11T05:52:46Z",
-    "fetchedAt": "2026-10-11T05:55:38.937807Z",
+    "sourceAt": "2026-10-11T06:00:07Z",
+    "fetchedAt": "2026-10-11T06:10:38.237679Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are delayed while we remove a train car that needs to be cleaned from service at Briarwood.",
+        "header": "Jamaica-bound [E][F] trains are running with delays after we removed a train car in need of cleaning from service at Briarwood.",
         "description": "",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791697878,
-        "updatedAt": 1791697878
+        "updatedAt": 1791698407
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807249966
+            "end": 1807250407
           }
         ],
         "createdAt": 1784303199,
@@ -58,18 +58,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "fb94a5a798ff4df90cc627f75ae0282e508d070636695088a17ae50bfa82e63a"
+    "sha256": "57c9dcf48b152e6aacd0835700424a97b939dae2b8842dca0f8ca32078c8e2d5"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-11T05:55:38.937807Z",
+    "fetchedAt": "2026-10-11T06:10:38.237679Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-10-11T06:00:00Z",
+            "toDate": "2026-10-12T00:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
