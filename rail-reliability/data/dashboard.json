@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-10T21:37:06.312974Z",
+  "generatedAt": "2026-10-11T00:30:08.804821Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-10T21:36:04Z",
-    "fetchedAt": "2026-10-10T21:37:06.312974Z",
+    "sourceAt": "2026-10-11T00:28:29Z",
+    "fetchedAt": "2026-10-11T00:30:08.804821Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807220163
+            "end": 1807230509
           }
         ],
         "createdAt": 1784303199,
@@ -42,25 +42,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "d45810950a865a2d3cc8f22d04735a1c530f4220b2e07ddd13f28f12ceb3de2f"
+    "sha256": "40246bba7dde660d9b19fd7ef5cd92918e5ce20271a29f630be95c1254514d97"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-10T21:37:06.312974Z",
+    "fetchedAt": "2026-10-11T00:30:08.804821Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to an earlier fire alert at Blackhorse Road. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia and South Western Railway services via any reasonable route.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-10T13:22:02Z",
-            "toDate": "2026-10-11T00:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
