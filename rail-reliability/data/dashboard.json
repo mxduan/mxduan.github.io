@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-11T06:25:39.658054Z",
+  "generatedAt": "2026-10-11T06:40:39.078942Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-11T06:23:32Z",
-    "fetchedAt": "2026-10-11T06:25:39.658054Z",
+    "sourceAt": "2026-10-11T06:36:57Z",
+    "fetchedAt": "2026-10-11T06:40:39.078942Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271370:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are running with delays after we removed a train car in need of cleaning from service at Briarwood.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1791697878,
-            "end": null
-          }
-        ],
-        "createdAt": 1791697878,
-        "updatedAt": 1791698407
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807251811
+            "end": 1807252616
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b37e29156d0bcd06263ed7ffb7aaf819911ff7d6b426b380b5481acbc241c70c"
+    "sha256": "fe1a9787965c27b19f6d1dfde015179bab13d92399abf00d95e2677776963afa"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-11T06:25:39.658054Z",
+    "fetchedAt": "2026-10-11T06:40:39.078942Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
