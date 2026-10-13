@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T10:59:24.640469Z",
+  "generatedAt": "2026-10-13T11:14:26.248021Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-13T10:56:53Z",
-    "fetchedAt": "2026-10-13T10:59:24.640469Z",
+    "sourceAt": "2026-10-13T11:05:59Z",
+    "fetchedAt": "2026-10-13T11:14:26.248021Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271598:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[M] trains are running with delays in both directions after FDNY investigated a report of smoke at Broadway-Lafayette St.",
-        "description": "[M] trains have resumed making regular stops.",
-        "periods": [
-          {
-            "start": 1791885785,
-            "end": null
-          }
-        ],
-        "createdAt": 1791885785,
-        "updatedAt": 1791888779
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807441011
+            "end": 1807441558
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "cf2ffc0c5187a46139181c0b5f6856929c17f7c2d5b678f966167968caa608a4"
+    "sha256": "c87a8bdbcbdf3076cdadce34c18587fce84296b55b20e584a20531ceb6360d94"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-13T10:59:24.640469Z",
+    "fetchedAt": "2026-10-13T11:14:26.248021Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
