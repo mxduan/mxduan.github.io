@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T08:59:09.767600Z",
+  "generatedAt": "2026-10-13T09:14:13.994749Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,42 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-13T08:56:47Z",
-    "fetchedAt": "2026-10-13T08:59:09.767600Z",
+    "sourceAt": "2026-10-13T09:00:12Z",
+    "fetchedAt": "2026-10-13T09:14:13.994749Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271592:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions while we conduct track maintenance along the line in Queens.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1791872521,
-            "end": 1791882000
-          }
-        ],
-        "createdAt": 1791872521,
-        "updatedAt": 1791872521
-      },
-      {
-        "id": "lmm:planned_work:34546",
-        "type": "Planned - Stops Skipped",
-        "planned": true,
-        "priority": 16,
-        "header": "In Queens, Manhattan-bound [E] skips Briarwood",
-        "description": "For service to this station, take the [E] to Kew Gardens-Union Tpke and transfer to a Jamaica Center-bound [E] or Jamaica-bound [F].\n\nFor service from this station, take the [E] to Jamaica-Van Wyck and transfer to a Manhattan-bound [E].\n\nWhat's happening?\nTrack maintenance",
-        "periods": [
-          {
-            "start": 1791863100,
-            "end": 1791882000
-          }
-        ],
-        "createdAt": 1789056390,
-        "updatedAt": 1789478254
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -66,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807433799
+            "end": 1807434010
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "4296553104a7a30e8b28917f68d33c50b3cdb1503730c2f20208a047312fcc62"
+    "sha256": "3c4fa770bb52662b11f4a6778572f91d143747fcfcd2bf6eb3083ed6275436e1"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-13T08:59:09.767600Z",
+    "fetchedAt": "2026-10-13T09:14:13.994749Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
