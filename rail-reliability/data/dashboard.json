@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T03:43:15.579510Z",
+  "generatedAt": "2026-10-13T03:58:14.358262Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,9 +21,25 @@
   },
   "current": {
     "sourceAt": "2026-10-13T02:49:05Z",
-    "fetchedAt": "2026-10-13T03:43:15.579510Z",
+    "fetchedAt": "2026-10-13T03:58:14.358262Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:34546",
+        "type": "Planned - Stops Skipped",
+        "planned": true,
+        "priority": 16,
+        "header": "In Queens, Manhattan-bound [E] skips Briarwood",
+        "description": "For service to this station, take the [E] to Kew Gardens-Union Tpke and transfer to a Jamaica Center-bound [E] or Jamaica-bound [F].\n\nFor service from this station, take the [E] to Jamaica-Van Wyck and transfer to a Manhattan-bound [E].\n\nWhat's happening?\nTrack maintenance",
+        "periods": [
+          {
+            "start": 1791863100,
+            "end": 1791882000
+          }
+        ],
+        "createdAt": 1789056390,
+        "updatedAt": 1789478254
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -46,7 +62,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-13T03:43:15.579510Z",
+    "fetchedAt": "2026-10-13T03:58:14.358262Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
