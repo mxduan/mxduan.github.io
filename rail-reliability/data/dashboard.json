@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T10:44:24.562481Z",
+  "generatedAt": "2026-10-13T10:59:24.640469Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-13T10:42:07Z",
-    "fetchedAt": "2026-10-13T10:44:24.562481Z",
+    "sourceAt": "2026-10-13T10:56:53Z",
+    "fetchedAt": "2026-10-13T10:59:24.640469Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Forest Hills-71 Av-bound [M] trains will end at Chambers St on the [J] line.\nDowntown [M] trains are running on the [E] line from Spring St to World Trade Center.",
-        "description": "We are investigating a report of smoke at Broadway-Lafayette St\n.\nExpect a longer wait for an uptown [J] train while they share the track with rerouted trains.\nExpect a longer wait for a downtown [E] train while they share the track with rerouted trains.",
+        "header": "[M] trains are running with delays in both directions after FDNY investigated a report of smoke at Broadway-Lafayette St.",
+        "description": "[M] trains have resumed making regular stops.",
         "periods": [
           {
             "start": 1791885785,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791885785,
-        "updatedAt": 1791885785
+        "updatedAt": 1791888779
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807440123
+            "end": 1807441011
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "63b5b41c24e5cae89bd96a8f8ebf0ad02fdf5be754c925af9a0572d56d91e4a4"
+    "sha256": "cf2ffc0c5187a46139181c0b5f6856929c17f7c2d5b678f966167968caa608a4"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-13T10:44:24.562481Z",
+    "fetchedAt": "2026-10-13T10:59:24.640469Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
