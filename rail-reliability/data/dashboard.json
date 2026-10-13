@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T15:45:01.568888Z",
+  "generatedAt": "2026-10-13T16:00:03.229782Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-13T15:41:29Z",
-    "fetchedAt": "2026-10-13T15:45:01.568888Z",
+    "sourceAt": "2026-10-13T15:52:50Z",
+    "fetchedAt": "2026-10-13T16:00:03.229782Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:271657:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running after they shared tracks with rerouted [M][R] service so we could move a train that had its brakes activated near Northern Blvd.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1791906405,
+            "end": 1791908400
+          }
+        ],
+        "createdAt": 1791906405,
+        "updatedAt": 1791906769
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807458088
+            "end": 1807458770
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8b54b3864567381f4edb97cdeeb06248064f7f15032e884827391c6bed51e38d"
+    "sha256": "41b9d72b950bd0a8615a601216e293a9af7d5453f01661403ef2745e23486a04"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-13T15:45:01.568888Z",
+    "fetchedAt": "2026-10-13T16:00:03.229782Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
