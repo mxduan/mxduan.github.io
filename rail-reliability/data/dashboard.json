@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T00:16:23.315537Z",
+  "generatedAt": "2026-10-14T00:31:33.697040Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-14T00:08:46Z",
-    "fetchedAt": "2026-10-14T00:16:23.315537Z",
+    "sourceAt": "2026-10-14T00:28:51Z",
+    "fetchedAt": "2026-10-14T00:31:33.697040Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807488524
+            "end": 1807489730
           }
         ],
         "createdAt": 1784303199,
@@ -42,22 +42,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "681306678943ef5b57ca103c5704c5792b4a63a1d19711e0a853025f81077f1c"
+    "sha256": "1fb346d6e2527db784a43d473ce824bae3efc62aa6b3cc100bb7494407d83ab1"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-14T00:16:23.315537Z",
+    "fetchedAt": "2026-10-14T00:31:33.697040Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services via any reasonable route.",
+        "label": "Service Closed",
+        "reason": "Victoria Line: Service will resume later this morning.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-13T21:27:08Z",
-            "toDate": "2026-10-15T00:29:00Z",
+            "fromDate": "2026-10-14T00:21:36Z",
+            "toDate": "2026-10-14T03:30:22Z",
             "isNow": true
           }
         ]
