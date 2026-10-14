@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T05:16:39.499804Z",
+  "generatedAt": "2026-10-14T05:31:39.886197Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-14T05:06:34Z",
-    "fetchedAt": "2026-10-14T05:16:39.499804Z",
+    "sourceAt": "2026-10-14T05:31:27Z",
+    "fetchedAt": "2026-10-14T05:31:39.886197Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Stops Skipped",
         "planned": false,
         "priority": 29,
-        "header": "Uptown [A] trains are running on the express track from Canal St to 59 St-Columbus Circle. \nUptown [E] trains are running on the express track from Canal St to 42 St-Port Authority Bus Terminal.",
+        "header": "Uptown [A][E] trains are running on the express track from Canal St to 34 St-Penn Station.",
         "description": "We are performing a rail replacement near Spring St\n.\nFor service to/from bypassed stations, take a downtown train.",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1791953784,
-        "updatedAt": 1791954394
+        "updatedAt": 1791955887
       },
       {
         "id": "lmm:alert:271738:26",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807506394
+            "end": 1807507886
           }
         ],
         "createdAt": 1784303199,
@@ -98,11 +98,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2515f89c71b11488bb207f72019849c3cadc2c448ec785f9fc053a622b0dd306"
+    "sha256": "f90c99c4b78704a3313e0adb97ea4d1ba9a6a05ab7ef7ca54945b1cd7938382d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-14T05:16:39.499804Z",
+    "fetchedAt": "2026-10-14T05:31:39.886197Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
