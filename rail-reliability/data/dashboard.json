@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T08:16:42.290030Z",
+  "generatedAt": "2026-10-14T08:31:43.873837Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,41 +20,41 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-14T08:16:02Z",
-    "fetchedAt": "2026-10-14T08:16:42.290030Z",
+    "sourceAt": "2026-10-14T08:23:53Z",
+    "fetchedAt": "2026-10-14T08:31:43.873837Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271746:29",
-        "type": "Stops Skipped",
-        "planned": false,
-        "priority": 29,
-        "header": "Uptown [A][E] trains are running on the express track from Canal St to 34 St-Penn Station.",
-        "description": "We are performing a rail replacement near Spring St\n.\nFor service to/from bypassed stations, take a downtown train.",
-        "periods": [
-          {
-            "start": 1791953784,
-            "end": null
-          }
-        ],
-        "createdAt": 1791953784,
-        "updatedAt": 1791955887
-      },
       {
         "id": "lmm:alert:271738:26",
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E] [F] trains are running with delays in both directions while we perform track maintenance in Queens.",
+        "header": "[E][F] trains are running with delays in both directions after track maintenance in Queens concluded.",
         "description": "",
         "periods": [
           {
             "start": 1791945194,
-            "end": null
+            "end": 1791968340
           }
         ],
         "createdAt": 1791945194,
-        "updatedAt": 1791945194
+        "updatedAt": 1791966232
+      },
+      {
+        "id": "lmm:alert:271746:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [A][E] trains are running with delays after a rail replacement near Spring St concluded.",
+        "description": "Uptown [A][E] trains have resumed running on the local track from Canal St to 34 St-Penn Station.",
+        "periods": [
+          {
+            "start": 1791953784,
+            "end": 1791967500
+          }
+        ],
+        "createdAt": 1791953784,
+        "updatedAt": 1791966008
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807517761
+            "end": 1807518232
           }
         ],
         "createdAt": 1784303199,
@@ -98,11 +98,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7603bede75ec0ecc64e1fd5b983463f0409158240d0eae1952b8b9465f4a58be"
+    "sha256": "da92ebed54803ac9bfcfefec20b9b2ebdd29e930539e249af8c9b0fb09ed1637"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-14T08:16:42.290030Z",
+    "fetchedAt": "2026-10-14T08:31:43.873837Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
