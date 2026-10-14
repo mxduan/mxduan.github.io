@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T03:16:36.469175Z",
+  "generatedAt": "2026-10-14T03:31:34.627812Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-10-14T02:46:44Z",
-    "fetchedAt": "2026-10-14T03:16:36.469175Z",
+    "fetchedAt": "2026-10-14T03:31:34.627812Z",
     "state": "ok",
     "alerts": [
       {
@@ -86,38 +86,24 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-14T03:16:36.469175Z",
+    "fetchedAt": "2026-10-14T03:31:34.627812Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Service Closed",
-        "reason": "Victoria Line: Service will resume later this morning.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-14T00:21:36Z",
-            "toDate": "2026-10-14T06:14:56Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",
-    "fetchedAt": "2026-10-13T03:28:12.419096Z",
+    "fetchedAt": "2026-10-14T03:31:34.627812Z",
     "source": "https://data.ny.gov/resource/7kct-peq7.json",
     "periods": {
       "day": [
-        {
-          "start": "2026-06-15",
-          "end": "2026-06-16",
-          "coverage": "archive-window",
-          "count": 4,
-          "days": 1
-        },
         {
           "start": "2026-06-16",
           "end": "2026-06-17",
@@ -947,6 +933,13 @@
         {
           "start": "2026-10-12",
           "end": "2026-10-13",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-13",
+          "end": "2026-10-14",
           "coverage": "unavailable",
           "count": null,
           "days": null
