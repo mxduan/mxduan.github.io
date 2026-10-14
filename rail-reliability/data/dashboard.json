@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T04:46:58.488351Z",
+  "generatedAt": "2026-10-14T05:01:38.397985Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-14T04:39:03Z",
-    "fetchedAt": "2026-10-14T04:46:58.488351Z",
+    "sourceAt": "2026-10-14T04:56:24Z",
+    "fetchedAt": "2026-10-14T05:01:38.397985Z",
     "state": "ok",
     "alerts": [
       {
@@ -41,6 +41,22 @@
         "updatedAt": 1791945194
       },
       {
+        "id": "lmm:alert:271746:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [A][E] trains are delayed while we perform track mainteance near Spring St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1791953784,
+            "end": null
+          }
+        ],
+        "createdAt": 1791953784,
+        "updatedAt": 1791953784
+      },
+      {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
         "planned": true,
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807504743
+            "end": 1807505782
           }
         ],
         "createdAt": 1784303199,
@@ -82,11 +98,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "95537e36095ce56b3251057ff7f69511de8ba03afb2274a5daa82444d423b717"
+    "sha256": "3bbeb8f93219fb1b9e975657ad5b3505763b6f7406c1e613c1e19f66896beed2"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-14T04:46:58.488351Z",
+    "fetchedAt": "2026-10-14T05:01:38.397985Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
