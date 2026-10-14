@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T08:31:43.873837Z",
+  "generatedAt": "2026-10-14T08:46:44.270254Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-14T08:23:53Z",
-    "fetchedAt": "2026-10-14T08:31:43.873837Z",
+    "sourceAt": "2026-10-14T08:40:50Z",
+    "fetchedAt": "2026-10-14T08:46:44.270254Z",
     "state": "ok",
     "alerts": [
       {
@@ -41,22 +41,6 @@
         "updatedAt": 1791966232
       },
       {
-        "id": "lmm:alert:271746:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [A][E] trains are running with delays after a rail replacement near Spring St concluded.",
-        "description": "Uptown [A][E] trains have resumed running on the local track from Canal St to 34 St-Penn Station.",
-        "periods": [
-          {
-            "start": 1791953784,
-            "end": 1791967500
-          }
-        ],
-        "createdAt": 1791953784,
-        "updatedAt": 1791966008
-      },
-      {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
         "planned": true,
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807518232
+            "end": 1807519247
           }
         ],
         "createdAt": 1784303199,
@@ -98,11 +82,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "da92ebed54803ac9bfcfefec20b9b2ebdd29e930539e249af8c9b0fb09ed1637"
+    "sha256": "ab63cf0c3db35bf523ba2605d28d7e5468b48f1ee67e32a589055ac824d71de8"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-14T08:31:43.873837Z",
+    "fetchedAt": "2026-10-14T08:46:44.270254Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
