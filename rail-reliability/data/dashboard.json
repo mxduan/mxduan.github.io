@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T05:01:38.397985Z",
+  "generatedAt": "2026-10-14T05:16:39.499804Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-14T04:56:24Z",
-    "fetchedAt": "2026-10-14T05:01:38.397985Z",
+    "sourceAt": "2026-10-14T05:06:34Z",
+    "fetchedAt": "2026-10-14T05:16:39.499804Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:271746:29",
+        "type": "Stops Skipped",
+        "planned": false,
+        "priority": 29,
+        "header": "Uptown [A] trains are running on the express track from Canal St to 59 St-Columbus Circle. \nUptown [E] trains are running on the express track from Canal St to 42 St-Port Authority Bus Terminal.",
+        "description": "We are performing a rail replacement near Spring St\n.\nFor service to/from bypassed stations, take a downtown train.",
+        "periods": [
+          {
+            "start": 1791953784,
+            "end": null
+          }
+        ],
+        "createdAt": 1791953784,
+        "updatedAt": 1791954394
+      },
       {
         "id": "lmm:alert:271738:26",
         "type": "Delays",
@@ -41,22 +57,6 @@
         "updatedAt": 1791945194
       },
       {
-        "id": "lmm:alert:271746:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [A][E] trains are delayed while we perform track mainteance near Spring St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1791953784,
-            "end": null
-          }
-        ],
-        "createdAt": 1791953784,
-        "updatedAt": 1791953784
-      },
-      {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
         "planned": true,
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807505782
+            "end": 1807506394
           }
         ],
         "createdAt": 1784303199,
@@ -98,11 +98,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3bbeb8f93219fb1b9e975657ad5b3505763b6f7406c1e613c1e19f66896beed2"
+    "sha256": "2515f89c71b11488bb207f72019849c3cadc2c448ec785f9fc053a622b0dd306"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-14T05:01:38.397985Z",
+    "fetchedAt": "2026-10-14T05:16:39.499804Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
