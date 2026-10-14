@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T09:48:17.277008Z",
+  "generatedAt": "2026-10-14T10:01:56.090468Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-14T09:40:28Z",
-    "fetchedAt": "2026-10-14T09:48:17.277008Z",
+    "sourceAt": "2026-10-14T10:00:07Z",
+    "fetchedAt": "2026-10-14T10:01:56.090468Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,43 +34,19 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807522828
+            "end": 1807524006
           }
         ],
         "createdAt": 1784303199,
         "updatedAt": 1784303262
-      },
-      {
-        "id": "lmm:planned_work:35278",
-        "type": "Station Notice",
-        "planned": true,
-        "priority": 3,
-        "header": "[airplane icon] JFK AirTrain service is suspended and replaced by free shuttle buses",
-        "description": "Note: AirTrain is operated by the Port Authority of New York and New Jersey.\n\nLearn more and view additional travel alternatives",
-        "periods": [
-          {
-            "start": 1791943200,
-            "end": 1791972000
-          },
-          {
-            "start": 1792029600,
-            "end": 1792058400
-          },
-          {
-            "start": 1792116000,
-            "end": 1792144800
-          }
-        ],
-        "createdAt": 1790865231,
-        "updatedAt": 1791556108
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ddac75ddbad1c7cf8b6ac9a2c953bab3f0197b698bc294e851beeb619840aa93"
+    "sha256": "36f9e590b171714bed2cbdf30a97461394cf54b32e5c2c16a5bca3f9fab42919"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-14T09:48:17.277008Z",
+    "fetchedAt": "2026-10-14T10:01:56.090468Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
