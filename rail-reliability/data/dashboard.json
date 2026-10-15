@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T22:49:42.642711Z",
+  "generatedAt": "2026-10-15T23:04:46.807832Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T22:48:20Z",
-    "fetchedAt": "2026-10-15T22:49:42.642711Z",
+    "sourceAt": "2026-10-15T22:57:54Z",
+    "fetchedAt": "2026-10-15T23:04:46.807832Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [A][C][E] trains are running with delays after we requested NYPD/EMS for a person in need on a train at W 4 St-Wash Sq.",
-        "description": "Downtown [A][C]  trains have resumed making scheduled stops from Manhattan to Brooklyn.\n\nDowntown [E] trains have resumed making scheduled stops in Manhattan.",
+        "header": "Downtown [A][C]  trains are running with delays.\n[E] trains are running with delays in both directions.",
+        "description": "What Happened?\nWe requested NYPD/EMS for a person in need on a train at W 4 St-Wash Sq.",
         "periods": [
           {
             "start": 1792103846,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792103846,
-        "updatedAt": 1792104388
+        "updatedAt": 1792104591
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807656498
+            "end": 1807657071
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ceb91a323ab7d3e3711d27dca380fb6999f266ee1ea4020749acd73450c55f57"
+    "sha256": "ffec2421176238efe8df7e95b4dc5f5c7bae31cc6f617edb34853bad99b9cc03"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T22:49:42.642711Z",
+    "fetchedAt": "2026-10-15T23:04:46.807832Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-15T20:01:17Z",
-            "toDate": "2026-10-16T00:29:00Z",
+            "toDate": "2026-10-17T00:29:00Z",
             "isNow": true
           }
         ]
