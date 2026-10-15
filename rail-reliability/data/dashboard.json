@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T03:49:08.012135Z",
+  "generatedAt": "2026-10-15T04:04:17.802949Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-10-15T03:27:42Z",
-    "fetchedAt": "2026-10-15T03:49:08.012135Z",
+    "fetchedAt": "2026-10-15T04:04:17.802949Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271905:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [A][C][E] trains are running with delays after we safely moved crews into place to conduct maintenance near 50 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792033072,
-            "end": 1792036740
-          }
-        ],
-        "createdAt": 1792033072,
-        "updatedAt": 1792034862
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T03:49:08.012135Z",
+    "fetchedAt": "2026-10-15T04:04:17.802949Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
