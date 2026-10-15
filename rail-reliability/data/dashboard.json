@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T11:19:16.083939Z",
+  "generatedAt": "2026-10-15T11:34:21.283157Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-10-15T11:10:24Z",
-    "fetchedAt": "2026-10-15T11:19:16.083939Z",
+    "fetchedAt": "2026-10-15T11:34:21.283157Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271934:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays after we addressed a door problem on a train at Canal St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792061998,
-            "end": 1792063200
-          }
-        ],
-        "createdAt": 1792061998,
-        "updatedAt": 1792062267
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T11:19:16.083939Z",
+    "fetchedAt": "2026-10-15T11:34:21.283157Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
