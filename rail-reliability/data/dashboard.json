@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T03:19:06.878860Z",
+  "generatedAt": "2026-10-15T03:34:28.988594Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T03:04:38Z",
-    "fetchedAt": "2026-10-15T03:19:06.878860Z",
+    "sourceAt": "2026-10-15T03:27:42Z",
+    "fetchedAt": "2026-10-15T03:34:28.988594Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [A][C][E] trains are delayed while we safely move crews into place to conduct maintenance near 50 St.",
-        "description": "Once those crews are in place, trains will begin to move again.",
+        "header": "Uptown [A][C][E] trains are running with delays after we safely moved crews into place to conduct maintenance near 50 St.",
+        "description": "",
         "periods": [
           {
             "start": 1792033072,
-            "end": null
+            "end": 1792036740
           }
         ],
         "createdAt": 1792033072,
-        "updatedAt": 1792033072
+        "updatedAt": 1792034862
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807585477
+            "end": 1807586861
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "46f2850b117d5894ed777e257a5413183b717e19f5cb6ebb2684513fbfc4df0c"
+    "sha256": "2c0a841c7ca64ee3dc7c158f18fb7dac3d53eefd0b33dce2ea4192635458df42"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T03:19:06.878860Z",
+    "fetchedAt": "2026-10-15T03:34:28.988594Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -76,17 +76,10 @@
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",
-    "fetchedAt": "2026-10-14T03:31:34.627812Z",
+    "fetchedAt": "2026-10-15T03:34:28.988594Z",
     "source": "https://data.ny.gov/resource/7kct-peq7.json",
     "periods": {
       "day": [
-        {
-          "start": "2026-06-16",
-          "end": "2026-06-17",
-          "coverage": "archive-window",
-          "count": 2,
-          "days": 1
-        },
         {
           "start": "2026-06-17",
           "end": "2026-06-18",
@@ -916,6 +909,13 @@
         {
           "start": "2026-10-13",
           "end": "2026-10-14",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-14",
+          "end": "2026-10-15",
           "coverage": "unavailable",
           "count": null,
           "days": null
