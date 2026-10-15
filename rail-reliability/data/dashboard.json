@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T19:04:36.441521Z",
+  "generatedAt": "2026-10-15T19:15:58.880706Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T19:03:34Z",
-    "fetchedAt": "2026-10-15T19:04:36.441521Z",
+    "sourceAt": "2026-10-15T19:13:20Z",
+    "fetchedAt": "2026-10-15T19:15:58.880706Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:271990:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [C][E] trains are delayed while we investigate why a train's brakes activated near Canal St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792091098,
+            "end": null
+          }
+        ],
+        "createdAt": 1792091098,
+        "updatedAt": 1792091241
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807643013
+            "end": 1807643599
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e6bbf5fafa5121b4bcf8d6d0fb70e0ba3fbf7d063289474687a70a8086080c21"
+    "sha256": "6da934be769f0aa64c2487229322f64524af32cd66cb84132bfe593bae4cb4ee"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T19:04:36.441521Z",
+    "fetchedAt": "2026-10-15T19:15:58.880706Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
