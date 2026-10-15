@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T02:18:57.881107Z",
+  "generatedAt": "2026-10-15T02:34:02.554085Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T02:14:44Z",
-    "fetchedAt": "2026-10-15T02:18:57.881107Z",
+    "sourceAt": "2026-10-15T02:32:20Z",
+    "fetchedAt": "2026-10-15T02:34:02.554085Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:271901:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [C][E] trains are running with delays.",
+        "description": "What's Happened?\nWe safely moved crews into place to conduct maintenance near 50 St.",
+        "periods": [
+          {
+            "start": 1792031540,
+            "end": null
+          }
+        ],
+        "createdAt": 1792031540,
+        "updatedAt": 1792031540
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807582482
+            "end": 1807583537
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "07c84f40c8590c710a99f2b838add509395ba1d3d99efa459466c4802bba0bd7"
+    "sha256": "364ba5e56a944d662265649fd2933f81168cbc9bba1d6346e9871b8b3130838d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T02:18:57.881107Z",
+    "fetchedAt": "2026-10-15T02:34:02.554085Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -57,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-15T00:19:18Z",
-            "toDate": "2026-10-15T05:17:24Z",
+            "toDate": "2026-10-15T05:33:24Z",
             "isNow": true
           }
         ]
