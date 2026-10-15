@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T22:34:46.876919Z",
+  "generatedAt": "2026-10-15T22:49:42.642711Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T22:31:38Z",
-    "fetchedAt": "2026-10-15T22:34:46.876919Z",
+    "sourceAt": "2026-10-15T22:48:20Z",
+    "fetchedAt": "2026-10-15T22:49:42.642711Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272032:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [A][C][E] trains are running with delays after we requested NYPD/EMS for a person in need on a train at W 4 St-Wash Sq.",
+        "description": "Downtown [A][C]  trains have resumed making scheduled stops from Manhattan to Brooklyn.\n\nDowntown [E] trains have resumed making scheduled stops in Manhattan.",
+        "periods": [
+          {
+            "start": 1792103846,
+            "end": null
+          }
+        ],
+        "createdAt": 1792103846,
+        "updatedAt": 1792104388
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807655497
+            "end": 1807656498
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "66dd4993a14b5eae2b9f0d8eb9247e2f29fb5419097f945c8ccdb91c5df675c0"
+    "sha256": "ceb91a323ab7d3e3711d27dca380fb6999f266ee1ea4020749acd73450c55f57"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T22:34:46.876919Z",
+    "fetchedAt": "2026-10-15T22:49:42.642711Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
