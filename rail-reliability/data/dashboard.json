@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T19:34:36.864721Z",
+  "generatedAt": "2026-10-15T19:49:36.872681Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T19:34:09Z",
-    "fetchedAt": "2026-10-15T19:34:36.864721Z",
+    "sourceAt": "2026-10-15T19:46:27Z",
+    "fetchedAt": "2026-10-15T19:49:36.872681Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:271990:34",
-        "type": "Part Suspended",
+        "id": "lmm:alert:271990:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 34,
-        "header": "No [E] between W 4 St-Wash Sq and World Trade Center.\nDowntown [C] via [F] from W 4 St-Wash Sq to Jay St-MetroTech.\nTake [1][A] trains for service in Lower Manhattan.",
-        "description": "Additional Service Changes:\n[E] trains are rerouted via the [F] between W 4 St-Wash Sq and 2 Av in both directions.\n\nWhat's Happening?\nWe're investigating why a train's brakes activated near Canal St.",
+        "priority": 26,
+        "header": "[C][E] trains are running with delays in both directions after we moved a train that had its brakes activated near Canal St.",
+        "description": "[C][E] trains have resumed making scheduled stops in both directions.",
         "periods": [
           {
             "start": 1792091098,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792091098,
-        "updatedAt": 1792091996
+        "updatedAt": 1792092967
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807644848
+            "end": 1807645588
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2a58ccad11437d2e348d088f6e371a31d8af76befc00bbda70557705cc451931"
+    "sha256": "0a55e6fc1267bc9193a7f6f5d7f6eaacdbfbe26163fac61fb1a1abe6ca8d8e20"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T19:34:36.864721Z",
+    "fetchedAt": "2026-10-15T19:49:36.872681Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
