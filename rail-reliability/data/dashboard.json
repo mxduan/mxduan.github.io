@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T02:48:59.763503Z",
+  "generatedAt": "2026-10-15T03:04:01.891530Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T02:48:18Z",
-    "fetchedAt": "2026-10-15T02:48:59.763503Z",
+    "sourceAt": "2026-10-15T03:03:09Z",
+    "fetchedAt": "2026-10-15T03:04:01.891530Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,32 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays.",
-        "description": "What's Happened?\nWe safely moved crews into place to conduct maintenance near 50 St.",
+        "header": "Uptown [E] trains are running with delays after we safely moved crews into place to conduct maintenance near 50 St.",
+        "description": "",
         "periods": [
           {
             "start": 1792031540,
-            "end": null
+            "end": 1792034100
           }
         ],
         "createdAt": 1792031540,
-        "updatedAt": 1792031540
+        "updatedAt": 1792032668
+      },
+      {
+        "id": "lmm:alert:271905:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [A][C][E] trains are delayed while we safely move crews into place to conduct maintenance near 50 St.",
+        "description": "Once those crews are in place, trains will begin to move again.",
+        "periods": [
+          {
+            "start": 1792033072,
+            "end": null
+          }
+        ],
+        "createdAt": 1792033072,
+        "updatedAt": 1792033072
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807584496
+            "end": 1807585388
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "86864afc4189ee5ec9f69e952fd4bf108c45cf4ada9e25d576fc752b06d7c937"
+    "sha256": "8ad1942ba5a9e1d12c496ce231c796c630f63beccefb78283a31b74d7a1c776b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T02:48:59.763503Z",
+    "fetchedAt": "2026-10-15T03:04:01.891530Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +89,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-15T00:19:18Z",
-            "toDate": "2026-10-15T05:47:28Z",
+            "toDate": "2026-10-15T06:02:24Z",
             "isNow": true
           }
         ]
