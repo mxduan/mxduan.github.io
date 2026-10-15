@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T08:49:09.748181Z",
+  "generatedAt": "2026-10-15T09:04:09.752688Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T08:27:42Z",
-    "fetchedAt": "2026-10-15T08:49:09.748181Z",
+    "sourceAt": "2026-10-15T09:01:54Z",
+    "fetchedAt": "2026-10-15T09:04:09.752688Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F] trains are delayed while we investigate a report of smoke at Kew Gardens-Union Tpke.",
+        "header": "[E][F] trains are running with delays after FDNY responded to a report of smoke at Kew Gardens-Union Tpke.",
         "description": "",
         "periods": [
           {
             "start": 1792052290,
-            "end": null
+            "end": 1792056600
           }
         ],
         "createdAt": 1792052290,
-        "updatedAt": 1792052290
+        "updatedAt": 1792054913
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807604861
+            "end": 1807606914
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a713c7ab35e882bc402c5a7b7a90628c2a7009c62323b5f5d311ae68ce96d6a0"
+    "sha256": "1c3e0d14d89b4c13e4dbacc5654dbcf722fc7403ef042836d089cb6d9022e496"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T08:49:09.748181Z",
+    "fetchedAt": "2026-10-15T09:04:09.752688Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
