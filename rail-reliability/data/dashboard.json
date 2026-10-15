@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T20:19:34.657278Z",
+  "generatedAt": "2026-10-15T20:34:39.349376Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T20:17:10Z",
-    "fetchedAt": "2026-10-15T20:19:34.657278Z",
+    "sourceAt": "2026-10-15T20:27:33Z",
+    "fetchedAt": "2026-10-15T20:34:39.349376Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:271990:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[C][E] trains are running with delays in both directions after we moved a train that had its brakes activated near Canal St.",
-        "description": "[C][E] trains have resumed making scheduled stops in both directions.",
-        "periods": [
-          {
-            "start": 1792091098,
-            "end": 1792095900
-          }
-        ],
-        "createdAt": 1792091098,
-        "updatedAt": 1792095430
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807647430
+            "end": 1807648052
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ad18d515cd125ebb003931f0245e3e04e2940b0458f53ed33a82c890ef535d8c"
+    "sha256": "c8aa6d60f540f5aac81d55d7f172680204b77991eb081f680b73b446ebd77a30"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T20:19:34.657278Z",
+    "fetchedAt": "2026-10-15T20:34:39.349376Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
