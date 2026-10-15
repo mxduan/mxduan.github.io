@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T19:19:36.168575Z",
+  "generatedAt": "2026-10-15T19:34:36.864721Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T19:17:37Z",
-    "fetchedAt": "2026-10-15T19:19:36.168575Z",
+    "sourceAt": "2026-10-15T19:34:09Z",
+    "fetchedAt": "2026-10-15T19:34:36.864721Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Part Suspended",
         "planned": false,
         "priority": 34,
-        "header": "No [E] between W 4 St-Wash Sq and World Trade Center.\nDowntown [C] via [F] from W 4 St-Wash Sq to Jay St-MetroTech.\nTake an [A] train for service in Lower Manhattan.",
+        "header": "No [E] between W 4 St-Wash Sq and World Trade Center.\nDowntown [C] via [F] from W 4 St-Wash Sq to Jay St-MetroTech.\nTake [1][A] trains for service in Lower Manhattan.",
         "description": "Additional Service Changes:\n[E] trains are rerouted via the [F] between W 4 St-Wash Sq and 2 Av in both directions.\n\nWhat's Happening?\nWe're investigating why a train's brakes activated near Canal St.",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792091098,
-        "updatedAt": 1792091856
+        "updatedAt": 1792091996
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807643856
+            "end": 1807644848
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "22e5bd55ebdab56733e9927243de2dfc382f12813583a2748d472ec52d0f172e"
+    "sha256": "2a58ccad11437d2e348d088f6e371a31d8af76befc00bbda70557705cc451931"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T19:19:36.168575Z",
+    "fetchedAt": "2026-10-15T19:34:36.864721Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
