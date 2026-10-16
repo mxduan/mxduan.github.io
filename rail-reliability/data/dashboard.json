@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T09:57:49.273338Z",
+  "generatedAt": "2026-10-16T10:04:52.982457Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T09:45:31Z",
-    "fetchedAt": "2026-10-16T09:57:49.273338Z",
+    "sourceAt": "2026-10-16T10:00:10Z",
+    "fetchedAt": "2026-10-16T10:04:52.982457Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,35 +34,19 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807695930
+            "end": 1807696808
           }
         ],
         "createdAt": 1784303199,
         "updatedAt": 1784303262
-      },
-      {
-        "id": "lmm:planned_work:35278",
-        "type": "Station Notice",
-        "planned": true,
-        "priority": 3,
-        "header": "[airplane icon] JFK AirTrain service is suspended and replaced by free shuttle buses",
-        "description": "Note: AirTrain is operated by the Port Authority of New York and New Jersey.\n\nLearn more and view additional travel alternatives",
-        "periods": [
-          {
-            "start": 1792116000,
-            "end": 1792144800
-          }
-        ],
-        "createdAt": 1790865231,
-        "updatedAt": 1792024927
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7bfdc0d0c6c07fb2c1cd2949168c5939fce1defde599e78f4d33752b12253159"
+    "sha256": "a4737bb1d7da29369a1d4c529f01b43fe51b74106f6d24e04fb87d5c410d931e"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T09:57:49.273338Z",
+    "fetchedAt": "2026-10-16T10:04:52.982457Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
