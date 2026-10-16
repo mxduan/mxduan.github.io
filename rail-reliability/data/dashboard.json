@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T22:35:35.855162Z",
+  "generatedAt": "2026-10-16T22:50:37.749281Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T22:34:14Z",
-    "fetchedAt": "2026-10-16T22:35:35.855162Z",
+    "sourceAt": "2026-10-16T22:49:57Z",
+    "fetchedAt": "2026-10-16T22:50:37.749281Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272224:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica-bound [E][F] trains are running with delays after we restored third rail power in the tunnel between Manhattan and Queens.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792190424,
+            "end": null
+          }
+        ],
+        "createdAt": 1792190424,
+        "updatedAt": 1792190581
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807742052
+            "end": 1807742995
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "4d91b495d0991b97c182cb192d1042bc2f8ac2b840f6ea2a04e27c693d56e052"
+    "sha256": "fe41088f12cf48e1bc95b97a7907ca45c0bb229c61395432a133d68d4fa6278b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T22:35:35.855162Z",
+    "fetchedAt": "2026-10-16T22:50:37.749281Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
