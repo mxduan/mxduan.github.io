@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T00:04:44.823218Z",
+  "generatedAt": "2026-10-16T00:19:42.974629Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,33 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T00:00:07Z",
-    "fetchedAt": "2026-10-16T00:04:44.823218Z",
+    "sourceAt": "2026-10-16T00:17:24Z",
+    "fetchedAt": "2026-10-16T00:19:42.974629Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272032:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [A][C] [E] trains are running with delays after we requested NYPD/EMS for a person in need on a train at W 4 St-Wash Sq.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792103846,
-            "end": 1792110300
-          }
-        ],
-        "createdAt": 1792103846,
-        "updatedAt": 1792108806
-      },
       {
         "id": "lmm:alert:272043:26",
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [E][F] trains are arriving on the local track at Forest Hills-71 Av while we request EMS assistance for a person in need at that station.",
-        "description": "",
+        "header": "Downtown [E][F] trains arrive on the local track at Forest Hills-71 Av.\nLimited [M] between Forest Hills-71 Av and Essex St.\nExpect [E][F][M][R] delays in both directions.",
+        "description": "What's Happening?\nEmergency teams are responding to a person who was struck by a train at Forest Hills-71 Av.\n\nThe last stop on most Forest Hills-71 Av-bound [M] trains is Essex St.\nSome [R] trains are running via the [Q] line between 57 St/7 Av and 96 St.\n\nListen to announcements for how your train will operate.",
         "periods": [
           {
             "start": 1792108473,
@@ -54,7 +38,7 @@
           }
         ],
         "createdAt": 1792108473,
-        "updatedAt": 1792108711
+        "updatedAt": 1792109701
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807660805
+            "end": 1807661842
           }
         ],
         "createdAt": 1784303199,
@@ -74,22 +58,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "322b53cb31c8ede18b21496e295f87bcffad3d0131b6f6a1df13540b408cbf2a"
+    "sha256": "2ea8cbf85b625e0a49ac7391b7b2b44302215314bd0429fee354e4bddb3dfa54"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T00:04:44.823218Z",
+    "fetchedAt": "2026-10-16T00:19:42.974629Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "label": "Service Closed",
+        "reason": "Victoria Line: Service will resume later this morning.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-15T20:01:17Z",
-            "toDate": "2026-10-17T00:29:00Z",
+            "fromDate": "2026-10-16T00:15:07Z",
+            "toDate": "2026-10-16T03:19:20Z",
             "isNow": true
           }
         ]
