@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T23:49:41.789564Z",
+  "generatedAt": "2026-10-16T00:04:44.823218Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-15T23:48:07Z",
-    "fetchedAt": "2026-10-15T23:49:41.789564Z",
+    "sourceAt": "2026-10-16T00:00:07Z",
+    "fetchedAt": "2026-10-16T00:04:44.823218Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,11 +34,27 @@
         "periods": [
           {
             "start": 1792103846,
-            "end": null
+            "end": 1792110300
           }
         ],
         "createdAt": 1792103846,
-        "updatedAt": 1792107631
+        "updatedAt": 1792108806
+      },
+      {
+        "id": "lmm:alert:272043:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are arriving on the local track at Forest Hills-71 Av while we request EMS assistance for a person in need at that station.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792108473,
+            "end": null
+          }
+        ],
+        "createdAt": 1792108473,
+        "updatedAt": 1792108711
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807660087
+            "end": 1807660805
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2ed50da4053b90f359a191e5f59d312387c63535d2c684a3abc1177c72fe7da4"
+    "sha256": "322b53cb31c8ede18b21496e295f87bcffad3d0131b6f6a1df13540b408cbf2a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-15T23:49:41.789564Z",
+    "fetchedAt": "2026-10-16T00:04:44.823218Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
