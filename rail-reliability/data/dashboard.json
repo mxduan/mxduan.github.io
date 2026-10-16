@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T15:20:10.466306Z",
+  "generatedAt": "2026-10-16T15:35:04.865158Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T15:17:38Z",
-    "fetchedAt": "2026-10-16T15:20:10.466306Z",
+    "sourceAt": "2026-10-16T15:31:55Z",
+    "fetchedAt": "2026-10-16T15:35:04.865158Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272145:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays after we removed a train with a mechanical problem from service at 14 St",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792163028,
-            "end": 1792164600
-          }
-        ],
-        "createdAt": 1792163028,
-        "updatedAt": 1792163028
-      },
       {
         "id": "lmm:planned_work:34543",
         "type": "Planned - Express to Local",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807715856
+            "end": 1807716715
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "0c9b59b385853bf38f3eb164455348c3cb7a181bd8e6b6f6f898ecbe2ba83775"
+    "sha256": "4fad55cdeba2b18e49a5290e9806ca5e9c9142d79ee05e9c3cda6cb6fdf6d9c6"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T15:20:10.466306Z",
+    "fetchedAt": "2026-10-16T15:35:04.865158Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
