@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T18:50:13.624074Z",
+  "generatedAt": "2026-10-16T19:05:15.085084Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,42 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T18:45:46Z",
-    "fetchedAt": "2026-10-16T18:50:13.624074Z",
+    "sourceAt": "2026-10-16T19:01:38Z",
+    "fetchedAt": "2026-10-16T19:05:15.085084Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272169:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [E] trains are running with delays after we addressed a door problem on a train at 50 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792176248,
-            "end": 1792177200
-          }
-        ],
-        "createdAt": 1792176248,
-        "updatedAt": 1792176345
-      },
-      {
-        "id": "lmm:planned_work:34543",
-        "type": "Planned - Express to Local",
-        "planned": true,
-        "priority": 14,
-        "header": "In Queens, Jamaica Center-bound [E] stops at 75 Av and Briarwood",
-        "description": "Note: Service runs as scheduled at these stations all other times.\n\nWhat's happening?\nSignal maintenance",
-        "periods": [
-          {
-            "start": 1792159200,
-            "end": 1792177200
-          }
-        ],
-        "createdAt": 1789055535,
-        "updatedAt": 1789477901
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -66,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807728344
+            "end": 1807729297
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ad31f52781c2ac877fbc0ef0c8fad1dbffbc4886c7adb4bce98986357012c453"
+    "sha256": "8a66722a6ba4fc1dad941ace7df34ad09d7631008d8ba6cb0b8abd445554aea3"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T18:50:13.624074Z",
+    "fetchedAt": "2026-10-16T19:05:15.085084Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
