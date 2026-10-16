@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T00:34:42.161825Z",
+  "generatedAt": "2026-10-16T00:43:53.824885Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T00:31:08Z",
-    "fetchedAt": "2026-10-16T00:34:42.161825Z",
+    "sourceAt": "2026-10-16T00:39:03Z",
+    "fetchedAt": "2026-10-16T00:43:53.824885Z",
     "state": "ok",
     "alerts": [
       {
@@ -30,7 +30,7 @@
         "planned": false,
         "priority": 26,
         "header": "Downtown [F] local in Queens, then via Roosevelt Island to Manhattan.\nLimited [M] between Forest Hills and Essex St.\n[E][F][M][R] delays in both directions.",
-        "description": "What's Happening?\nEmergency teams are responding to a person who was struck by a train at Forest Hills-71 Av.\n\nService Changes:\n\n[E] Service:\nDowntown [E] trains will arrive on local track at Forest Hills-71 Av.\n\n[F] Service:\nDowntown [F] trains are running local from Forest Hills-71 Av to 21 St-Queensbridge, then rerouted via Roosevelt Island to 47-50 Sts-Rockefeller Ctr.\n\n[M] Service: \nThe last stop on most Forest Hills-71 Av-bound [M] trains is Essex St, where they will turn back for Metropolitan Av-bound service.\n\n[R] Service:\nSome [R] trains are running via the [Q] line between 57 St/7 Av and 96 St.\n\nListen to announcements for how your train will operate.\n\nTravel Alternatives:\nTake [7][N][W] trains or Q32 and Q60 buses for service between Manhattan and Queens.",
+        "description": "What's Happening?\nEmergency teams are responding to a person who was struck by a train at Forest Hills-71 Av.\n\nService Changes:\n\n[E] Service:\nDowntown [E] trains will arrive on local track at Forest Hills-71 Av.\n\n[F] Service:\nDowntown [F] trains are running local from Forest Hills-71 Av to 21 St-Queensbridge, then rerouted via Roosevelt Island to 47-50 Sts-Rockefeller Ctr.\n\n[M] Service:\nThe last stop on most Forest Hills-71 Av-bound [M] trains is Essex St, where they will turn back for Metropolitan Av-bound service.\n\nListen to announcements for how your train will operate.\n\nTravel Alternatives:\nTake [7][N][W] trains or Q32 and Q60 buses for service between Manhattan and Queens.",
         "periods": [
           {
             "start": 1792108473,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792108473,
-        "updatedAt": 1792110599
+        "updatedAt": 1792111142
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807662668
+            "end": 1807663142
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "58e13e767983aa39759848c383eb4a1b2ed2f60555131e46adc27bd60fdc78d6"
+    "sha256": "40d2251fb687d8b500943d1bbfe694f4aef3d032c30f93d0aafbd229b4cc0c3f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T00:34:42.161825Z",
+    "fetchedAt": "2026-10-16T00:43:53.824885Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-16T00:15:07Z",
-            "toDate": "2026-10-16T03:33:20Z",
+            "toDate": "2026-10-16T03:42:20Z",
             "isNow": true
           }
         ]
