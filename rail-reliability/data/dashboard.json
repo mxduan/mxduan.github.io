@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T22:50:37.749281Z",
+  "generatedAt": "2026-10-16T23:20:29.532308Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T22:49:57Z",
-    "fetchedAt": "2026-10-16T22:50:37.749281Z",
+    "sourceAt": "2026-10-16T23:16:21Z",
+    "fetchedAt": "2026-10-16T23:20:29.532308Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272224:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are running with delays after we restored third rail power in the tunnel between Manhattan and Queens.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792190424,
-            "end": null
-          }
-        ],
-        "createdAt": 1792190424,
-        "updatedAt": 1792190581
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807742995
+            "end": 1807744581
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "fe41088f12cf48e1bc95b97a7907ca45c0bb229c61395432a133d68d4fa6278b"
+    "sha256": "7eac48cb2b582032844ddc6567ce480be13f84ee40e5cb16ff0eb72ca710783e"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T22:50:37.749281Z",
+    "fetchedAt": "2026-10-16T23:20:29.532308Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-16T21:01:10Z",
-            "toDate": "2026-10-17T00:29:00Z",
+            "toDate": "2026-10-18T00:29:00Z",
             "isNow": true
           }
         ]
