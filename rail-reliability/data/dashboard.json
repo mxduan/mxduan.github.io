@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T16:20:05.157376Z",
+  "generatedAt": "2026-10-16T16:35:05.325500Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T16:16:28Z",
-    "fetchedAt": "2026-10-16T16:20:05.157376Z",
+    "sourceAt": "2026-10-16T16:30:26Z",
+    "fetchedAt": "2026-10-16T16:35:05.325500Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807719388
+            "end": 1807720223
           }
         ],
         "createdAt": 1784303199,
@@ -58,34 +58,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "abce6eb230b21f3d902d5cbc8b6d10dda7b672d3917cff88cb29520a844eca0a"
+    "sha256": "4c38bd97b9ca1c68ea96eac90501ab5d32d9d39b4084b888276726951caa2d8f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T16:20:05.157376Z",
+    "fetchedAt": "2026-10-16T16:35:05.325500Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: No service between Highbury & Islington and Brixton, and SEVERE DELAYS on the rest of the line while we respond to a fire alert at King's Cross St. Pancras. SEVERE  Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
+        "reason": "Victoria Line: Severe delays due to an earlier fire alert at King's Cross St. Pancras. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-16T16:17:54Z",
+            "fromDate": "2026-10-16T16:22:13Z",
             "toDate": "2026-10-17T00:29:00Z",
-            "isNow": true
-          }
-        ]
-      },
-      {
-        "label": "Part Suspended",
-        "reason": "Victoria Line: No service between Highbury & Islington and Brixton, and SEVERE DELAYS on the rest of the line while we respond to a fire alert at King's Cross St. Pancras. SEVERE  Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-16T16:17:54Z",
-            "toDate": "2026-10-16T19:19:19Z",
             "isNow": true
           }
         ]
