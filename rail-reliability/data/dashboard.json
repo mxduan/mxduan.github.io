@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T23:35:30.146950Z",
+  "generatedAt": "2026-10-16T23:50:29.670672Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T23:32:18Z",
-    "fetchedAt": "2026-10-16T23:35:30.146950Z",
+    "sourceAt": "2026-10-16T23:42:17Z",
+    "fetchedAt": "2026-10-16T23:50:29.670672Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Reroute",
         "planned": false,
         "priority": 32,
-        "header": "Downtown [E][F] trains are rerouted via Roosevelt Island from Manhattan to Queens while we investigate why a train's brakes near Court Sq-23 St.",
-        "description": "Service Changes:\nDowntown [E] trains are rerouted via Roosevelt Island from Jackson Heights-Roosevelt Av to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\n\nDowntown [F] trains are rerouted via Roosevelt Island from Jackson Heights-Roosevelt Av to 47-50 Sts-Rockefeller Ctr.\n\nSome downtown [F] trains are rerouted via the [G] from Court Sq to Bergen St, bypassing Manhattan.\n\nListen for crew announcements to hear how your train will run.\n\nExpect downtown [M][R] delays while they share tracks with rerouted trains.",
+        "header": "Downtown [E][F] rerouted via Roosevelt Island from Manhattan to Queens.\nDowntown [E][F][M][R] delays.\nBoard downtown [E] on lower level ([F][M] platform) at W 4 St.\nTake [7][N][W] trains.",
+        "description": "Service Changes:\nDowntown [E] trains are rerouted via Roosevelt Island from Jackson Heights-Roosevelt Av to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\n\nDowntown [F] trains are rerouted via Roosevelt Island from Jackson Heights-Roosevelt Av to 47-50 Sts-Rockefeller Ctr.\n\nSome downtown [F] trains are rerouted via the [G] from Court Sq to Bergen St, bypassing Manhattan.\n\nListen for crew announcements to hear how your train will run.\n\nWhat's Happening?\nWe're investigating why a train's brakes near Court Sq-23 St.\n\nExpect Church Av-bound [G] delays while they share tracks with rerouted trains.",
         "periods": [
           {
             "start": 1792193223,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792193223,
-        "updatedAt": 1792193537
+        "updatedAt": 1792194136
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807745538
+            "end": 1807746136
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "810109a7749771b1210d8e58ae60426608a86dedcf1fc584d7aab771d07c3884"
+    "sha256": "15ef1e156d3787d77c023d87fe680c85c8232aca10c1c4ae3576a475b3e7a1f8"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T23:35:30.146950Z",
+    "fetchedAt": "2026-10-16T23:50:29.670672Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
