@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T15:50:08.725517Z",
+  "generatedAt": "2026-10-16T16:05:06.515261Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T15:40:17Z",
-    "fetchedAt": "2026-10-16T15:50:08.725517Z",
+    "sourceAt": "2026-10-16T15:59:42Z",
+    "fetchedAt": "2026-10-16T16:05:06.515261Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807717217
+            "end": 1807718382
           }
         ],
         "createdAt": 1784303199,
@@ -58,22 +58,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "959dd20f1f6e78278d6122fe8d84a52b7495470dff3f1adcaff8fc745fdeb85b"
+    "sha256": "b877036447eb5e1318e38a8f93451b206a72f5681bf73615f29704630d7ca078"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T15:50:08.725517Z",
+    "fetchedAt": "2026-10-16T16:05:06.515261Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "label": "Suspended",
+        "reason": "Victoria Line: No service while we respond to a fire alert at King's Cross St. Pancras. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-16T13:40:10Z",
-            "toDate": "2026-10-17T00:29:00Z",
+            "fromDate": "2026-10-16T16:01:47Z",
+            "toDate": "2026-10-16T19:03:28Z",
             "isNow": true
           }
         ]
