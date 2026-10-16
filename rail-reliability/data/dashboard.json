@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T02:19:42.799659Z",
+  "generatedAt": "2026-10-16T02:34:45.518300Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T01:59:25Z",
-    "fetchedAt": "2026-10-16T02:19:42.799659Z",
+    "sourceAt": "2026-10-16T02:28:55Z",
+    "fetchedAt": "2026-10-16T02:34:45.518300Z",
     "state": "ok",
     "alerts": [
       {
@@ -41,6 +41,22 @@
         "updatedAt": 1792115964
       },
       {
+        "id": "lmm:alert:272070:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [A][C][E] trains are running with delays after we safely moved crews into place to conduct maintenance near 50 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792117550,
+            "end": 1792119000
+          }
+        ],
+        "createdAt": 1792117550,
+        "updatedAt": 1792117734
+      },
+      {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
         "planned": true,
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807667964
+            "end": 1807669734
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +90,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "78be83e90ef4bc4fede76160344a19e74c9fc0afcbfaa9b5b588ecdd7520c0dd"
+    "sha256": "9fb87996ca57cbd503397306ed5484a375cac59c29edfc4c185ede7e06cc6988"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T02:19:42.799659Z",
+    "fetchedAt": "2026-10-16T02:34:45.518300Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -89,7 +105,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-16T00:15:07Z",
-            "toDate": "2026-10-16T05:17:30Z",
+            "toDate": "2026-10-16T05:33:53Z",
             "isNow": true
           }
         ]
