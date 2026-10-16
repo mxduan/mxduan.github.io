@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T01:49:42.862537Z",
+  "generatedAt": "2026-10-16T02:04:42.753697Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T01:47:13Z",
-    "fetchedAt": "2026-10-16T01:49:42.862537Z",
+    "sourceAt": "2026-10-16T01:59:25Z",
+    "fetchedAt": "2026-10-16T02:04:42.753697Z",
     "state": "ok",
     "alerts": [
       {
@@ -30,7 +30,7 @@
         "planned": false,
         "priority": 26,
         "header": "[E][F][R] trains are running with delays in both directions after emergency teams responded to a person who was struck by a train at Forest Hills-71 Av.",
-        "description": "Downtown [E] trains have resumed boarding on the express track at Forest Hills-71 Av.\n\nDowntown [F] trains have resumed making scheduled stops in Queens.",
+        "description": "",
         "periods": [
           {
             "start": 1792108473,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792108473,
-        "updatedAt": 1792115232
+        "updatedAt": 1792115964
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,19 +50,35 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807667233
+            "end": 1807667964
           }
         ],
         "createdAt": 1784303199,
         "updatedAt": 1784303262
+      },
+      {
+        "id": "lmm:planned_work:35278",
+        "type": "Station Notice",
+        "planned": true,
+        "priority": 3,
+        "header": "[airplane icon] JFK AirTrain service is suspended and replaced by free shuttle buses",
+        "description": "Note: AirTrain is operated by the Port Authority of New York and New Jersey.\n\nLearn more and view additional travel alternatives",
+        "periods": [
+          {
+            "start": 1792116000,
+            "end": 1792144800
+          }
+        ],
+        "createdAt": 1790865231,
+        "updatedAt": 1792024927
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2dc7c0bcb8d5e66db6515fb4b7d0d5c1caf0cd647b231f5206246396ff36b4ea"
+    "sha256": "78be83e90ef4bc4fede76160344a19e74c9fc0afcbfaa9b5b588ecdd7520c0dd"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T01:49:42.862537Z",
+    "fetchedAt": "2026-10-16T02:04:42.753697Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +89,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-16T00:15:07Z",
-            "toDate": "2026-10-16T04:48:37Z",
+            "toDate": "2026-10-16T05:02:30Z",
             "isNow": true
           }
         ]
