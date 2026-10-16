@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T01:34:41.934523Z",
+  "generatedAt": "2026-10-16T01:49:42.862537Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-16T01:28:45Z",
-    "fetchedAt": "2026-10-16T01:34:41.934523Z",
+    "sourceAt": "2026-10-16T01:47:13Z",
+    "fetchedAt": "2026-10-16T01:49:42.862537Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [F] local in Queens, then via Roosevelt Island to Manhattan.\nLimited [M] between Forest Hills and Essex St.\n[E][F][M][R] delays in both directions.",
-        "description": "What's Happening?\nEmergency teams are responding to a person who was struck by a train at Forest Hills-71 Av.\n\nService Changes:\n\n[E] Service:\nDowntown [E] trains will arrive on local track at Forest Hills-71 Av.\n\n[F] Service:\nDowntown [F] trains are running local from Forest Hills-71 Av to 21 St-Queensbridge, then rerouted via Roosevelt Island to 47-50 Sts-Rockefeller Ctr.\n\n[M] Service:\nThe last stop on most Forest Hills-71 Av-bound [M] trains is Essex St, where they will turn back for Metropolitan Av-bound service.\n\nListen to announcements for how your train will operate.\n\nTravel Alternatives:\nTake [7][N][W] trains or Q32 and Q60 buses for service between Manhattan and Queens.",
+        "header": "[E][F][R] trains are running with delays in both directions after emergency teams responded to a person who was struck by a train at Forest Hills-71 Av.",
+        "description": "Downtown [E] trains have resumed boarding on the express track at Forest Hills-71 Av.\n\nDowntown [F] trains have resumed making scheduled stops in Queens.",
         "periods": [
           {
             "start": 1792108473,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792108473,
-        "updatedAt": 1792112817
+        "updatedAt": 1792115232
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807666124
+            "end": 1807667233
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "83ce03afaffee6b4f432a14b1712985addab5e4281a0b6552432ca4571471274"
+    "sha256": "2dc7c0bcb8d5e66db6515fb4b7d0d5c1caf0cd647b231f5206246396ff36b4ea"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-16T01:34:41.934523Z",
+    "fetchedAt": "2026-10-16T01:49:42.862537Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-16T00:15:07Z",
-            "toDate": "2026-10-16T04:33:29Z",
+            "toDate": "2026-10-16T04:48:37Z",
             "isNow": true
           }
         ]
