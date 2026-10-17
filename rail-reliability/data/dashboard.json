@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T07:05:42.138635Z",
+  "generatedAt": "2026-10-17T07:20:43.545539Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T06:50:37Z",
-    "fetchedAt": "2026-10-17T07:05:42.138635Z",
+    "sourceAt": "2026-10-17T07:17:29Z",
+    "fetchedAt": "2026-10-17T07:20:43.545539Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272282:34",
-        "type": "Part Suspended",
+        "id": "lmm:alert:272282:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 34,
-        "header": "[E][F] train service is disrupted in both directions between Queens and Manhattan.",
-        "description": "What's happening?\nEmergency teams are responding to a person who was struck by a train at 63 Dr-Rego Park.\nService Changes:\nThe last stop on some Jamaica-bound [E][F] trains will be Jackson Heights-Roosevelt Av.\nThe last stop on some Jamaica-bound [E] trains will be Court Sq-23 St.\nThe last stop on some Jamaica-bound [F] trains will be 21 St-Queensbridge.\nThe last stop on downtown [E][F] trains will be Forest Hills-71 Av.\n\nListen to onboard announcements to know how your train will run.\n\nTravel Alternatives:\nFor service between Manhattan and Queens, consider taking [A][J][R] trains.",
+        "priority": 26,
+        "header": "[E][F] trains are running with delays in both directions after emergency teams responded to a person who was struck by a train at 63 Dr-Rego Park.",
+        "description": "[E][F] trains have resumed making scheduled stops.",
         "periods": [
           {
             "start": 1792216912,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792216912,
-        "updatedAt": 1792218754
+        "updatedAt": 1792221448
       },
       {
         "id": "lmm:planned_work:34598",
@@ -74,7 +74,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807771836
+            "end": 1807773448
           }
         ],
         "createdAt": 1784303199,
@@ -82,11 +82,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "47944ea786cf27d85ee400600beaa7592494b76d32efa3c5eaf5efba7a7d8e9c"
+    "sha256": "1617f1717c3d4c56e1e855ffccc1479ad2118a281f19fe41ca8a6070fffa0ca7"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T07:05:42.138635Z",
+    "fetchedAt": "2026-10-17T07:20:43.545539Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
