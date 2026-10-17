@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T09:50:43.917621Z",
+  "generatedAt": "2026-10-17T10:05:43.334387Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-10-17T09:31:50Z",
-    "fetchedAt": "2026-10-17T09:50:43.917621Z",
+    "fetchedAt": "2026-10-17T10:05:43.334387Z",
     "state": "ok",
     "alerts": [
       {
@@ -39,30 +39,6 @@
         ],
         "createdAt": 1792229510,
         "updatedAt": 1792229510
-      },
-      {
-        "id": "lmm:planned_work:34598",
-        "type": "Planned - Stops Skipped",
-        "planned": true,
-        "priority": 16,
-        "header": "In Queens, Jamaica-bound [E][F] local skips 36 St, Steinway St, 46 St, Northern Blvd and 65 St",
-        "description": "For service to these stations, take the [E] to Jackson Hts-Roosevelt Av and transfer to a local Manhattan-bound [E] or [F].\n\nFor service from these stations, take the [E] to Queens Plaza or the [F] to 21 St-Queensbridge and transfer to a Jamaica-bound local train.\n\nSchedule reminder: [E][F] does not serve these local stations days and evenings.\n\nWhat's happening?\nWe're making accessibility improvements",
-        "periods": [
-          {
-            "start": 1792208700,
-            "end": 1792231200
-          },
-          {
-            "start": 1792288800,
-            "end": 1792317600
-          },
-          {
-            "start": 1792375200,
-            "end": 1792400400
-          }
-        ],
-        "createdAt": 1789128799,
-        "updatedAt": 1789482427
       },
       {
         "id": "lmm:planned_work:33366",
@@ -86,30 +62,18 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T09:50:43.917621Z",
+    "fetchedAt": "2026-10-17T10:05:43.334387Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: No service between Walthamstow Central and Seven Sisters, and SEVERE DELAYS on the rest of the line while we deal with a customer incident at Blackhorse Road. Tickets are being accepted on London Buses.",
+        "reason": "Victoria Line: Severe delays due to an earlier customer incident at Blackhorse Road. Tickets are being accepted on the Weaver line.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-17T09:46:43Z",
+            "fromDate": "2026-10-17T09:58:17Z",
             "toDate": "2026-10-18T00:29:00Z",
-            "isNow": true
-          }
-        ]
-      },
-      {
-        "label": "Part Suspended",
-        "reason": "Victoria Line: No service between Walthamstow Central and Seven Sisters, and SEVERE DELAYS on the rest of the line while we deal with a customer incident at Blackhorse Road. Tickets are being accepted on London Buses.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-17T09:46:43Z",
-            "toDate": "2026-10-17T12:48:44Z",
             "isNow": true
           }
         ]
