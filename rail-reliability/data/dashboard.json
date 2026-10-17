@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T10:50:42.284432Z",
+  "generatedAt": "2026-10-17T11:05:45.295997Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T10:49:11Z",
-    "fetchedAt": "2026-10-17T10:50:42.284432Z",
+    "sourceAt": "2026-10-17T10:51:44Z",
+    "fetchedAt": "2026-10-17T11:05:45.295997Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807786148
+            "end": 1807786303
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e53c6c95559da01a9fa617551d142263bc696b9874b319a8d055835986bd6a46"
+    "sha256": "8b9e50f335238a6398f714a798df366350060e94f1dd2e91915d393169fd060c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T10:50:42.284432Z",
+    "fetchedAt": "2026-10-17T11:05:45.295997Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to an earlier customer incident at Blackhorse Road",
+        "reason": "Victoria Line: Minor delays due to an earlier customer incident at Blackhorse Road.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-17T10:30:00Z",
+            "fromDate": "2026-10-17T10:56:17Z",
             "toDate": "2026-10-18T00:29:00Z",
             "isNow": true
           }
