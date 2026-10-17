@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T23:06:24.743631Z",
+  "generatedAt": "2026-10-17T23:21:26.867763Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T22:40:09Z",
-    "fetchedAt": "2026-10-17T23:06:24.743631Z",
+    "sourceAt": "2026-10-17T23:21:01Z",
+    "fetchedAt": "2026-10-17T23:21:26.867763Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272331:32",
-        "type": "Reroute",
+        "id": "lmm:alert:272331:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 32,
-        "header": "[C][D][E] bypassing 7 Av in both directions.\nUptown [E] rerouted via [F] from W 4 St to 5 Av/53 St.\n[A][C][D][E][F] delays in both directions.\nSevere [D] delays in Brooklyn.",
-        "description": "What's Happening?\nNYPD is continuing its investigation at 7 Av.\n\nPlanned Work Reminder:\nUptown [C] trains are rerouted via the [F] from Jay St-MetroTech to 47-50 Sts-Rockefeller Ctr, then via the [D] to 59 St-Columbus Circle.\n\nDowntown [C] trains are rerouted via the [D] from 59 St-Columbus Circle to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\n\nBoard [C] trains on the lower level at W 4 St-Wash Sq in both directions.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
+        "priority": 26,
+        "header": "[A][C][D][E][F] trains are running with delays in both directions after NYPD conducted an investigation at 7 Av.",
+        "description": "[C][D][E] trains have resumed stopping at 7 Av in both directions.\n\nUptown [E] trains have resumed making scheduled stops in Manhattan.\n\nPlanned Work Reminder:\nUptown [C] trains are rerouted via the [F] from Jay St-MetroTech to 47-50 Sts-Rockefeller Ctr, then via the [D] to 59 St-Columbus Circle.\n\nDowntown [C] trains are rerouted via the [D] from 59 St-Columbus Circle to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\n\nBoard [C] trains on the lower level at W 4 St-Wash Sq in both directions.",
         "periods": [
           {
             "start": 1792254501,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792254501,
-        "updatedAt": 1792276808
+        "updatedAt": 1792279260
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807828807
+            "end": 1807831261
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b740040f5a90bd4ba44eef2d2df276c5948ae9de7a0125e2b5505df04b261383"
+    "sha256": "991f91ccfb11aca79aff3acfc9a4959290c5b4230ac9881824e21a42d856464a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T23:06:24.743631Z",
+    "fetchedAt": "2026-10-17T23:21:26.867763Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
