@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T00:50:28.550064Z",
+  "generatedAt": "2026-10-17T01:05:30.015432Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T00:33:12Z",
-    "fetchedAt": "2026-10-17T00:50:28.550064Z",
+    "sourceAt": "2026-10-17T00:56:24Z",
+    "fetchedAt": "2026-10-17T01:05:30.015432Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272232:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E] trains are running with delays in both directions.\nDowntown [F][M][R] trains are running with delays.",
-        "description": "Service Updates:\nDowntown [E][F] trains have resumed making scheduled stops via Court Sq-23 St from Queens to Manhattan.\n\nDowntown [E] trains have resumed boarding on the upper level at W 4 St-Wash Sq.\n\nWhat Happened?\nWe moved a train that had its brakes activated near Court Sq-23 St.",
-        "periods": [
-          {
-            "start": 1792193223,
-            "end": 1792198800
-          }
-        ],
-        "createdAt": 1792193223,
-        "updatedAt": 1792196647
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807749191
+            "end": 1807750583
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5400dbba1ee33c7e9f71cc284030689d44b06a82fd07ab72687bbe044aa1814b"
+    "sha256": "5d8c979d1bfdb8a2e6c900d958322c6dc52cda84777b4b3d42b4a3025c4eb831"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T00:50:28.550064Z",
+    "fetchedAt": "2026-10-17T01:05:30.015432Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
