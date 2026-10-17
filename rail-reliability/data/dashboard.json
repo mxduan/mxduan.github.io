@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T16:21:02.329357Z",
+  "generatedAt": "2026-10-17T16:36:08.503048Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T16:12:56Z",
-    "fetchedAt": "2026-10-17T16:21:02.329357Z",
+    "sourceAt": "2026-10-17T16:35:25Z",
+    "fetchedAt": "2026-10-17T16:36:08.503048Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272331:32",
+        "type": "Reroute",
+        "planned": false,
+        "priority": 32,
+        "header": "Uptown [E] trains are running on the [F] line from W 4 St-Wash Sq to Jackson Heights-Roosevelt Av\n.\nUptown [C][D] trains are bypassing 7 Av.",
+        "description": "What's Happening?\nNYPD is conducting an investigation at 7 Av\n.\nExpect uptown [F] train delays while they share tracks with rerouted trains.",
+        "periods": [
+          {
+            "start": 1792254501,
+            "end": null
+          }
+        ],
+        "createdAt": 1792254501,
+        "updatedAt": 1792254924
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807805576
+            "end": 1807806925
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "10dd863fb158a9fe9afa0ae6d6db3a627084d2d18d99be635ba8c10f8383fca2"
+    "sha256": "915424c2d081aa02c479aa4c26012fe5358350ee04c4ff8727d5a403edad28df"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T16:21:02.329357Z",
+    "fetchedAt": "2026-10-17T16:36:08.503048Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
