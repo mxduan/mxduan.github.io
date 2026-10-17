@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T22:06:17.421521Z",
+  "generatedAt": "2026-10-17T22:21:19.609015Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T22:06:16Z",
-    "fetchedAt": "2026-10-17T22:06:17.421521Z",
+    "sourceAt": "2026-10-17T22:16:57Z",
+    "fetchedAt": "2026-10-17T22:21:19.609015Z",
     "state": "ok",
     "alerts": [
       {
@@ -30,7 +30,7 @@
         "planned": false,
         "priority": 32,
         "header": "[C][D][E] trains are bypassing 7 Av in both directions.\nUptown [E] rerouted via [F] from W 4 St-Wash Sq to 5 Av/53 St.\n[A][C][D][E][F] running with delays in both directions.",
-        "description": "Additional Service Changes:\nSome uptown [C] trains are running regular service from W 4 St-Wash Sq to 59 St-Columbus Circle.\n\nListen for crew announcements to hear how your train will run.\n\nWhat's Happening?\nNYPD is continuing its investigation at 7 Av.\n\nPlanned Work Reminder:\nUptown [C] trains  are rerouted via the [F] from Jay St-MetroTech to 47-50 Sts-Rockefeller Ctr, then via the [D] to 59 St-Columbus Circle.\n\nDowntown [C] trains are rerouted via the [D] from 59 St-Columbus Circle to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\n\nBoard [C] trains on the lower level at W 4 St-Wash Sq in both directions.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
+        "description": "What's Happening?\nNYPD is continuing its investigation at 7 Av.\n\nPlanned Work Reminder:\nUptown [C] trains are rerouted via the [F] from Jay St-MetroTech to 47-50 Sts-Rockefeller Ctr, then via the [D] to 59 St-Columbus Circle.\n\nDowntown [C] trains are rerouted via the [D] from 59 St-Columbus Circle to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\n\nBoard [C] trains on the lower level at W 4 St-Wash Sq in both directions.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
         "periods": [
           {
             "start": 1792254501,
@@ -38,23 +38,7 @@
           }
         ],
         "createdAt": 1792254501,
-        "updatedAt": 1792273200
-      },
-      {
-        "id": "lmm:alert:272356:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F] trains are delayed while we request EMS for a person in need on a train at Jackson Heights-Roosevelt Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792274775,
-            "end": null
-          }
-        ],
-        "createdAt": 1792274775,
-        "updatedAt": 1792274775
+        "updatedAt": 1792275417
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807826776
+            "end": 1807827417
           }
         ],
         "createdAt": 1784303199,
@@ -74,21 +58,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "140e50fc2d23069582e7b6c705ceaf7ca5743b97f4fad7471edb879c290bc20b"
+    "sha256": "d0dceb9aa52817df51654bbf6d062d10283c63e57de9524fa2b644abdb69a454"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T22:06:17.421521Z",
+    "fetchedAt": "2026-10-17T22:21:19.609015Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to train cancellations.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-17T11:39:26Z",
+            "fromDate": "2026-10-17T22:18:33Z",
             "toDate": "2026-10-18T00:29:00Z",
             "isNow": true
           }
