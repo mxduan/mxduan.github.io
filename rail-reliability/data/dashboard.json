@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T10:20:43.059591Z",
+  "generatedAt": "2026-10-17T10:35:43.417403Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T10:16:24Z",
-    "fetchedAt": "2026-10-17T10:20:43.059591Z",
+    "sourceAt": "2026-10-17T10:34:15Z",
+    "fetchedAt": "2026-10-17T10:35:43.417403Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,11 +34,11 @@
         "periods": [
           {
             "start": 1792229510,
-            "end": null
+            "end": 1792234200
           }
         ],
         "createdAt": 1792229510,
-        "updatedAt": 1792229510
+        "updatedAt": 1792232893
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807784183
+            "end": 1807785254
           }
         ],
         "createdAt": 1784303199,
@@ -58,21 +58,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f1be5f53c8bbf6df9b18247bcc898021f375b009b79a1b31fab75aff2ff030f0"
+    "sha256": "865dd833a81b0819af2cee30ab0a6857e4c5e9f9930a14f9e209f959f15415a5"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T10:20:43.059591Z",
+    "fetchedAt": "2026-10-17T10:35:43.417403Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to an earlier customer incident at Blackhorse Road. Tickets are being accepted on the Weaver line.",
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to an earlier customer incident at Blackhorse Road",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-17T09:58:17Z",
+            "fromDate": "2026-10-17T10:30:00Z",
             "toDate": "2026-10-18T00:29:00Z",
             "isNow": true
           }
