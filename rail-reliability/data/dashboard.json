@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T05:50:41.953005Z",
+  "generatedAt": "2026-10-17T06:05:42.047268Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T05:30:09Z",
-    "fetchedAt": "2026-10-17T05:50:41.953005Z",
+    "sourceAt": "2026-10-17T06:01:53Z",
+    "fetchedAt": "2026-10-17T06:05:42.047268Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272282:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica Center-Parsons/Archer-bound [E] and Jamaica-179 St-bound [F] trains are delayed.",
+        "description": "What happened? \nEmergency teams are responding to a person who was struck by a train at 63 Dr-Rego Park.",
+        "periods": [
+          {
+            "start": 1792216912,
+            "end": null
+          }
+        ],
+        "createdAt": 1792216912,
+        "updatedAt": 1792216912
+      },
       {
         "id": "lmm:planned_work:34598",
         "type": "Planned - Stops Skipped",
@@ -58,7 +74,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807767008
+            "end": 1807768911
           }
         ],
         "createdAt": 1784303199,
@@ -66,11 +82,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "65eb6759a373d003a88caa1da2337227e4aefa799d62b960177992278583ba4a"
+    "sha256": "12c373aaae6f06b6209ba98ef3528cf4a71065a1a96e3b016179a520cc1f1b6c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T05:50:41.953005Z",
+    "fetchedAt": "2026-10-17T06:05:42.047268Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
