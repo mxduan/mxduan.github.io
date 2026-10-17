@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T06:05:42.047268Z",
+  "generatedAt": "2026-10-17T06:20:41.713883Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T06:01:53Z",
-    "fetchedAt": "2026-10-17T06:05:42.047268Z",
+    "sourceAt": "2026-10-17T06:18:49Z",
+    "fetchedAt": "2026-10-17T06:20:41.713883Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Jamaica Center-Parsons/Archer-bound [E] and Jamaica-179 St-bound [F] trains are delayed.",
-        "description": "What happened? \nEmergency teams are responding to a person who was struck by a train at 63 Dr-Rego Park.",
+        "header": "Jamaica-bound [E][F] train service is disrupted in Queens while emergency teams respond to a person who was struck by a train at 63 Dr-Rego Park.",
+        "description": "Service Changes: \nThe last stop on Jamaica-bound [E][F] trains will be Jackson Heights-Roosevelt Av.",
         "periods": [
           {
             "start": 1792216912,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792216912,
-        "updatedAt": 1792216912
+        "updatedAt": 1792217559
       },
       {
         "id": "lmm:planned_work:34598",
@@ -74,7 +74,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807768911
+            "end": 1807769927
           }
         ],
         "createdAt": 1784303199,
@@ -82,11 +82,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "12c373aaae6f06b6209ba98ef3528cf4a71065a1a96e3b016179a520cc1f1b6c"
+    "sha256": "9d3e1a567b68e40a7ac40258b982fbedb332c576ff1841ab3ff629e03616cddb"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T06:05:42.047268Z",
+    "fetchedAt": "2026-10-17T06:20:41.713883Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
