@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T08:50:43.039375Z",
+  "generatedAt": "2026-10-17T09:05:42.896224Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T08:50:26Z",
-    "fetchedAt": "2026-10-17T08:50:43.039375Z",
+    "sourceAt": "2026-10-17T09:01:46Z",
+    "fetchedAt": "2026-10-17T09:05:42.896224Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272282:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after emergency teams responded to a person who was struck by a train at 63 Dr-Rego Park.",
-        "description": "[E][F] trains have resumed making scheduled stops.",
-        "periods": [
-          {
-            "start": 1792216912,
-            "end": 1792227240
-          }
-        ],
-        "createdAt": 1792216912,
-        "updatedAt": 1792226098
-      },
       {
         "id": "lmm:planned_work:34598",
         "type": "Planned - Stops Skipped",
@@ -74,7 +58,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807779025
+            "end": 1807779704
           }
         ],
         "createdAt": 1784303199,
@@ -82,11 +66,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9c298af2faa1a72a7fd44b59740c1f845a414dfa6bfad163dc20b347f05e8f7e"
+    "sha256": "599896d533a10533a495761a0131afe219f419a6d782d91ffa56fae78f0d9643"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T08:50:43.039375Z",
+    "fetchedAt": "2026-10-17T09:05:42.896224Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
