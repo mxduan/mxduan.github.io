@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T23:36:26.697669Z",
+  "generatedAt": "2026-10-17T23:51:28.830264Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T23:33:52Z",
-    "fetchedAt": "2026-10-17T23:36:26.697669Z",
+    "sourceAt": "2026-10-17T23:47:09Z",
+    "fetchedAt": "2026-10-17T23:51:28.830264Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[A][C][D][E][F] trains are running with delays in both directions after NYPD conducted an investigation at 7 Av.",
-        "description": "[C][D][E] trains have resumed stopping at 7 Av in both directions.\n\nUptown [E] trains have resumed making scheduled stops in Manhattan.\n\nPlanned Work Reminder:\nUptown [C] trains are rerouted via the [F] from Jay St-MetroTech to 47-50 Sts-Rockefeller Ctr, then via the [D] to 59 St-Columbus Circle.\n\nDowntown [C] trains are rerouted via the [D] from 59 St-Columbus Circle to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\n\nBoard [C] trains on the lower level at W 4 St-Wash Sq in both directions.",
+        "header": "[A][C]  trains are running with delays in both directions.\nUptown [D][E] trains are running with delays.",
+        "description": "What Happened?\nNYPD conducted an investigation at 7 Av.\n\nPlanned Work Reminder:\nUptown [C] trains are rerouted via the [F] from Jay St-MetroTech to 47-50 Sts-Rockefeller Ctr, then via the [D] to 59 St-Columbus Circle.\n\nDowntown [C] trains are rerouted via the [D] from 59 St-Columbus Circle to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\n\nBoard [C] trains on the lower level at W 4 St-Wash Sq in both directions.",
         "periods": [
           {
             "start": 1792254501,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792254501,
-        "updatedAt": 1792279260
+        "updatedAt": 1792280829
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807832032
+            "end": 1807832829
           }
         ],
         "createdAt": 1784303199,
@@ -58,25 +58,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "456e3bd7d23f4643f98302454905d5b4da01f88c61e6144a0dd0ebb84786a439"
+    "sha256": "c637da3a088c50c3a48e02e5b7509cb548546d34dea1d019a176c75b129c50c3"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T23:36:26.697669Z",
+    "fetchedAt": "2026-10-17T23:51:28.830264Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-17T22:18:33Z",
-            "toDate": "2026-10-19T00:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
