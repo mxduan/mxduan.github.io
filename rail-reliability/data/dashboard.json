@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T19:21:03.522135Z",
+  "generatedAt": "2026-10-17T19:36:06.879639Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T19:12:45Z",
-    "fetchedAt": "2026-10-17T19:21:03.522135Z",
+    "sourceAt": "2026-10-17T19:33:02Z",
+    "fetchedAt": "2026-10-17T19:36:06.879639Z",
     "state": "ok",
     "alerts": [
       {
@@ -30,7 +30,7 @@
         "planned": false,
         "priority": 32,
         "header": "[C][D][E] trains are disrupted in Manhattan in both directions while NYPD conducts an investigation at 7 Av.\n[A][C][D][E][F] delays in both directions.",
-        "description": "Service Changes:\n\n[C] Service:\n[C] trains are running regular service between Jay St-MetroTech and 59 St-Columbus Circle in both directions.\n\n[D] Service:\n[D] trains are rerouted via the [C] between W 4 St-Wash Sq and 59 St-Columbus Circle in both directions.\nConey Island-bound [D] trains are running via the [F] from W 4 St-Wash Sq to Coney Island-Stillwell Av.\nBoard [D] trains on the upper level at W 4 St-Wash Sq.\n\n[E] Service:\n[E] trains are rerouted via the [F] between W 4 St-Wash Sq to 5 Av/53 St in both directions.\nBoard [E] trains on the lower level at W 4 St-Wash Sq.\n\nWhat's Happening?\nNYPD is conducting an investigation at 7 Av.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
+        "description": "Service Changes:\n\n[C] Service:\n[C] trains are running regular service between W 4 St-Wash Sq and 59 St-Columbus Circle in both directions.\nSome uptown [C] trains are rerouted via the [F] from Jay St-MetroTech to W 4 St-Wash Sq.\n\n[D] Service:\nExtremely limited Coney Island-bound [D] from W 4 St-Wash Sq to Coney Island-Stillwell Av.\n\nMost uptown [D] trains will end at W 4 St-Wash Sq or 34 St-Herald Sq, where they will turn back for downtown service.\nSome uptown [D] trains are rerouted via the [C] from W 4 St-Wash Sq to59 St-Columbus Circle.\n\nDowntown [D] trains are rerouted via the [C] from 59 St-Columbus Circle to W 4 St-Wash Sq, then via the [F] from W 4 St-Wash Sq to Coney Island-Stillwell Av.\nSome Coney Island-bound [D] trains will end at 2 Av, where they will turn back for uptown service.\n\n[E] Service:\n[E] trains are rerouted via the [F] between W 4 St-Wash Sq to 5 Av/53 St in both directions.\nBoard [E] trains on the lower level at W 4 St-Wash Sq.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.\n\nFor Coney Island-bound [D] service in Brooklyn, take an [N] train.",
         "periods": [
           {
             "start": 1792254501,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792254501,
-        "updatedAt": 1792263168
+        "updatedAt": 1792265581
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807816364
+            "end": 1807817581
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a5e831cd34fa062d84879fd0d86dda515cb261508d4409fd1acb5a6ac6c8df5d"
+    "sha256": "ff8cd7ab1a8e89590e0ade46d523c216e2c68df4d0ff38c417fc3623b62288eb"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T19:21:03.522135Z",
+    "fetchedAt": "2026-10-17T19:36:06.879639Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
