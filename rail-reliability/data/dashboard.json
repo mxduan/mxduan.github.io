@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T18:26:30.840005Z",
+  "generatedAt": "2026-10-17T18:36:07.161718Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T18:10:14Z",
-    "fetchedAt": "2026-10-17T18:26:30.840005Z",
+    "sourceAt": "2026-10-17T18:35:55Z",
+    "fetchedAt": "2026-10-17T18:36:07.161718Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Reroute",
         "planned": false,
         "priority": 32,
-        "header": "[C][D][E] trains are bypassing 7 Av in both directions.\nUptown [E] rerouted via [F] from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr.\n[A][C][D][E][F] delays in both directions.",
-        "description": "What's Happening?\nNYPD is conducting an investigation at 7 Av\n.\nPlanned Work Reminder:\nIn Brooklyn and Manhattan, [C] train service is rerouted via the [F] between Jay St-MetroTech and 59 St-Columbus Circle in both directions.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
+        "header": "[C][D][E] trains are disrupted in Manhattan in both directions while NYPD conducts an investigation at 7 Av.\n[A][C][D][E][F] delays in both directions.",
+        "description": "Service Changes:\n\n[C] Service:\n[C] trains are running regular service between Jay St-MetroTech and 59 St-Columbus Circle in both directions.\n\n[D] Service:\n[D] trains are rerouted via the [C] between W 4 St-Wash Sq and 59 St-Columbus Circle in both directions.\nBoard [D] trains on the upper level at W 4 St-Wash Sq.\n\n[E] Service:\n[E] trains are rerouted via the [F] between W 4 St-Wash Sq to 5 Av/53 St in both directions.\nBoard [E] trains on the lower level at W 4 St-Wash Sq.\n\nWhat's Happening?\nNYPD is conducting an investigation at 7 Av.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
         "periods": [
           {
             "start": 1792254501,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792254501,
-        "updatedAt": 1792260606
+        "updatedAt": 1792262154
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807812613
+            "end": 1807814155
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "0a6da7f06abcc46c340c16fcf52a61b0a52555de6f9b8425d03869b7636e589a"
+    "sha256": "f2385d8584dc742ca53fb3604a1a6899cde51a67c8ed1a89d3bff090d64bb912"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T18:26:30.840005Z",
+    "fetchedAt": "2026-10-17T18:36:07.161718Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -3074,7 +3074,7 @@
       }
     ],
     "state": "ok",
-    "fetchedAt": "2026-10-16T18:35:13.053024Z",
+    "fetchedAt": "2026-10-17T18:36:07.161718Z",
     "source": "https://data.ny.gov/resource/r7qk-6tcy.json"
   }
 }
