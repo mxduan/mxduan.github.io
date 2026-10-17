@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T18:06:02.198271Z",
+  "generatedAt": "2026-10-17T18:21:02.094350Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T18:04:09Z",
-    "fetchedAt": "2026-10-17T18:06:02.198271Z",
+    "sourceAt": "2026-10-17T18:10:14Z",
+    "fetchedAt": "2026-10-17T18:21:02.094350Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Reroute",
         "planned": false,
         "priority": 32,
-        "header": "Uptown [E] trains are running on the [F] line from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr\n.\nUptown [C][D] trains are bypassing 7 Av.",
-        "description": "What's Happening?\nNYPD is conducting an investigation at 7 Av\n.\nExpect uptown [F] train delays while they share tracks with rerouted trains.\nPlanned Work Reminder:\nIn Brooklyn and Manhattan, [C] service is rerouted between Jay St-MetroTech and 59 St-Columbus Circle.",
+        "header": "[C][D][E] trains are bypassing 7 Av in both directions.\nUptown [E] rerouted via [F] from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr.\n[A][C][D][E][F] delays in both directions.",
+        "description": "What's Happening?\nNYPD is conducting an investigation at 7 Av\n.\nPlanned Work Reminder:\nIn Brooklyn and Manhattan, [C] train service is rerouted via the [F] between Jay St-MetroTech and 59 St-Columbus Circle in both directions.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
         "periods": [
           {
             "start": 1792254501,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792254501,
-        "updatedAt": 1792257324
+        "updatedAt": 1792260606
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807812247
+            "end": 1807812613
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e277d5cef083d6147708dab2f37df23de85528e32831740d5158f61ac819e594"
+    "sha256": "0a6da7f06abcc46c340c16fcf52a61b0a52555de6f9b8425d03869b7636e589a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T18:06:02.198271Z",
+    "fetchedAt": "2026-10-17T18:21:02.094350Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
