@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T18:51:04.376084Z",
+  "generatedAt": "2026-10-17T19:06:03.875643Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T18:35:55Z",
-    "fetchedAt": "2026-10-17T18:51:04.376084Z",
+    "sourceAt": "2026-10-17T19:04:19Z",
+    "fetchedAt": "2026-10-17T19:06:03.875643Z",
     "state": "ok",
     "alerts": [
       {
@@ -30,7 +30,7 @@
         "planned": false,
         "priority": 32,
         "header": "[C][D][E] trains are disrupted in Manhattan in both directions while NYPD conducts an investigation at 7 Av.\n[A][C][D][E][F] delays in both directions.",
-        "description": "Service Changes:\n\n[C] Service:\n[C] trains are running regular service between Jay St-MetroTech and 59 St-Columbus Circle in both directions.\n\n[D] Service:\n[D] trains are rerouted via the [C] between W 4 St-Wash Sq and 59 St-Columbus Circle in both directions.\nBoard [D] trains on the upper level at W 4 St-Wash Sq.\n\n[E] Service:\n[E] trains are rerouted via the [F] between W 4 St-Wash Sq to 5 Av/53 St in both directions.\nBoard [E] trains on the lower level at W 4 St-Wash Sq.\n\nWhat's Happening?\nNYPD is conducting an investigation at 7 Av.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
+        "description": "Service Changes:\n\n[C] Service:\n[C] trains are running regular service between Jay St-MetroTech and 59 St-Columbus Circle in both directions.\n\n[D] Service:\n[D] trains are rerouted via the [C] between W 4 St-Wash Sq and 59 St-Columbus Circle in both directions.\nConey Island-bound [D] trains are running via the [F] from W 4 St-Wash Sq to Coney Island-Stillwell Av.\nBoard [D] trains on the upper level at W 4 St-Wash Sq.\n\n[E] Service:\n[E] trains are rerouted via the [F] between W 4 St-Wash Sq to 5 Av/53 St in both directions.\nBoard [E] trains on the lower level at W 4 St-Wash Sq.\n\nWhat's Happening?\nNYPD is conducting an investigation at 7 Av.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
         "periods": [
           {
             "start": 1792254501,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792254501,
-        "updatedAt": 1792262154
+        "updatedAt": 1792263168
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807814155
+            "end": 1807815859
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f2385d8584dc742ca53fb3604a1a6899cde51a67c8ed1a89d3bff090d64bb912"
+    "sha256": "381afbc38921b03d80300b9c87e5c38431e50f5573768b475e17ed84d3880320"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T18:51:04.376084Z",
+    "fetchedAt": "2026-10-17T19:06:03.875643Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
