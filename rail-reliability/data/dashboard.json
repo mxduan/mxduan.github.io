@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T12:35:56.229533Z",
+  "generatedAt": "2026-10-17T12:50:51.816099Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T12:34:54Z",
-    "fetchedAt": "2026-10-17T12:35:56.229533Z",
+    "sourceAt": "2026-10-17T12:49:30Z",
+    "fetchedAt": "2026-10-17T12:50:51.816099Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272308:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica Center-Parsons/Archer-bound [E] trains are delayed while we investigate what activated a train's brakes at Sutphin Blvd/Archer Av-JFK Airport.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792241369,
+            "end": null
+          }
+        ],
+        "createdAt": 1792241369,
+        "updatedAt": 1792241369
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807792494
+            "end": 1807793368
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6b4a2e8166d5a860794f336e2d1550bcfb74294eeef7febb105d03db60f758d7"
+    "sha256": "7ab899cd2d06e0466e81d72482f2a914e30975c03169f2559af553815958dd44"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T12:35:56.229533Z",
+    "fetchedAt": "2026-10-17T12:50:51.816099Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
