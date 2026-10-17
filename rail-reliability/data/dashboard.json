@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T20:36:04.523758Z",
+  "generatedAt": "2026-10-17T20:51:12.678509Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T20:30:46Z",
-    "fetchedAt": "2026-10-17T20:36:04.523758Z",
+    "sourceAt": "2026-10-17T20:47:43Z",
+    "fetchedAt": "2026-10-17T20:51:12.678509Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272331:32",
-        "type": "Reroute",
+        "id": "lmm:alert:272331:29",
+        "type": "Stops Skipped",
         "planned": false,
-        "priority": 32,
-        "header": "[C][D][E] trains are disrupted in Manhattan in both directions while NYPD conducts an investigation at 7 Av.\n[A][C][D][E][F] delays in both directions.",
-        "description": "Service Changes:\n\n[C] Service:\n[C] trains are running regular service between W 4 St-Wash Sq and 59 St-Columbus Circle in both directions.\nSome uptown [C] trains are rerouted via the [F] from Jay St-MetroTech to W 4 St-Wash Sq.\n\n[D] Service:\nExtremely limited Coney Island-bound [D] from W 4 St-Wash Sq to Coney Island-Stillwell Av.\n\nMost uptown [D] trains will end at W 4 St-Wash Sq or 34 St-Herald Sq, where they will turn back for downtown service.\nSome uptown [D] trains are rerouted via the [C] from W 4 St-Wash Sq to59 St-Columbus Circle.\n\nDowntown [D] trains are rerouted via the [C] from 59 St-Columbus Circle to W 4 St-Wash Sq, then via the [F] from W 4 St-Wash Sq to Coney Island-Stillwell Av.\nSome Coney Island-bound [D] trains will end at 2 Av, where they will turn back for uptown service.\n\n[E] Service:\n[E] trains are rerouted via the [F] between W 4 St-Wash Sq to 5 Av/53 St in both directions.\nBoard [E] trains on the lower level at W 4 St-Wash Sq.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.\n\nFor Coney Island-bound [D] service in Brooklyn, take an [N] train.",
+        "priority": 29,
+        "header": "[C][D][E] trains are bypassing 7 Av in both directions while NYPD continues its investigation at 7 Av.\n[A][C][D][E][F] trains are running with delays in both directions.",
+        "description": "Service Update:\n[C][D][E] trains have resumed making scheduled stops (except 7 Av) in Manhattan in both directions.\n\nPlanned Work Reminder:\n[C] trains in both directions are rerouted via the [D] between 59 St-Columbus Circle and 47-50 Sts-Rockefeller Ctr, then via the [F] to/from Jay St-MetroTech.\n\nTravel Alternatives:\nTake nearby [1][2][3][N][Q][R] trains for service in Manhattan.",
         "periods": [
           {
             "start": 1792254501,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792254501,
-        "updatedAt": 1792265581
+        "updatedAt": 1792269870
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807821044
+            "end": 1807822062
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f7e754f1c8e04d057da4cf8db6b73980746bb15c3a70d67ad47678bf7d786876"
+    "sha256": "00e22a6f5591b55bce466b67991c9df41bb3c877a97c7546f0718f020e49645d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T20:36:04.523758Z",
+    "fetchedAt": "2026-10-17T20:51:12.678509Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
