@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T09:35:46.162785Z",
+  "generatedAt": "2026-10-17T09:50:43.917621Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-10-17T09:31:50Z",
-    "fetchedAt": "2026-10-17T09:35:46.162785Z",
+    "fetchedAt": "2026-10-17T09:50:43.917621Z",
     "state": "ok",
     "alerts": [
       {
@@ -86,14 +86,33 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T09:35:46.162785Z",
+    "fetchedAt": "2026-10-17T09:50:43.917621Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Severe Delays",
+        "reason": "Victoria Line: No service between Walthamstow Central and Seven Sisters, and SEVERE DELAYS on the rest of the line while we deal with a customer incident at Blackhorse Road. Tickets are being accepted on London Buses.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-10-17T09:46:43Z",
+            "toDate": "2026-10-18T00:29:00Z",
+            "isNow": true
+          }
+        ]
+      },
+      {
+        "label": "Part Suspended",
+        "reason": "Victoria Line: No service between Walthamstow Central and Seven Sisters, and SEVERE DELAYS on the rest of the line while we deal with a customer incident at Blackhorse Road. Tickets are being accepted on London Buses.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-10-17T09:46:43Z",
+            "toDate": "2026-10-17T12:48:44Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
