@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T21:51:15.797289Z",
+  "generatedAt": "2026-10-17T22:06:17.421521Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-17T21:40:01Z",
-    "fetchedAt": "2026-10-17T21:51:15.797289Z",
+    "sourceAt": "2026-10-17T22:06:16Z",
+    "fetchedAt": "2026-10-17T22:06:17.421521Z",
     "state": "ok",
     "alerts": [
       {
@@ -41,6 +41,22 @@
         "updatedAt": 1792273200
       },
       {
+        "id": "lmm:alert:272356:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are delayed while we request EMS for a person in need on a train at Jackson Heights-Roosevelt Av.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792274775,
+            "end": null
+          }
+        ],
+        "createdAt": 1792274775,
+        "updatedAt": 1792274775
+      },
+      {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
         "planned": true,
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807825201
+            "end": 1807826776
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ddd2b3535a77267548009302ce56e765481ec83e813eaaa8b2eb0be60e387017"
+    "sha256": "140e50fc2d23069582e7b6c705ceaf7ca5743b97f4fad7471edb879c290bc20b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-17T21:51:15.797289Z",
+    "fetchedAt": "2026-10-17T22:06:17.421521Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
