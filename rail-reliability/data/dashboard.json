@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T19:23:11.985729Z",
+  "generatedAt": "2026-10-18T19:30:58.483034Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-10-18T19:22:40Z",
-    "fetchedAt": "2026-10-18T19:23:11.985729Z",
+    "fetchedAt": "2026-10-18T19:30:58.483034Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272436:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][R] trains are running with delays after we requested NYPD assistance for an unauthorized person on the track near Queens Plaza.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792350888,
-            "end": 1792351800
-          }
-        ],
-        "createdAt": 1792350888,
-        "updatedAt": 1792350937
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-18T19:23:11.985729Z",
+    "fetchedAt": "2026-10-18T19:30:58.483034Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
