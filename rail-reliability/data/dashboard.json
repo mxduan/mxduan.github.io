@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T00:06:33.849223Z",
+  "generatedAt": "2026-10-18T00:21:33.259513Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-18T00:04:38Z",
-    "fetchedAt": "2026-10-18T00:06:33.849223Z",
+    "sourceAt": "2026-10-18T00:07:56Z",
+    "fetchedAt": "2026-10-18T00:21:33.259513Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,27 +34,11 @@
         "periods": [
           {
             "start": 1792254501,
-            "end": null
+            "end": 1792283400
           }
         ],
         "createdAt": 1792254501,
-        "updatedAt": 1792281672
-      },
-      {
-        "id": "lmm:alert:272361:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are delayed while we request FDNY for a report of smoke near Jackson Heights-Roosevelt Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792281877,
-            "end": null
-          }
-        ],
-        "createdAt": 1792281877,
-        "updatedAt": 1792281877
+        "updatedAt": 1792282070
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807833877
+            "end": 1807834072
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "39b782ae03fb9721617cdeed22c860c20a05db125b100526a58aedc0fcc3c475"
+    "sha256": "4077917109df3cbae774c4b0176c278c115e0e6a4f4fc0c357efcadcce91e610"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-18T00:06:33.849223Z",
+    "fetchedAt": "2026-10-18T00:21:33.259513Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
