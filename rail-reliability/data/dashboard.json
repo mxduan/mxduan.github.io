@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T00:21:33.259513Z",
+  "generatedAt": "2026-10-18T00:36:32.961422Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-18T00:07:56Z",
-    "fetchedAt": "2026-10-18T00:21:33.259513Z",
+    "sourceAt": "2026-10-18T00:34:26Z",
+    "fetchedAt": "2026-10-18T00:36:32.961422Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272331:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[C]  trains are running with delays in both directions.\nUptown [D][E] trains are running with delays.",
-        "description": "What Happened?\nNYPD conducted an investigation at 7 Av.\n\nPlanned Work Reminder:\nUptown [C] trains are rerouted via the [F] from Jay St-MetroTech to 47-50 Sts-Rockefeller Ctr, then via the [D] to 59 St-Columbus Circle.\n\nDowntown [C] trains are rerouted via the [D] from 59 St-Columbus Circle to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\n\nBoard [C] trains on the lower level at W 4 St-Wash Sq in both directions.",
-        "periods": [
-          {
-            "start": 1792254501,
-            "end": 1792283400
-          }
-        ],
-        "createdAt": 1792254501,
-        "updatedAt": 1792282070
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807834072
+            "end": 1807835665
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "4077917109df3cbae774c4b0176c278c115e0e6a4f4fc0c357efcadcce91e610"
+    "sha256": "eb60513bfd1166c1772797eb7aae658bfe510bd2c12823a7e9ac4fdd7ac11674"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-18T00:21:33.259513Z",
+    "fetchedAt": "2026-10-18T00:36:32.961422Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
