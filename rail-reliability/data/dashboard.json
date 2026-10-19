@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T21:55:46.969125Z",
+  "generatedAt": "2026-10-19T22:10:52.005918Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-19T21:54:28Z",
-    "fetchedAt": "2026-10-19T21:55:46.969125Z",
+    "sourceAt": "2026-10-19T22:06:53Z",
+    "fetchedAt": "2026-10-19T22:10:52.005918Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272579:32",
-        "type": "Reroute",
+        "id": "lmm:alert:272579:34",
+        "type": "Part Suspended",
         "planned": false,
-        "priority": 32,
+        "priority": 34,
         "header": "No [E] service between Briarwood and Jamaica Ctr.\n[E] trains rerouted via [F] line between Kew Gardens-Union Tpke and Jamaica-179 St.",
-        "description": "What's Happening? \nFDNY is responding to a report of smoke at Jamaica-Van Wyck.\n\nService Changes:\nJamaica Center-Parsons/Archer-bound [E] trains are rerouted via the [F] line from Kew Gardens-Union Tpke to Jamaica-179 St. \nThe last stop on some Jamaica Center-Parsons/Archer-bound [E] trains will be Forest Hills-71 Av\n.\nExpect delays on [F] trains in both directions while they share the tracks with rerouted trains.\n\nListen to announcements for how your train will operate. \nTravel Alternatives:\n \nFor service from Kew Gardens-Union Tpke to Sutphin Blvd/Archer Av-JFK Airport, consider taking a Q60 bus. \nFor service from Kew Gardens-Union Tpke to Jamaica Center-Parsons/Archer, consider taking a Q60 or Q44-SBS bus.\nAt Jamaica Center-Parsons/Archer and Sutphin Blvd/Archer Av-JFK Airport, consider using the [J] train.",
+        "description": "What's Happening? \nFDNY is responding to a report of a track fire near Jamaica-Van Wyck.\n\nService Changes:\nJamaica Center-Parsons/Archer-bound [E] trains are rerouted via the [F] line from Kew Gardens-Union Tpke to Jamaica-179 St. \nThe last stop on some Jamaica-bound [E] trains will be Forest Hills-71 Av\n.\nListen to announcements for how your train will operate. \nTravel Alternatives: \nFor service to/from JFK Airport, consider using [A] trains (at Howard Beach-JFK Airport) or [J] trains (at Sutphin Blvd/Archer Av-JFK Airport).\n\nFor service between Kew Gardens and Sutphin Blvd/Archer Av-JFK Airport, consider taking a Q60 bus. \nFor service from Kew Gardens and  Jamaica Center-Parsons/Archer, consider taking a Q60 or Q44-SBS bus.\nAt Jamaica Center-Parsons/Archer and Sutphin Blvd/Archer Av-JFK Airport, consider using the [J] train.",
         "periods": [
           {
             "start": 1792444951,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792444951,
-        "updatedAt": 1792446653
+        "updatedAt": 1792447477
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807998867
+            "end": 1807999612
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "116921822527cd970ab0ae8ac88d36bf2ff5eb32a55bff8aafde1ed866accc6d"
+    "sha256": "1790d7cf4208decb71e4576877e2ed4a99b34e5fe5a488829cf54d0a04066863"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-19T21:55:46.969125Z",
+    "fetchedAt": "2026-10-19T22:10:52.005918Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
