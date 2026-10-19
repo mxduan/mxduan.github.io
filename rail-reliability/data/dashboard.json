@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T21:29:52.729397Z",
+  "generatedAt": "2026-10-19T21:40:44.403146Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-19T21:22:32Z",
-    "fetchedAt": "2026-10-19T21:29:52.729397Z",
+    "sourceAt": "2026-10-19T21:38:58Z",
+    "fetchedAt": "2026-10-19T21:40:44.403146Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272579:26",
-        "type": "Delays",
+        "id": "lmm:alert:272579:32",
+        "type": "Reroute",
         "planned": false,
-        "priority": 26,
-        "header": "Jamaica Center-Parsons/Archer-bound [E] trains are delayed while we investigate a report of smoke at Jamaica-Van Wyck.",
-        "description": "",
+        "priority": 32,
+        "header": "Jamaica Center-Parsons/Archer-bound [E] trains are rerouted via the [F] line from Kew Gardens-Union Tpke to Jamaica-179 St. \nDowntown [E] trains are delayed.",
+        "description": "Expect delays on Jamaica-179 St-bound [F] trains while they share the tracks with rerouted trains.\nWhat's Happening? \nFDNY is responding to a report of smoke at Jamaica-Van Wyck\n.\nTravel Alternatives:\n \nFor service from Kew Gardens-Union Tpke to Sutphin Blvd/Archer Av-JFK Airport, consider taking a Q60 bus. \nFor service from Kew Gardens-Union Tpke to Jamaica Center-Parsons/Archer, consider taking a Q60 or Q44-SBS bus.",
         "periods": [
           {
             "start": 1792444951,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792444951,
-        "updatedAt": 1792444951
+        "updatedAt": 1792445583
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807996950
+            "end": 1807997938
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "72c93b1745faa4fe12bbb44c247d8f369de1c72441f985aaf3e8b273cde21b7c"
+    "sha256": "5941cd0a714e5e67ac047d06931fb244ceea2e469b354d642e5a617e04633fd7"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-19T21:29:52.729397Z",
+    "fetchedAt": "2026-10-19T21:40:44.403146Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
