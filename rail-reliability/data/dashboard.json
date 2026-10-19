@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T22:56:03.366645Z",
+  "generatedAt": "2026-10-19T23:11:05.350143Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-19T22:37:12Z",
-    "fetchedAt": "2026-10-19T22:56:03.366645Z",
+    "sourceAt": "2026-10-19T23:10:10Z",
+    "fetchedAt": "2026-10-19T23:11:05.350143Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272579:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E] trains are running with delays in both directions after FDNY extinguished a track fire near Jamaica-Van Wyck.",
-        "description": "[E] train service has resumed between Briarwood and Jamaica Center-Parsons/Archer.",
-        "periods": [
-          {
-            "start": 1792444951,
-            "end": null
-          }
-        ],
-        "createdAt": 1792444951,
-        "updatedAt": 1792447986
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808001432
+            "end": 1808003409
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5a9a4a087ee091e78a077c172d3760139b8099e5110fecab8604d818a016024a"
+    "sha256": "6493aef5d1d099d1d17f1617721de738780419eb95923385625483293ffc9248"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-19T22:56:03.366645Z",
+    "fetchedAt": "2026-10-19T23:11:05.350143Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
