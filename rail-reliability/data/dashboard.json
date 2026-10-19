@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T03:53:20.629085Z",
+  "generatedAt": "2026-10-19T04:08:20.002429Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-19T03:50:26Z",
-    "fetchedAt": "2026-10-19T03:53:20.629085Z",
+    "sourceAt": "2026-10-19T04:07:49Z",
+    "fetchedAt": "2026-10-19T04:08:20.002429Z",
     "state": "ok",
     "alerts": [
       {
@@ -58,7 +58,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807933825
+            "end": 1807934869
           }
         ],
         "createdAt": 1784303199,
@@ -66,18 +66,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8b7e3e2aef1c485505a687a95cb3e839a9c788d40f099360e36679a71046e02c"
+    "sha256": "2db05f6e3331dac156d7d056653a216b2695e97b9b23beb9710cf4a6b22207a3"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-19T03:53:20.629085Z",
+    "fetchedAt": "2026-10-19T04:08:20.002429Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays between Seven Sisters and Walthamstow Central due to train cancellations. GOOD SERVICE on the rest of the line.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-10-19T04:00:29Z",
+            "toDate": "2026-10-20T00:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
