@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T20:25:25.920074Z",
+  "generatedAt": "2026-10-19T20:40:27.302153Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-19T20:22:08Z",
-    "fetchedAt": "2026-10-19T20:25:25.920074Z",
+    "sourceAt": "2026-10-19T20:40:12Z",
+    "fetchedAt": "2026-10-19T20:40:27.302153Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272570:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[M][R] trains are running with delays in both directions. \nJamaica-bound [E][F] trains are running with delays.",
-        "description": "Forest Hills-71 Av-bound [M][R] trains have resumed making scheduled stops in Queens. \nWhat Happened?\n \nWe removed a train with a mechanical problem from service at 65 St.",
-        "periods": [
-          {
-            "start": 1792438564,
-            "end": null
-          }
-        ],
-        "createdAt": 1792438564,
-        "updatedAt": 1792439968
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1807993325
+            "end": 1807994411
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1b87337809a622fbf703e3f74f7652d7fc21d9a0ad7f15a4ff50854e14aa17b7"
+    "sha256": "82484644443b378b8efdcb434639a2dec1df279e3a6561a9811caf528c6889a6"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-19T20:25:25.920074Z",
+    "fetchedAt": "2026-10-19T20:40:27.302153Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
