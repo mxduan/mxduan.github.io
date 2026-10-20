@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T17:28:45.758231Z",
+  "generatedAt": "2026-10-20T17:43:51.690104Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-20T17:27:14Z",
-    "fetchedAt": "2026-10-20T17:28:45.758231Z",
+    "sourceAt": "2026-10-20T17:38:57Z",
+    "fetchedAt": "2026-10-20T17:43:51.690104Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272672:25",
-        "type": "Express to Local",
-        "planned": false,
-        "priority": 25,
-        "header": "Jamaica Center-bound [E] and Jamaica-179 St-bound [F] are running local from Forest Hills-71 Av to Kew Gardens while we get medical help for someone at Kew Gardens.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792512962,
-            "end": null
-          }
-        ],
-        "createdAt": 1792512962,
-        "updatedAt": 1792512962
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808069234
+            "end": 1808069937
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "fec508c4cdcd55bcf725f263ad0eda20af28bb2c645a8b59afb6ef241c02556b"
+    "sha256": "204f1e348db3a779e6eaead8f921bcf4c090fbdafec9cc97b9281242a1043443"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T17:28:45.758231Z",
+    "fetchedAt": "2026-10-20T17:43:51.690104Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
