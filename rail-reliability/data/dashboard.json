@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T00:56:30.796916Z",
+  "generatedAt": "2026-10-20T01:11:37.407926Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-20T00:40:03Z",
-    "fetchedAt": "2026-10-20T00:56:30.796916Z",
+    "sourceAt": "2026-10-20T01:11:31Z",
+    "fetchedAt": "2026-10-20T01:11:37.407926Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272600:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica-bound [E][F] trains are running with delays after we moved a slow-moving train to our storage facility in Queens.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792458690,
+            "end": 1792459500
+          }
+        ],
+        "createdAt": 1792458690,
+        "updatedAt": 1792458690
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808008801
+            "end": 1808010691
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "701563f9d0da369eece9b0375d93b2bab7408955da1e0d5532dcfa6489ffded6"
+    "sha256": "2fb01fcc27655f643ec27a66c5e5c1fded220a5a3341c226db04e1fb81f7d169"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T00:56:30.796916Z",
+    "fetchedAt": "2026-10-20T01:11:37.407926Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -57,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-20T00:37:22Z",
-            "toDate": "2026-10-20T03:55:32Z",
+            "toDate": "2026-10-20T04:10:32Z",
             "isNow": true
           }
         ]
