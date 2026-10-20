@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T22:37:52.737706Z",
+  "generatedAt": "2026-10-20T22:44:10.448417Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-20T22:23:38Z",
-    "fetchedAt": "2026-10-20T22:37:52.737706Z",
+    "sourceAt": "2026-10-20T22:43:49Z",
+    "fetchedAt": "2026-10-20T22:44:10.448417Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272723:34",
-        "type": "Part Suspended",
+        "id": "lmm:alert:272723:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 34,
-        "header": "No [E] between Briarwood and Jamaica Center-Parsons/Archer.\nJamaica Center-Parsons/Archer-bound [E] trains are rerouted via [F] between Briarwood and Jamaica-179 St.",
-        "description": "Additional Service Changes:\nThe last stop on some Jamaica Center-Parsons/Archer-bound [E] trains will be Forest Hills-71 Av.\n\nListen to announcements to hear how your train will run. \n\nWhat's Happening?\nWe're requesting EMS for someone in need at Jamaica Center-Parsons/Archer.\n\nTravel Alternatives:\nConsider nearby Q44-SBS and Q20 buses.",
+        "priority": 26,
+        "header": "[E][F] trains are running with delays in both directions after we requested EMS assistance for someone in need at Jamaica Center-Parsons/Archer.",
+        "description": "[E] trains have resumed making scheduled stops between Briarwood and Jamaica Center-Parsons/Archer.",
         "periods": [
           {
             "start": 1792533361,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792533361,
-        "updatedAt": 1792534093
+        "updatedAt": 1792536228
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808087016
+            "end": 1808088228
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "70cccbba3267d164c90be9766db74cec64b962491a24c3e159cac5e41b36fab0"
+    "sha256": "217a75d51b7b402ae7d91d96ac89275fb3e27656d52c49e4c2f66f6c017f1cea"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T22:37:52.737706Z",
+    "fetchedAt": "2026-10-20T22:44:10.448417Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
