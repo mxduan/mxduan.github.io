@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T02:11:45.544819Z",
+  "generatedAt": "2026-10-20T02:26:45.709008Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-20T02:07:16Z",
-    "fetchedAt": "2026-10-20T02:11:45.544819Z",
+    "sourceAt": "2026-10-20T02:26:31Z",
+    "fetchedAt": "2026-10-20T02:26:45.709008Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272611:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E] trains are running with delays in both directions while we conduct track maintenance along the line in Queens and Manhattan.",
+        "description": "Planned Work Reminder:\n \n[E] is rerouted in Queens and Manhattan. \n[E] runs via the Roosevelt Island [F] in both directions between Jackson Heights-Roosevelt Av and Lexington Av/63 St, then via the [Q] to/from 34 St-Herald Sq\n.\nNo [E] service in both directions at Queens Plaza, Court Sq-23 St, Lexington Av/53 St, 5 Av/53 St, 7 Av, 50 St, 42 St-Port Authority Bus Terminal, 34 St-Penn Station, 23 St, 14 St, Spring St, Canal St and World Trade Center, take the [F] instead.",
+        "periods": [
+          {
+            "start": 1792463190,
+            "end": null
+          }
+        ],
+        "createdAt": 1792463190,
+        "updatedAt": 1792463190
+      },
       {
         "id": "lmm:planned_work:34850",
         "type": "Planned - Reroute",
@@ -78,7 +94,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808014036
+            "end": 1808015188
           }
         ],
         "createdAt": 1784303199,
@@ -86,11 +102,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7d4eca6fcf11b01295edf53dd7672adf8338f46d7c42079f789c05a231fa55ca"
+    "sha256": "7d7fe835f7ce077d6edfa7ac1f18970dca666c2fb61e51efde62edb38b3352e0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T02:11:45.544819Z",
+    "fetchedAt": "2026-10-20T02:26:45.709008Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -101,7 +117,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-20T00:37:22Z",
-            "toDate": "2026-10-20T05:10:33Z",
+            "toDate": "2026-10-20T05:25:34Z",
             "isNow": true
           }
         ]
