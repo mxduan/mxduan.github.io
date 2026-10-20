@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T18:29:01.799124Z",
+  "generatedAt": "2026-10-20T18:44:07.527525Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-20T18:26:57Z",
-    "fetchedAt": "2026-10-20T18:29:01.799124Z",
+    "sourceAt": "2026-10-20T18:42:04Z",
+    "fetchedAt": "2026-10-20T18:44:07.527525Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272683:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [C][E] trains are running with delays after EMS responded to someone in need on a train at W 4 St-Wash Sq.",
-        "description": "Downtown [C][E] trains have resumed making scheduled stops from 42 St-Port Authority Bus Terminal to Canal St.",
-        "periods": [
-          {
-            "start": 1792518660,
-            "end": 1792521000
-          }
-        ],
-        "createdAt": 1792518660,
-        "updatedAt": 1792519426
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808072816
+            "end": 1808073723
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1a073cace9de7bfccbc3d7b9fbe85a056c7cb14a42c8a0b7f3e1e65559d14d9f"
+    "sha256": "4a8b6dccd52160ae39d47feefdff00263561122bce26c1ac9f570076187b249b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T18:29:01.799124Z",
+    "fetchedAt": "2026-10-20T18:44:07.527525Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -2813,7 +2797,7 @@
       }
     ],
     "state": "ok",
-    "fetchedAt": "2026-10-19T18:40:01.898602Z",
+    "fetchedAt": "2026-10-20T18:44:07.527525Z",
     "source": "https://data.ny.gov/resource/r7qk-6tcy.json"
   }
 }
