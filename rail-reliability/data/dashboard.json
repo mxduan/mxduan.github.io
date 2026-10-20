@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T23:44:15.889409Z",
+  "generatedAt": "2026-10-20T23:59:21.017354Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-10-20T23:40:41Z",
-    "fetchedAt": "2026-10-20T23:44:15.889409Z",
+    "fetchedAt": "2026-10-20T23:59:21.017354Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272723:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [E] trains are running with delays after we requested EMS assistance for someone in need at Jamaica Center-Parsons/Archer.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792533361,
-            "end": 1792540200
-          }
-        ],
-        "createdAt": 1792533361,
-        "updatedAt": 1792538515
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T23:44:15.889409Z",
+    "fetchedAt": "2026-10-20T23:59:21.017354Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
