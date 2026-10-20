@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T17:58:54.478564Z",
+  "generatedAt": "2026-10-20T18:13:57.934166Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-20T17:53:57Z",
-    "fetchedAt": "2026-10-20T17:58:54.478564Z",
+    "sourceAt": "2026-10-20T18:13:56Z",
+    "fetchedAt": "2026-10-20T18:13:57.934166Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272683:29",
-        "type": "Stops Skipped",
+        "id": "lmm:alert:272683:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 29,
-        "header": "Downtown [C] express 59 St-Columbus Circle to Canal St\nDowntown [E] express 42 St-Port Authority Bus Terminal to Canal St.",
-        "description": "What's happening?\nEMS is responding to someone in need on a train at W 4 St-Wash Sq.\n If your stop is skipped take an uptown [C][E] train. \nExpect delays in downtown [A] train service while trains share the express track.",
+        "priority": 26,
+        "header": "Downtown [C][E] trains are running with delays after EMS responded to someone in need on a train at W 4 St-Wash Sq.",
+        "description": "Downtown [C][E] trains have resumed making scheduled stops from 42 St-Port Authority Bus Terminal to Canal St.",
         "periods": [
           {
             "start": 1792518660,
-            "end": null
+            "end": 1792521000
           }
         ],
         "createdAt": 1792518660,
-        "updatedAt": 1792518660
+        "updatedAt": 1792519426
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808070830
+            "end": 1808072035
           }
         ],
         "createdAt": 1784303199,
@@ -58,25 +58,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "29eff89ffd7db4e7540e19dcd9ab5645866824edc0abffbcd693b39db21f9ae4"
+    "sha256": "b1d0e0641dafda95714b55fd25a5404e5beb22144d320c9bb2c226b3776e5d7b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T17:58:54.478564Z",
+    "fetchedAt": "2026-10-20T18:13:57.934166Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-20T13:45:24Z",
-            "toDate": "2026-10-21T00:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
