@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T23:14:10.189816Z",
+  "generatedAt": "2026-10-20T23:29:11.774221Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-20T22:59:05Z",
-    "fetchedAt": "2026-10-20T23:14:10.189816Z",
+    "sourceAt": "2026-10-20T23:25:44Z",
+    "fetchedAt": "2026-10-20T23:29:11.774221Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after we requested EMS assistance for someone in need at Jamaica Center-Parsons/Archer.",
-        "description": "[E] trains have resumed making scheduled stops between Briarwood and Jamaica Center-Parsons/Archer.",
+        "header": "Uptown [E] trains are running with delays after we requested EMS assistance for someone in need at Jamaica Center-Parsons/Archer.",
+        "description": "",
         "periods": [
           {
             "start": 1792533361,
-            "end": null
+            "end": 1792540200
           }
         ],
         "createdAt": 1792533361,
-        "updatedAt": 1792536228
+        "updatedAt": 1792538515
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808089145
+            "end": 1808090742
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6dc6ab0706fcbdee85e523e3aa8e2ee565c535a3067e50ef7e0f5927009eb947"
+    "sha256": "99373078456cdd09af68314ccd85c222b7881e59c8c7508fd31d7f017381eeca"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T23:14:10.189816Z",
+    "fetchedAt": "2026-10-20T23:29:11.774221Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
