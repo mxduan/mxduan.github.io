@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T21:44:03.554305Z",
+  "generatedAt": "2026-10-20T21:59:02.618630Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-20T21:36:15Z",
-    "fetchedAt": "2026-10-20T21:44:03.554305Z",
+    "sourceAt": "2026-10-20T21:57:03Z",
+    "fetchedAt": "2026-10-20T21:59:02.618630Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272723:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E] trains are delayed entering and leaving Jamaica Center-Parsons/Archer while we request EMS for someone in need at that station.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792533361,
+            "end": null
+          }
+        ],
+        "createdAt": 1792533361,
+        "updatedAt": 1792533422
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808084174
+            "end": 1808085422
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "188c1abf1f5c9e93aaa6c590248670a6323bacb39535ed5ebf0c2794449a8b3d"
+    "sha256": "78a4e8911100ae8ad5fb327223a01305f4d447bb76fb67d6bedb270e2a66fbbd"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T21:44:03.554305Z",
+    "fetchedAt": "2026-10-20T21:59:02.618630Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
