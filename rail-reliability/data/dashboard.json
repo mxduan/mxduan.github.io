@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T00:11:24.140542Z",
+  "generatedAt": "2026-10-20T00:26:32.348325Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-19T23:58:29Z",
-    "fetchedAt": "2026-10-20T00:11:24.140542Z",
+    "sourceAt": "2026-10-20T00:26:19Z",
+    "fetchedAt": "2026-10-20T00:26:32.348325Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272591:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays after we addressed a door problem on a train at Forest Hills-71 Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792453390,
-            "end": 1792455300
-          }
-        ],
-        "createdAt": 1792453390,
-        "updatedAt": 1792453913
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808006308
+            "end": 1808007979
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5935630651fc88ab2d4818c666129c08a9399c935c30f082adf21d2aebe0a6e0"
+    "sha256": "7952c1c1a2cf3b045d500ae32f421a058c0ed43166ed0984fa21b3539ca848e6"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T00:11:24.140542Z",
+    "fetchedAt": "2026-10-20T00:26:32.348325Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
