@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T01:26:42.442690Z",
+  "generatedAt": "2026-10-20T01:41:44.465490Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,54 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-20T01:26:25Z",
-    "fetchedAt": "2026-10-20T01:26:42.442690Z",
+    "sourceAt": "2026-10-20T01:41:31Z",
+    "fetchedAt": "2026-10-20T01:41:44.465490Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:34850",
+        "type": "Planned - Reroute",
+        "planned": true,
+        "priority": 18,
+        "header": "[E]  is rerouted in Queens and Manhattan",
+        "description": "No [E] service in both directions at Queens Plaza, Court Sq-23 St, Lexington Av/53 St, 5 Av/53 St, 7 Av, 50 St, 42 St-Port Authority, 34 St-Penn Station, 23 St, 14 St, Spring St, Canal St and World Trade Center, take the [F] instead.\n\n[E] runs via the Roosevelt Island [F] in both directions between Jackson Heights-Roosevelt Av and Lexington Av/63 St, then via the [Q] to/from 34 St-Herald Sq, the last stop.\n\nSee a map of this service change.\n\nKey transfer stations:\n42 Port Authority/Times Sq/Bryant Park\n[1][2][3][A][E][D][F][N][Q]\n34 St-Herald Sq [accessibility icon] | [E][N][Q]\n14 St (6 Av) [L][1][2] (via passageway)\nW 4 St-Wash Sq [accessibility icon] | [A][D][F]\nIn Queens, transfer between [E] and [7][F][R] at Jackson Hts-Roosevelt Av [accessibility icon].\n\nNote: [F] is rerouted via Court Sq [E] between Roosevelt Av, Queens and Canal St, Manhattan, then via the [A] to to/from Jay St-MetroTech, Brooklyn during this time.\n\nWhat's happening?\nFastrack maintenance\n\n[accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully accessible. Please contact 511 to plan your trip.",
+        "periods": [
+          {
+            "start": 1792459800,
+            "end": 1792486800
+          },
+          {
+            "start": 1792546200,
+            "end": 1792573200
+          },
+          {
+            "start": 1792632600,
+            "end": 1792659600
+          },
+          {
+            "start": 1792719000,
+            "end": 1792746000
+          },
+          {
+            "start": 1793064600,
+            "end": 1793091600
+          },
+          {
+            "start": 1793151000,
+            "end": 1793178000
+          },
+          {
+            "start": 1793237400,
+            "end": 1793264400
+          },
+          {
+            "start": 1793323800,
+            "end": 1793350800
+          }
+        ],
+        "createdAt": 1789741188,
+        "updatedAt": 1792444658
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +78,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808011585
+            "end": 1808012488
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +86,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f0ca956cfeacf212b938d9a9261c01d38e4dc63ef72c5909be535c46d26867ff"
+    "sha256": "8efced01d90c3808a05404ebb7dc2cf9b45b9c346c0a0d566b25fd9fe7ddb085"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-20T01:26:42.442690Z",
+    "fetchedAt": "2026-10-20T01:41:44.465490Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -57,7 +101,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-20T00:37:22Z",
-            "toDate": "2026-10-20T04:25:32Z",
+            "toDate": "2026-10-20T04:40:33Z",
             "isNow": true
           }
         ]
