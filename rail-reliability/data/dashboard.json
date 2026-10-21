@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T15:45:30.605061Z",
+  "generatedAt": "2026-10-21T16:06:04.699310Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T15:45:22Z",
-    "fetchedAt": "2026-10-21T15:45:30.605061Z",
+    "sourceAt": "2026-10-21T15:58:42Z",
+    "fetchedAt": "2026-10-21T16:06:04.699310Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272829:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [A][B][C][D][E] trains are running with delays after we conducted track maintenance in Manhattan.",
-        "description": "Uptown [A][B] trains have resumed making scheduled stops in Manhattan.",
-        "periods": [
-          {
-            "start": 1792595538,
-            "end": 1792598220
-          }
-        ],
-        "createdAt": 1792595538,
-        "updatedAt": 1792596747
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808149521
+            "end": 1808150321
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8d77c4bf5cbdf1d4680364ba56d2c4c2f45d20758b68a01a7b1af76b0db5843c"
+    "sha256": "9d4bef6b8267f558adb82a61e5604faefd05bb7ed2e9b17d44c22f630c3dacb0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T15:45:30.605061Z",
+    "fetchedAt": "2026-10-21T16:06:04.699310Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
