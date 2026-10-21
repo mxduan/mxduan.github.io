@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T07:59:46.558616Z",
+  "generatedAt": "2026-10-21T08:14:42.914228Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T07:56:18Z",
-    "fetchedAt": "2026-10-21T07:59:46.558616Z",
+    "sourceAt": "2026-10-21T08:04:39Z",
+    "fetchedAt": "2026-10-21T08:14:42.914228Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272776:34",
-        "type": "Part Suspended",
-        "planned": false,
-        "priority": 34,
-        "header": "No [E] train service between 57 St/7 Av and 34 St-Herald Sq in both directions while we perform a rail replacement at 34 St-Herald Sq.",
-        "description": "34 St-Herald Sq-bound [E] trains will end at 57 St/7 Av, where they will turn for Queens-bound service.\nPlanned Work Reminder:\n[E]  is rerouted in Queens and Manhattan\nOct 19 - 23 and Oct 26 - 30, Mon to Fri, 9:30 PM to 5:00 AM\nNo [E] service in both directions at Queens Plaza, Court Sq-23 St, Lexington Av/53 St, 5 Av/53 St, 7 Av, 50 St, 42 St-Port Authority, 34 St-Penn Station, 23 St, 14 St, Spring St, Canal St and World Trade Center, take the F instead.\n\n[E] runs via the Roosevelt Island [F] in both directions between Jackson Heights-Roosevelt Av and Lexington Av/63 St, then via the [Q] to/from 34 St-Herald Sq, the last stop.",
-        "periods": [
-          {
-            "start": 1792568462,
-            "end": null
-          }
-        ],
-        "createdAt": 1792568462,
-        "updatedAt": 1792568462
-      },
       {
         "id": "lmm:alert:272773:26",
         "type": "Delays",
@@ -55,6 +39,22 @@
         ],
         "createdAt": 1792566190,
         "updatedAt": 1792566190
+      },
+      {
+        "id": "lmm:alert:272776:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E] trains are running with delays in both directions while we perform a rail replacement at 34 St-Herald Sq.",
+        "description": "[E] train service has resumed between 57 St/7 Av and 34 St-Herald Sq in both directions.\n[E]  is rerouted in Queens and Manhattan\nOct 19 - 23 and Oct 26 - 30, Mon to Fri, 9:30 PM to 5:00 AM\nNo [E] service in both directions at Queens Plaza, Court Sq-23 St, Lexington Av/53 St, 5 Av/53 St, 7 Av, 50 St, 42 St-Port Authority, 34 St-Penn Station, 23 St, 14 St, Spring St, Canal St and World Trade Center, take the F instead.\n\n[E] runs via the Roosevelt Island [F] in both directions between Jackson Heights-Roosevelt Av and Lexington Av/63 St, then via the [Q] to/from 34 St-Herald Sq, the last stop.",
+        "periods": [
+          {
+            "start": 1792568462,
+            "end": 1792571400
+          }
+        ],
+        "createdAt": 1792568462,
+        "updatedAt": 1792569727
       },
       {
         "id": "lmm:planned_work:34850",
@@ -110,7 +110,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808121377
+            "end": 1808121879
           }
         ],
         "createdAt": 1784303199,
@@ -118,11 +118,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "48cdb302bce7e157c87de0aaf0635a5cac65f455c8e6af6770b87f582d82d45a"
+    "sha256": "70edde04b8f06cb0bd569185a4b226618ac00499c8849c1cb3b6f4975f83ea0f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T07:59:46.558616Z",
+    "fetchedAt": "2026-10-21T08:14:42.914228Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
