@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T21:55:27.178957Z",
+  "generatedAt": "2026-10-21T22:03:36.144061Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T21:53:37Z",
-    "fetchedAt": "2026-10-21T21:55:27.178957Z",
+    "sourceAt": "2026-10-21T21:59:29Z",
+    "fetchedAt": "2026-10-21T22:03:36.144061Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272883:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [A][C][E] trains are running with delays. \nDowntown [C] trains are running via the [F] line from W 4 St-Wash Sq to Jay St-MetroTech.",
-        "description": "What's Happpening?\n \nWe're conducting urgent track maintenance near Fulton St.",
-        "periods": [
-          {
-            "start": 1792617961,
-            "end": null
-          }
-        ],
-        "createdAt": 1792617961,
-        "updatedAt": 1792619616
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808171617
+            "end": 1808171967
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6d28f9cd0f759c8960a636d6bb0f94edbba5b94fbe0f4dcf0a032d477b664def"
+    "sha256": "ed036a5885df9cca80e5a6d3bffcc807e886c5faf84f03540e39fa38ff141d63"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T21:55:27.178957Z",
+    "fetchedAt": "2026-10-21T22:03:36.144061Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
