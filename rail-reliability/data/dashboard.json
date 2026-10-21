@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T21:45:53.974838Z",
+  "generatedAt": "2026-10-21T21:55:27.178957Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T21:42:04Z",
-    "fetchedAt": "2026-10-21T21:45:53.974838Z",
+    "sourceAt": "2026-10-21T21:53:37Z",
+    "fetchedAt": "2026-10-21T21:55:27.178957Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [A][C][E] trains are running with delays. \nSome downtown [C] trains are running via the [F] line from W 4 St-Wash Sq to Jay St-MetroTech.",
-        "description": "Listen to announcements for how your train will operate. \nWhat's Happpening?\n \nWe're conducting urgent track maintenance near Fulton St.",
+        "header": "Downtown [A][C][E] trains are running with delays. \nDowntown [C] trains are running via the [F] line from W 4 St-Wash Sq to Jay St-MetroTech.",
+        "description": "What's Happpening?\n \nWe're conducting urgent track maintenance near Fulton St.",
         "periods": [
           {
             "start": 1792617961,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792617961,
-        "updatedAt": 1792618568
+        "updatedAt": 1792619616
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808170923
+            "end": 1808171617
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b49fc0a75a159ea835fc09f6b35618ca5d3d0bb872b36fbc7dc1fd6a7dd2b391"
+    "sha256": "6d28f9cd0f759c8960a636d6bb0f94edbba5b94fbe0f4dcf0a032d477b664def"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T21:45:53.974838Z",
+    "fetchedAt": "2026-10-21T21:55:27.178957Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
