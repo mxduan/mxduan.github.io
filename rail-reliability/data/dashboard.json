@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T04:59:41.519512Z",
+  "generatedAt": "2026-10-21T05:14:41.434606Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T04:49:03Z",
-    "fetchedAt": "2026-10-21T04:59:41.519512Z",
+    "sourceAt": "2026-10-21T05:05:04Z",
+    "fetchedAt": "2026-10-21T05:14:41.434606Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272764:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we investigated a report of an unauthorized person on the tracks at Lexington Av/63 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792556253,
-            "end": 1792559100
-          }
-        ],
-        "createdAt": 1792556253,
-        "updatedAt": 1792557524
-      },
       {
         "id": "lmm:planned_work:34850",
         "type": "Planned - Reroute",
@@ -94,7 +78,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808110142
+            "end": 1808111103
           }
         ],
         "createdAt": 1784303199,
@@ -102,25 +86,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "db8358eea071b04a003b1f9dedb029101be7965dc4e5bb3b74fea5c2e4db0863"
+    "sha256": "edd884153aabb05e0b3a9ffc1dd87ae6c52ccfb05c0a6f3226a2914236b9e240"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T04:59:41.519512Z",
+    "fetchedAt": "2026-10-21T05:14:41.434606Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays between Seven Sisters and Walthamstow Central due to train cancellations. GOOD SERVICE on the rest of the line.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-21T04:15:30Z",
-            "toDate": "2026-10-22T00:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
