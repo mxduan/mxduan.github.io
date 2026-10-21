@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T12:30:10.010908Z",
+  "generatedAt": "2026-10-21T12:45:09.290337Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T12:18:46Z",
-    "fetchedAt": "2026-10-21T12:30:10.010908Z",
+    "sourceAt": "2026-10-21T12:44:36Z",
+    "fetchedAt": "2026-10-21T12:45:09.290337Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272807:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E] trains are delayed in both directions while we remove a train with a mechanical problem from service at Jamaica Center-Parsons/Archer.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792584714,
-            "end": null
-          }
-        ],
-        "createdAt": 1792584714,
-        "updatedAt": 1792584714
-      },
       {
         "id": "lmm:alert:272809:26",
         "type": "Delays",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808137125
+            "end": 1808138673
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "aef11421f4cebfb94f6a21adfe0944cd650daa648fee01556fc02bc678133bbf"
+    "sha256": "9436a2b1e01b65a77f6caf5c5c1c408ff3ce5b02ec6a6db64af18e198c94cbc9"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T12:30:10.010908Z",
+    "fetchedAt": "2026-10-21T12:45:09.290337Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
