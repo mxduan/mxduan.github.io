@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T22:33:42.114369Z",
+  "generatedAt": "2026-10-21T22:48:40.695287Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T22:30:06Z",
-    "fetchedAt": "2026-10-21T22:33:42.114369Z",
+    "sourceAt": "2026-10-21T22:48:05Z",
+    "fetchedAt": "2026-10-21T22:48:40.695287Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][J] trains are running with delays in both directions after NYPD conducted an investigation on a train at Jamaica Center-Parsons/Archer.",
+        "header": "Downtown [E]  trains are running with delays after NYPD conducted an investigation on a train at Jamaica Center-Parsons/Archer.",
         "description": "",
         "periods": [
           {
             "start": 1792620343,
-            "end": null
+            "end": 1792623600
           }
         ],
         "createdAt": 1792620343,
-        "updatedAt": 1792620572
+        "updatedAt": 1792622138
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808173806
+            "end": 1808174883
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "33954ed27195afe27e5f9becffc4e99571d1d8835ae609a994745bf04db4f2f1"
+    "sha256": "268ebc33d2fc07ae6dfd3e22b2f57f5a028ad080858a12f06574431034787bcb"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T22:33:42.114369Z",
+    "fetchedAt": "2026-10-21T22:48:40.695287Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
