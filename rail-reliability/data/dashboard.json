@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T19:30:53.049692Z",
+  "generatedAt": "2026-10-21T19:45:53.870918Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T19:25:25Z",
-    "fetchedAt": "2026-10-21T19:30:53.049692Z",
+    "sourceAt": "2026-10-21T19:41:37Z",
+    "fetchedAt": "2026-10-21T19:45:53.870918Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272859:32",
+        "type": "Reroute",
+        "planned": false,
+        "priority": 32,
+        "header": "Uptown [E][F] trains are rerouted via Roosevelt Island from Manhattan to Queens.",
+        "description": "Uptown [F] trains are rerouted via Roosevelt Island from 47-50 Sts-Rockefeller Ctr to Jackson Heights-Roosevelt Av\n.\nUptown [E] trains are rerouted via [F] line from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr, then via Roosevelt Island to Jackson Heights-Roosevelt Av\n.\nIf your stop is skipped, take a downtown [E][F] train. \nWhat's Happening?\nWe are requesting medical assistance for someone in need on a train at Court Sq-23 St.",
+        "periods": [
+          {
+            "start": 1792611143,
+            "end": null
+          }
+        ],
+        "createdAt": 1792611143,
+        "updatedAt": 1792611697
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808162724
+            "end": 1808163697
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "02b2ae310476f45e643bc31babdced12029933834744bbe6d2757d5245d6f0fa"
+    "sha256": "9941347989ad2cb5f81de2572e0b35851ce6377de56086b7142582108c35dcaa"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T19:30:53.049692Z",
+    "fetchedAt": "2026-10-21T19:45:53.870918Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
