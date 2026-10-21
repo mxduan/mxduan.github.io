@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T03:29:30.253198Z",
+  "generatedAt": "2026-10-21T03:44:30.286275Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T03:29:00Z",
-    "fetchedAt": "2026-10-21T03:29:30.253198Z",
+    "sourceAt": "2026-10-21T03:35:33Z",
+    "fetchedAt": "2026-10-21T03:44:30.286275Z",
     "state": "ok",
     "alerts": [
       {
@@ -78,7 +78,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808105340
+            "end": 1808105732
           }
         ],
         "createdAt": 1784303199,
@@ -86,11 +86,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b096ce57c31b7643d64bbb4edad80f1f0a6590f7aaafd2f221d426c1d790c43e"
+    "sha256": "58df4a1af063c69fb8593890bf44b75c310c2e7a92686251003d9a6073cb2626"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T03:29:30.253198Z",
+    "fetchedAt": "2026-10-21T03:44:30.286275Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -104,17 +104,10 @@
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",
-    "fetchedAt": "2026-10-20T03:41:47.573343Z",
+    "fetchedAt": "2026-10-21T03:44:30.286275Z",
     "source": "https://data.ny.gov/resource/7kct-peq7.json",
     "periods": {
       "day": [
-        {
-          "start": "2026-06-22",
-          "end": "2026-06-23",
-          "coverage": "archive-window",
-          "count": 3,
-          "days": 1
-        },
         {
           "start": "2026-06-23",
           "end": "2026-06-24",
@@ -944,6 +937,13 @@
         {
           "start": "2026-10-19",
           "end": "2026-10-20",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-20",
+          "end": "2026-10-21",
           "coverage": "unavailable",
           "count": null,
           "days": null
