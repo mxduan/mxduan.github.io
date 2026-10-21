@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [master]
-    paths: ['rail-reliability/**', '!rail-reliability/data/rider.json', '!rail-reliability/data/rider/**', 'ops/refresh.py', '.github/workflows/public-refresh.yml', 'index.html']
+    paths: ['rail-reliability/**', '!rail-reliability/data/rider.json', '!rail-reliability/data/rider/**', 'ops/refresh.py', 'ops/check-public*.mjs', '.github/workflows/public-refresh.yml', 'index.html']
   schedule:
     - cron: '7,22,37,52 * * * *'
 permissions:
@@ -80,6 +80,36 @@ jobs:
       - name: Deploy public viewer
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check published service availability
+        run: node ops/check-public.mjs
+      - name: Install browser check
+        if: always() && steps.deployment.outcome == 'success'
+        run: npm install --no-save --package-lock=false playwright@1.56.0
+      - uses: actions/cache/restore@v4
+        id: browser-cache
+        if: always() && steps.deployment.outcome == 'success'
+        with:
+          path: ~/.cache/ms-playwright
+          key: public-health-chromium-${{ runner.os }}-1.56.0
+      - name: Check rendered mobile and desktop arrivals
+        if: always() && steps.deployment.outcome == 'success'
+        run: |
+          npx playwright install --with-deps chromium
+          node ops/check-public-browser.mjs
+      - uses: actions/cache/save@v4
+        if: always() && steps.deployment.outcome == 'success' && steps.browser-cache.outputs.cache-hit != 'true'
+        with:
+          path: ~/.cache/ms-playwright
+          key: public-health-chromium-${{ runner.os }}-1.56.0
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.deployment.outcome == 'success'
+        with:
+          name: public-service-browser-evidence
+          path: service-health-*.png
+          retention-days: 7
       - name: Surface source failures
         if: steps.fetch.outcome == 'failure'
         run: exit 1
