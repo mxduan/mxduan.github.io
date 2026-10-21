@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T07:29:45.091212Z",
+  "generatedAt": "2026-10-21T07:44:41.703310Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T07:22:09Z",
-    "fetchedAt": "2026-10-21T07:29:45.091212Z",
+    "sourceAt": "2026-10-21T07:41:03Z",
+    "fetchedAt": "2026-10-21T07:44:41.703310Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272776:34",
+        "type": "Part Suspended",
+        "planned": false,
+        "priority": 34,
+        "header": "No [E] train service between 57 St/7 Av and 34 St-Herald Sq in both directions while we perform a rail replacement at 34 St-Herald Sq.",
+        "description": "34 St-Herald Sq-bound [E] trains will end at 57 St/7 Av, where they will turn for Queens-bound service.\nPlanned Work Reminder:\n[E]  is rerouted in Queens and Manhattan\nOct 19 - 23 and Oct 26 - 30, Mon to Fri, 9:30 PM to 5:00 AM\nNo [E] service in both directions at Queens Plaza, Court Sq-23 St, Lexington Av/53 St, 5 Av/53 St, 7 Av, 50 St, 42 St-Port Authority, 34 St-Penn Station, 23 St, 14 St, Spring St, Canal St and World Trade Center, take the F instead.\n\n[E] runs via the Roosevelt Island [F] in both directions between Jackson Heights-Roosevelt Av and Lexington Av/63 St, then via the [Q] to/from 34 St-Herald Sq, the last stop.",
+        "periods": [
+          {
+            "start": 1792568462,
+            "end": null
+          }
+        ],
+        "createdAt": 1792568462,
+        "updatedAt": 1792568462
+      },
       {
         "id": "lmm:alert:272773:26",
         "type": "Delays",
@@ -94,7 +110,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808119329
+            "end": 1808120463
           }
         ],
         "createdAt": 1784303199,
@@ -102,11 +118,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "c7de6036c905129a94b15fc7c8125e39838b24ae5c56d4511de402867da65f14"
+    "sha256": "b87041f318a46db0ff4810a7f074d67468ac9b9e0bb40ab2fda45bead0524703"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T07:29:45.091212Z",
+    "fetchedAt": "2026-10-21T07:44:41.703310Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
