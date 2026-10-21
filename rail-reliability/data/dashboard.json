@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T04:29:35.287575Z",
+  "generatedAt": "2026-10-21T04:44:36.898992Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T04:17:33Z",
-    "fetchedAt": "2026-10-21T04:29:35.287575Z",
+    "sourceAt": "2026-10-21T04:38:44Z",
+    "fetchedAt": "2026-10-21T04:44:36.898992Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [E] trains are delayed while we investigate a report of an unauthorized person on the tracks at Lexington Av/63 St.",
+        "header": "Downtown [E] trains are running with delays after we investigated a report of an unauthorized person on the tracks at Lexington Av/63 St.",
         "description": "",
         "periods": [
           {
             "start": 1792556253,
-            "end": null
+            "end": 1792559100
           }
         ],
         "createdAt": 1792556253,
-        "updatedAt": 1792556253
+        "updatedAt": 1792557524
       },
       {
         "id": "lmm:planned_work:34850",
@@ -94,7 +94,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808108251
+            "end": 1808109524
           }
         ],
         "createdAt": 1784303199,
@@ -102,11 +102,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1477b8a2989f12936bd4f649a2b1756def937c516088af9863d67cbd5e4f77ab"
+    "sha256": "f4a3fe8443d0315ed31e224ca51f082cb77f6e143b361f881fd9131be7861d9d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T04:29:35.287575Z",
+    "fetchedAt": "2026-10-21T04:44:36.898992Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
