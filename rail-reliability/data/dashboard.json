@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T14:51:49.349342Z",
+  "generatedAt": "2026-10-21T15:15:17.985645Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T14:47:57Z",
-    "fetchedAt": "2026-10-21T14:51:49.349342Z",
+    "sourceAt": "2026-10-21T15:12:19Z",
+    "fetchedAt": "2026-10-21T15:15:17.985645Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272829:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [A][B][C][D][E] trains are running with delays while we conduct track maintenance in Manhattan.",
+        "description": "Service Changes:\nSome uptown [A] trains are running on the local track from Canal St to 125 St.\nSome uptown [B] trains are running express from 59 St-Columbus Circle to 125 St\n.\nListen for announcements to hear how your train will run.",
+        "periods": [
+          {
+            "start": 1792595538,
+            "end": null
+          }
+        ],
+        "createdAt": 1792595538,
+        "updatedAt": 1792595538
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808146074
+            "end": 1808147538
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "99adcbd84ccaf2c42bdbc5c12a1968282b6a1cd063f5bda4e832d5e2bc92d5fa"
+    "sha256": "6594f2e9b76b87adabcc182b975ea6a238b9638613ca23871a0559aba69f8f3a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T14:51:49.349342Z",
+    "fetchedAt": "2026-10-21T15:15:17.985645Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
