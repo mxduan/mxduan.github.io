@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T19:45:53.870918Z",
+  "generatedAt": "2026-10-21T20:00:57.668082Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T19:41:37Z",
-    "fetchedAt": "2026-10-21T19:45:53.870918Z",
+    "sourceAt": "2026-10-21T19:59:19Z",
+    "fetchedAt": "2026-10-21T20:00:57.668082Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272859:32",
-        "type": "Reroute",
+        "id": "lmm:alert:272859:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 32,
-        "header": "Uptown [E][F] trains are rerouted via Roosevelt Island from Manhattan to Queens.",
-        "description": "Uptown [F] trains are rerouted via Roosevelt Island from 47-50 Sts-Rockefeller Ctr to Jackson Heights-Roosevelt Av\n.\nUptown [E] trains are rerouted via [F] line from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr, then via Roosevelt Island to Jackson Heights-Roosevelt Av\n.\nIf your stop is skipped, take a downtown [E][F] train. \nWhat's Happening?\nWe are requesting medical assistance for someone in need on a train at Court Sq-23 St.",
+        "priority": 26,
+        "header": "Uptown [E][F] trains are running with delays after we requested medical assistance for someone in need on a train at Court Sq-23 St.",
+        "description": "Uptown [E][F] trains have resumed running via Court Sq-23 St.",
         "periods": [
           {
             "start": 1792611143,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792611143,
-        "updatedAt": 1792611697
+        "updatedAt": 1792612755
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808163697
+            "end": 1808164758
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9941347989ad2cb5f81de2572e0b35851ce6377de56086b7142582108c35dcaa"
+    "sha256": "8f01ac6a7fd1a8188205f9639dafec4f4272483b6ab9e7073d513e314a112755"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T19:45:53.870918Z",
+    "fetchedAt": "2026-10-21T20:00:57.668082Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
