@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T22:48:40.695287Z",
+  "generatedAt": "2026-10-21T23:03:40.073422Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-21T22:48:05Z",
-    "fetchedAt": "2026-10-21T22:48:40.695287Z",
+    "sourceAt": "2026-10-21T23:03:16Z",
+    "fetchedAt": "2026-10-21T23:03:40.073422Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272887:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E]  trains are running with delays after NYPD conducted an investigation on a train at Jamaica Center-Parsons/Archer.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792620343,
-            "end": 1792623600
-          }
-        ],
-        "createdAt": 1792620343,
-        "updatedAt": 1792622138
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808174883
+            "end": 1808175795
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "268ebc33d2fc07ae6dfd3e22b2f57f5a028ad080858a12f06574431034787bcb"
+    "sha256": "517c06650b98c312e23830a6e4e90dd08d76ee41995238c376dec40787f268ad"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-21T22:48:40.695287Z",
+    "fetchedAt": "2026-10-21T23:03:40.073422Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
