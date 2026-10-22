@@ -97,6 +97,24 @@ jobs:
       - name: Check rendered mobile and desktop arrivals
         if: always() && steps.deployment.outcome == 'success'
         run: |
+          # The hosted runner's Azure mirror can stall dependency downloads.
+          # Prefer its existing HTTPS Ubuntu fallback; keep all package checks.
+          sudo python3 - /etc/apt/apt-mirrors.txt <<'PYCODE'
+          import pathlib, sys
+          path = pathlib.Path(sys.argv[1])
+          lines = path.read_text().splitlines()
+          for index, line in enumerate(lines):
+              if line.startswith('http://azure.archive.ubuntu.com/ubuntu/'):
+                  lines[index] = line.replace('priority:1', 'priority:2')
+              elif line.startswith('https://archive.ubuntu.com/ubuntu/'):
+                  lines[index] = line.replace('priority:2', 'priority:1')
+          path.write_text('\n'.join(lines) + '\n')
+          PYCODE
+          sudo tee /etc/apt/apt.conf.d/99-public-browser-network >/dev/null <<'APTCONF'
+          Acquire::Retries "1";
+          Acquire::http::Timeout "15";
+          Acquire::https::Timeout "15";
+          APTCONF
           npx playwright install --with-deps chromium
           node ops/check-public-browser.mjs
       - uses: actions/cache/save@v4
