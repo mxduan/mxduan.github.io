@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T17:01:39.633116Z",
+  "generatedAt": "2026-10-22T17:04:52.737370Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T16:54:09Z",
-    "fetchedAt": "2026-10-22T17:01:39.633116Z",
+    "sourceAt": "2026-10-22T17:01:41Z",
+    "fetchedAt": "2026-10-22T17:04:52.737370Z",
     "state": "ok",
     "alerts": [
       {
@@ -30,7 +30,7 @@
         "planned": false,
         "priority": 29,
         "header": "[A][C][E] trains are running with delays in both directions while we conduct track maintenance in Manhattan.\n\nDowntown [C][E] express from 59 St/42 St to Canal St.",
-        "description": "For service to/from bypassed stations, take an uptown [C] or [E] train.\n\nBoarding Change:\n\nFor service at 34 St-Penn Station, board on the express track.",
+        "description": "For service to/from bypassed stations, take an uptown [C] or [E] train.\n\nAdditional Service Changes:\n\nSome downtown [C] trains are running via the [F] line from W 4 St-Wash Sq to Jay St-MetroTech.\n\nListen for announcements to hear how your train will run.\n\nBoarding Change:\n\nFor service at 34 St-Penn Station, board on the express track.",
         "periods": [
           {
             "start": 1792687686,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792687686,
-        "updatedAt": 1792687769
+        "updatedAt": 1792688500
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808240047
+            "end": 1808240500
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "070db67911dc7aef27e7221de1fbadedb061abb5e21f63c4c029b03b7da82f3e"
+    "sha256": "9982715ed67918c327cab927870ae654ef8ad15628d328c6e0069dac26954f97"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T17:01:39.633116Z",
+    "fetchedAt": "2026-10-22T17:04:52.737370Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
