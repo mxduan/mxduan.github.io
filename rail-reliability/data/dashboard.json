@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T03:34:12.756222Z",
+  "generatedAt": "2026-10-22T03:49:15.316791Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-10-22T03:30:26Z",
-    "fetchedAt": "2026-10-22T03:34:12.756222Z",
+    "fetchedAt": "2026-10-22T03:49:15.316791Z",
     "state": "ok",
     "alerts": [
       {
@@ -69,6 +69,22 @@
         "updatedAt": 1792444658
       },
       {
+        "id": "lmm:planned_work:35101",
+        "type": "Planned - Stops Skipped",
+        "planned": true,
+        "priority": 16,
+        "header": "In Queens, Manhattan-bound [E] skips Briarwood",
+        "description": "For service to this station, take the [E] to Kew Gardens-Union Tpke and transfer to a Jamaica Center-bound [E] or Jamaica-bound [F].\n\nFor service from this station, take the [E] to Jamaica-Van Wyck and transfer to a Manhattan-bound [E].\n\nWhat's happening?\nWe're making station improvements",
+        "periods": [
+          {
+            "start": 1792640700,
+            "end": 1792659600
+          }
+        ],
+        "createdAt": 1790338809,
+        "updatedAt": 1790791257
+      },
+      {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
         "planned": true,
@@ -90,7 +106,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T03:34:12.756222Z",
+    "fetchedAt": "2026-10-22T03:49:15.316791Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -104,17 +120,10 @@
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",
-    "fetchedAt": "2026-10-21T03:44:30.286275Z",
+    "fetchedAt": "2026-10-22T03:49:15.316791Z",
     "source": "https://data.ny.gov/resource/7kct-peq7.json",
     "periods": {
       "day": [
-        {
-          "start": "2026-06-23",
-          "end": "2026-06-24",
-          "coverage": "archive-window",
-          "count": 5,
-          "days": 1
-        },
         {
           "start": "2026-06-24",
           "end": "2026-06-25",
@@ -944,6 +953,13 @@
         {
           "start": "2026-10-20",
           "end": "2026-10-21",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-21",
+          "end": "2026-10-22",
           "coverage": "unavailable",
           "count": null,
           "days": null
