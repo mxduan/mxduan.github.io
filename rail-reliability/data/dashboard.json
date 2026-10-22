@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T01:48:44.260604Z",
+  "generatedAt": "2026-10-22T01:49:26.690133Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,16 +20,16 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T01:48:03Z",
-    "fetchedAt": "2026-10-22T01:48:44.260604Z",
+    "sourceAt": "2026-10-22T01:49:16Z",
+    "fetchedAt": "2026-10-22T01:49:26.690133Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272923:26",
-        "type": "Delays",
+        "id": "lmm:alert:272923:32",
+        "type": "Reroute",
         "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E] trains are rerouted via the [F] line from Forest Hills-71 Av Kew Gardens-Union Tpke to Jamaica-179 St.",
+        "priority": 32,
+        "header": "Jamaica-bound [E] trains are rerouted via the [F] line from Kew Gardens-Union Tpke to Jamaica-179 St.",
         "description": "What's happening?\nWe're investigating what caused a train's brakes to activate near Sutphin Blvd/Archer Av-JFK Airport.",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792633050,
-        "updatedAt": 1792633682
+        "updatedAt": 1792633755
       },
       {
         "id": "lmm:planned_work:34850",
@@ -94,7 +94,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808185682
+            "end": 1808185755
           }
         ],
         "createdAt": 1784303199,
@@ -102,11 +102,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "279e2648502618392b9d24e5bb9b4492d4ac6d326bb9e05f0934e5e4bcbfd429"
+    "sha256": "50d84d9f74429e2db4e9363d941037bc88d09f82895b81b6491749a530c92a1d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T01:48:44.260604Z",
+    "fetchedAt": "2026-10-22T01:49:26.690133Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
