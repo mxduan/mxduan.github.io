@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T10:49:35.978082Z",
+  "generatedAt": "2026-10-22T11:04:38.745856Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T10:22:25Z",
-    "fetchedAt": "2026-10-22T10:49:35.978082Z",
+    "sourceAt": "2026-10-22T11:00:31Z",
+    "fetchedAt": "2026-10-22T11:04:38.745856Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272954:32",
+        "type": "Reroute",
+        "planned": false,
+        "priority": 32,
+        "header": "Downtown [E] will run via Roosevelt Island from Queens to Manhattan.\nDowntown [F] via the [G] from Court Sq to Bergen St.",
+        "description": "What's Happening?\nWe are investigating why a train's brakes activated near Lexington Av/53 St.\n\nAdditional Service Changes:\nDowntown [E] trains will run via the [M] line from Jackson Heights-Roosevelt Av to 47-50 Sts-Rockefeller Ctr, then via the [F] line to W 4 St-Wash Sq.",
+        "periods": [
+          {
+            "start": 1792666590,
+            "end": null
+          }
+        ],
+        "createdAt": 1792666590,
+        "updatedAt": 1792666831
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808216544
+            "end": 1808218831
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2b3adcf0b4ce8826ffc0143c6dc080ff0e9e4be6a58f913f9ad3293dd94cc0ad"
+    "sha256": "94f90838f956c298f9bfe615dd498371cc35ec23f8d56162a865363ae5a62b35"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T10:49:35.978082Z",
+    "fetchedAt": "2026-10-22T11:04:38.745856Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
