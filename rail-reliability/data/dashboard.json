@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T18:04:51.812087Z",
+  "generatedAt": "2026-10-22T18:19:53.799631Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T18:02:21Z",
-    "fetchedAt": "2026-10-22T18:04:51.812087Z",
+    "sourceAt": "2026-10-22T18:18:01Z",
+    "fetchedAt": "2026-10-22T18:19:53.799631Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273007:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[A][C][E] trains are running with delays in both directions after we conducted track maintenance in Manhattan.",
-        "description": "Downtown [C][E] trains have resumed making local stops from 59 St/42 St to Canal St.",
-        "periods": [
-          {
-            "start": 1792687686,
-            "end": 1792692960
-          }
-        ],
-        "createdAt": 1792687686,
-        "updatedAt": 1792691719
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808244141
+            "end": 1808245078
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3385a79ff23f0155e1daa4b9126cfa3869a90bf3dda83de7ad0a57873467677c"
+    "sha256": "defc037d4a427f38446073b33b4b5d0f30d88e2fff57b5f5d23f5535eabd0bb4"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T18:04:51.812087Z",
+    "fetchedAt": "2026-10-22T18:19:53.799631Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
