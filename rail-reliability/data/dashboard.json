@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T17:19:54.201760Z",
+  "generatedAt": "2026-10-22T17:34:55.211938Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T17:19:26Z",
-    "fetchedAt": "2026-10-22T17:19:54.201760Z",
+    "sourceAt": "2026-10-22T17:32:39Z",
+    "fetchedAt": "2026-10-22T17:34:55.211938Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:273007:29",
-        "type": "Stops Skipped",
+        "id": "lmm:alert:273007:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 29,
-        "header": "[A][C][E] trains are running with delays in both directions while we conduct track maintenance in Manhattan.\n\nDowntown [C][E] express from 59 St/42 St to Canal St.",
-        "description": "For service to/from bypassed stations, take an uptown [C] or [E] train.\n\nAdditional Service Changes:\n\nSome downtown [C] trains are running via the [F] line from W 4 St-Wash Sq to Jay St-MetroTech.\n\nListen for announcements to hear how your train will run.\n\nBoarding Change:\n\nFor service at 34 St-Penn Station, board on the express track.",
+        "priority": 26,
+        "header": "[A][C][E] trains are running with delays in both directions after we conducted track maintenance in Manhattan.",
+        "description": "Downtown [C][E] trains have resumed making local stops from 59 St/42 St to Canal St.",
         "periods": [
           {
             "start": 1792687686,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792687686,
-        "updatedAt": 1792688500
+        "updatedAt": 1792689962
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808241565
+            "end": 1808242357
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f0449ce432dda785f422712b6630d71ac6d2d770b349621ca3c323bc42880a1e"
+    "sha256": "0a818f1ec7d5f44fdc338119bb21621338e5269bdaa78ccc812bd72788c0c8b2"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T17:19:54.201760Z",
+    "fetchedAt": "2026-10-22T17:34:55.211938Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
