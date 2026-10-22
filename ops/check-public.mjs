@@ -2,12 +2,14 @@
 import { appendFile } from "node:fs/promises";
 
 // src/view.js
-function snapshotState(current, now = Date.now()) {
-  if (!current?.sourceAt || !current?.fetchedAt || !Array.isArray(current.alerts)) return "unavailable";
-  if (current.state !== "ok") return "error";
-  const source = Date.parse(current.sourceAt), fetched = Date.parse(current.fetchedAt);
-  if (!Number.isFinite(source) || !Number.isFinite(fetched) || source > now + 6e4 || fetched > now + 6e4) return "unavailable";
-  return now - source > 6e4 || now - fetched > 6e4 ? "stale" : "fresh";
+var validAlert = (alert) => alert && typeof alert === "object" && typeof alert.header === "string" && typeof alert.type === "string" && typeof alert.planned === "boolean" && Array.isArray(alert.periods) && alert.periods.every((period) => period && typeof period === "object" && !Array.isArray(period) && ["start", "end"].every((key) => period[key] == null || Number.isFinite(period[key]) && period[key] >= 0) && (period.start == null || period.end == null || period.end > period.start));
+function alertState(current, now = Date.now()) {
+  if (!Number.isFinite(now) || !current || !Array.isArray(current.alerts) || !current.alerts.every(validAlert)) return "unavailable";
+  const source = typeof current.sourceAt === "string" ? Date.parse(current.sourceAt) : NaN;
+  const fetched = typeof current.fetchedAt === "string" ? Date.parse(current.fetchedAt) : NaN;
+  if (!Number.isFinite(source) || !Number.isFinite(fetched) || source > now + 5e3 || fetched > now + 5e3) return "unavailable";
+  if (current.state !== "ok") return current.state === "error" ? "error" : "unavailable";
+  return now - source > 6e5 || now - fetched > 12e4 ? "stale" : "fresh";
 }
 function riderState(value, now = Date.now()) {
   if (!value || value.state !== "ok") return value?.state === "error" ? "error" : "unavailable";
@@ -94,14 +96,18 @@ function serviceHealth({ rider: rider2, observations: observations2, dashboard: 
     { state: observations2?.lastSampleState || "unavailable", sourceAgeSeconds: recordAge, publicationAgeSeconds: publishedAge, publicationAllowanceSeconds: 1200 }
   );
   const alerts = rider2?.current || dashboard2?.current;
-  const alertState = rider2?.state === "error" ? "error" : rider2?.current ? riderState(alerts, now) : snapshotState(alerts, now);
-  add("service_alerts", alertState === "fresh" && Array.isArray(alerts?.alerts), { state: alertState, sourceAgeSeconds: age(alerts?.sourceAt, now) });
+  const alertStatus = alertState(alerts, now);
+  add("service_alerts", alertStatus === "fresh", { state: alertStatus, sourceAgeSeconds: age(alerts?.sourceAt, now), fetchedAgeSeconds: age(alerts?.fetchedAt, now), sourceAllowanceSeconds: 600, downloadAllowanceSeconds: 120 });
   const operational = rider2?.operational || observations2?.operational;
   for (const line of ["E", "F"]) {
     const route = operational?.routes?.[line];
     add("operational_" + line, rider2?.state !== "error" && operationalFresh(route, now), { state: route?.state || "unavailable", sourceAgeSeconds: age(route?.sourceAt, now) });
   }
-  return { checkedAt: new Date(now).toISOString(), healthy: checks.every((c) => c.ok), checks, scope: "Published evidence availability. No browser rendering or physical punctuality claim." };
+  const healthy = checks.every((c) => c.ok), coreAvailable = checks.filter((c) => c.name !== "service_alerts").every((c) => c.ok);
+  const upstreamExpired = alertStatus === "stale" && alerts.state === "ok" && now - Date.parse(alerts.sourceAt) > 6e5 && now - Date.parse(alerts.fetchedAt) <= 12e4;
+  if (upstreamExpired) checks.find((c) => c.name === "service_alerts").degradationReason = "upstream_source_age";
+  const status = healthy ? "healthy" : coreAvailable && upstreamExpired ? "degraded" : "unhealthy";
+  return { checkedAt: new Date(now).toISOString(), healthy, coreAvailable, status, checks, scope: "Published evidence availability. No browser rendering or physical punctuality claim." };
 }
 
 // scripts/check-public.mjs
@@ -125,19 +131,22 @@ var result;
 try {
   result = serviceHealth({ rider, observations, dashboard });
 } catch {
-  result = { checkedAt: (/* @__PURE__ */ new Date()).toISOString(), healthy: false, checks: [{ name: "published_schema", ok: false, state: "invalid" }] };
+  result = { checkedAt: (/* @__PURE__ */ new Date()).toISOString(), healthy: false, coreAvailable: false, status: "unhealthy", checks: [{ name: "published_schema", ok: false, state: "invalid" }] };
 }
 console.log(JSON.stringify(result, null, 2));
+if (result.status === "degraded") console.log("::warning::The MTA alert source is older than 10 minutes despite a recent successful download; current alert status is unknown. Core transit evidence remains available.");
 if (process.env.GITHUB_STEP_SUMMARY) {
   const rows = result.checks.map((c) => `| ${c.name} | ${c.ok ? "Available" : "UNAVAILABLE"} | ${c.sourceAgeSeconds ?? "unknown"} |`).join("\n");
   await appendFile(process.env.GITHUB_STEP_SUMMARY, `
 ### Published service availability
 
+Status: **${result.status}**. All services healthy: **${result.healthy}**. Core evidence available: **${result.coreAvailable}**.
+
 | Check | Result | Source age (seconds) |
 |---|---|---|
 ${rows}
 
-Checks use source timestamps and selectable future forecasts, not commit/deployment time. The observation publication allowance is 20 minutes; live forecasts expire at 2 minutes. This checks payload usability, not browser rendering or physical punctuality.
+Checks use source timestamps and selectable future forecasts, not commit/deployment time. The observation publication allowance is 20 minutes; live forecasts expire at 2 minutes. Alerts allow 10 minutes of source age and 2 minutes since download. Only an old upstream alert source with a recent successful download warns as degraded; download errors, expired downloads, missing or malformed alerts and any core failure fail the check. This checks payload usability, not browser rendering or physical punctuality.
 `);
 }
-process.exitCode = result.healthy ? 0 : 1;
+process.exitCode = result.status === "healthy" || result.status === "degraded" ? 0 : 1;
