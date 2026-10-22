@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T02:03:49.045787Z",
+  "generatedAt": "2026-10-22T02:18:49.857746Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T01:49:16Z",
-    "fetchedAt": "2026-10-22T02:03:49.045787Z",
+    "sourceAt": "2026-10-22T02:17:36Z",
+    "fetchedAt": "2026-10-22T02:18:49.857746Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272923:32",
-        "type": "Reroute",
+        "id": "lmm:alert:272923:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 32,
-        "header": "Jamaica-bound [E] trains are rerouted via the [F] line from Kew Gardens-Union Tpke to Jamaica-179 St.",
-        "description": "What's happening?\nWe're investigating what caused a train's brakes to activate near Sutphin Blvd/Archer Av-JFK Airport.",
+        "priority": 26,
+        "header": "[E][F] trains are running with delays in both directions after we moved a train that had its brakes activated near Sutphin Blvd.",
+        "description": "Planned Work Reminder:\n \n[E]  runs via the Roosevelt Island [F] in both directions between Jackson Heights-Roosevelt Av and Lexington Av/63 St, then via the [Q] to/from 34 St-Herald Sq, the last stop.\n[F] is rerouted via Court Sq [E] between Jackson Heights-Roosevelt Av and Canal St then via the [A] to to/from Jay St-MetroTech\n.",
         "periods": [
           {
             "start": 1792633050,
-            "end": null
+            "end": 1792636500
           }
         ],
         "createdAt": 1792633050,
-        "updatedAt": 1792633755
+        "updatedAt": 1792635410
       },
       {
         "id": "lmm:planned_work:34850",
@@ -94,7 +94,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808185755
+            "end": 1808187453
           }
         ],
         "createdAt": 1784303199,
@@ -102,11 +102,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "50d84d9f74429e2db4e9363d941037bc88d09f82895b81b6491749a530c92a1d"
+    "sha256": "fe950e5276792c06185c1062581103728efb4f6132dd62236cd5a9b8b06591c4"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T02:03:49.045787Z",
+    "fetchedAt": "2026-10-22T02:18:49.857746Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -117,7 +117,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-22T00:15:14Z",
-            "toDate": "2026-10-22T05:02:39Z",
+            "toDate": "2026-10-22T05:17:39Z",
             "isNow": true
           }
         ]
