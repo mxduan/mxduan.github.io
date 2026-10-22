@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T02:33:59.329314Z",
+  "generatedAt": "2026-10-22T02:49:03.055929Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T02:26:05Z",
-    "fetchedAt": "2026-10-22T02:33:59.329314Z",
+    "sourceAt": "2026-10-22T02:48:11Z",
+    "fetchedAt": "2026-10-22T02:49:03.055929Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:272923:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after we moved a train that had its brakes activated near Sutphin Blvd.",
-        "description": "Planned Work Reminder:\n \n[E]  runs via the Roosevelt Island [F] in both directions between Jackson Heights-Roosevelt Av and Lexington Av/63 St, then via the [Q] to/from 34 St-Herald Sq, the last stop.\n[F] is rerouted via Court Sq [E] between Jackson Heights-Roosevelt Av and Canal St then via the [A] to to/from Jay St-MetroTech\n.",
-        "periods": [
-          {
-            "start": 1792633050,
-            "end": 1792637100
-          }
-        ],
-        "createdAt": 1792633050,
-        "updatedAt": 1792635925
-      },
       {
         "id": "lmm:planned_work:34850",
         "type": "Planned - Reroute",
@@ -94,7 +78,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808187964
+            "end": 1808189291
           }
         ],
         "createdAt": 1784303199,
@@ -102,11 +86,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "dfed683048c6cb0109103a01acbb261efaa2d7208c4746ade74d2cc7aa31c268"
+    "sha256": "0b3fe294ee707daf37bb82693d24e2d8a70350ed08d72834cba3ba6af01c5aa7"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T02:33:59.329314Z",
+    "fetchedAt": "2026-10-22T02:49:03.055929Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -117,7 +101,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-22T00:15:14Z",
-            "toDate": "2026-10-22T05:32:40Z",
+            "toDate": "2026-10-22T05:47:40Z",
             "isNow": true
           }
         ]
