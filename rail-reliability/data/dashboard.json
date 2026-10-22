@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T14:08:27.674474Z",
+  "generatedAt": "2026-10-22T15:37:34.186669Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T14:07:02Z",
-    "fetchedAt": "2026-10-22T14:08:27.674474Z",
+    "sourceAt": "2026-10-22T15:37:27Z",
+    "fetchedAt": "2026-10-22T15:37:34.186669Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:272989:26",
-        "type": "Delays",
+        "id": "lmm:alert:272998:29",
+        "type": "Stops Skipped",
         "planned": false,
-        "priority": 26,
-        "header": "Uptown [A][C][E] trains are running with delays while our track inspection train conducts inspections along the line in Manhattan.",
+        "priority": 29,
+        "header": "Uptown [C][E] trains express from Canal St :\n[C] to 59 St.\n[E] to 42 St.\nFor skipped stops, take a downtown train.\nWe are conducting track maintenance in Manhattan.",
         "description": "",
         "periods": [
           {
-            "start": 1792678022,
+            "start": 1792682400,
             "end": null
           }
         ],
-        "createdAt": 1792678022,
-        "updatedAt": 1792678022
+        "createdAt": 1792682400,
+        "updatedAt": 1792683269
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808230021
+            "end": 1808235447
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a26047397fa0a58e30a8282aafb29d74c1448aca716a6e1cb8603dad53c63f06"
+    "sha256": "fe4f050efc1996ed88d96202280222e3eee5db411f6dc43c392d127c975bdf27"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T14:08:27.674474Z",
+    "fetchedAt": "2026-10-22T15:37:34.186669Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
