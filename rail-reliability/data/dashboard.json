@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T01:33:43.938235Z",
+  "generatedAt": "2026-10-22T01:48:44.260604Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T01:29:22Z",
-    "fetchedAt": "2026-10-22T01:33:43.938235Z",
+    "sourceAt": "2026-10-22T01:48:03Z",
+    "fetchedAt": "2026-10-22T01:48:44.260604Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:272923:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica-bound [E] trains are rerouted via the [F] line from Forest Hills-71 Av Kew Gardens-Union Tpke to Jamaica-179 St.",
+        "description": "What's happening?\nWe're investigating what caused a train's brakes to activate near Sutphin Blvd/Archer Av-JFK Airport.",
+        "periods": [
+          {
+            "start": 1792633050,
+            "end": null
+          }
+        ],
+        "createdAt": 1792633050,
+        "updatedAt": 1792633682
+      },
       {
         "id": "lmm:planned_work:34850",
         "type": "Planned - Reroute",
@@ -78,7 +94,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808184562
+            "end": 1808185682
           }
         ],
         "createdAt": 1784303199,
@@ -86,11 +102,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8c1e49d8f8d2b1f5ea5e6e5779c489c426d22b750f69f1054220f6f171d52b17"
+    "sha256": "279e2648502618392b9d24e5bb9b4492d4ac6d326bb9e05f0934e5e4bcbfd429"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T01:33:43.938235Z",
+    "fetchedAt": "2026-10-22T01:48:44.260604Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -101,7 +117,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-22T00:15:14Z",
-            "toDate": "2026-10-22T04:32:38Z",
+            "toDate": "2026-10-22T04:47:38Z",
             "isNow": true
           }
         ]
