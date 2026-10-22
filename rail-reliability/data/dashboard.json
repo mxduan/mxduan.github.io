@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T16:19:52.920373Z",
+  "generatedAt": "2026-10-22T17:00:46.433864Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T16:16:25Z",
-    "fetchedAt": "2026-10-22T16:19:52.920373Z",
+    "sourceAt": "2026-10-22T16:54:09Z",
+    "fetchedAt": "2026-10-22T17:00:46.433864Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273007:29",
+        "type": "Stops Skipped",
+        "planned": false,
+        "priority": 29,
+        "header": "[A][C][E] trains are running with delays in both directions while we conduct track maintenance in Manhattan.\n\nDowntown [C][E] express from 59 St/42 St to Canal St.",
+        "description": "For service to/from bypassed stations, take an uptown [C] or [E] train.\n\nBoarding Change:\n\nFor service at 34 St-Penn Station, board on the express track.",
+        "periods": [
+          {
+            "start": 1792687686,
+            "end": null
+          }
+        ],
+        "createdAt": 1792687686,
+        "updatedAt": 1792687769
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808237784
+            "end": 1808240047
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5a11283607217c4d201a8565234e176b0883248a1afa14929b29a27e2b52fa9d"
+    "sha256": "070db67911dc7aef27e7221de1fbadedb061abb5e21f63c4c029b03b7da82f3e"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-22T16:19:52.920373Z",
+    "fetchedAt": "2026-10-22T17:00:46.433864Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
