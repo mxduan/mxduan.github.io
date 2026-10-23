@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T03:05:06.828221Z",
+  "generatedAt": "2026-10-23T03:20:07.986456Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-23T02:11:35Z",
-    "fetchedAt": "2026-10-23T03:05:06.828221Z",
+    "sourceAt": "2026-10-23T03:19:36Z",
+    "fetchedAt": "2026-10-23T03:20:07.986456Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273106:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E] trains are running with delays in both directions while we perform track maintenance in Queens",
+        "description": "Planned Work Reminder:\n[E]  is rerouted in Queens and Manhattan\nOct 19 - 23 and Oct 26 - 30, Mon to Fri, 9:30 PM to 5:00 AM\nNo [E] service in both directions at Queens Plaza, Court Sq-23 St, Lexington Av/53 St, 5 Av/53 St, 7 Av, 50 St, 42 St-Port Authority, 34 St-Penn Station, 23 St, 14 St, Spring St, Canal St and World Trade Center, take the [F] instead.\n\n[E] runs via the Roosevelt Island [F] in both directions between Jackson Heights-Roosevelt Av and Lexington Av/63 St, then via the [Q] to/from 34 St-Herald Sq, the last stop.",
+        "periods": [
+          {
+            "start": 1792725575,
+            "end": null
+          }
+        ],
+        "createdAt": 1792725575,
+        "updatedAt": 1792725575
+      },
       {
         "id": "lmm:planned_work:34850",
         "type": "Planned - Reroute",
@@ -78,7 +94,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808273491
+            "end": 1808277567
           }
         ],
         "createdAt": 1784303199,
@@ -86,25 +102,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5848b5cecc0a1d19478a38dd67b7d5f3454fc4efceedd87fcd75b8a9d7de7f4b"
+    "sha256": "891d488659b2ae983f8688b085596632e04ae0dfd77c97dd3138098a9c94e983"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-23T03:05:06.828221Z",
+    "fetchedAt": "2026-10-23T03:20:07.986456Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Service Closed",
-        "reason": "Victoria Line: Service will resume later this morning.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-23T00:19:26Z",
-            "toDate": "2026-10-23T06:02:43Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
