@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T09:35:11.639036Z",
+  "generatedAt": "2026-10-23T09:50:15.944979Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-23T09:15:07Z",
-    "fetchedAt": "2026-10-23T09:35:11.639036Z",
+    "sourceAt": "2026-10-23T09:38:56Z",
+    "fetchedAt": "2026-10-23T09:50:15.944979Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions while we perform track maintenance near Woodhaven Blvd.",
+        "header": "[E][F] trains are running with delays in both directions after track maintenance near Woodhaven Blvd concluded.",
         "description": "",
         "periods": [
           {
             "start": 1792746232,
-            "end": null
+            "end": 1792749900
           }
         ],
         "createdAt": 1792746232,
-        "updatedAt": 1792746232
+        "updatedAt": 1792748336
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808298905
+            "end": 1808300335
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "fb9b67bffbb39ffd5086cb38f8a76664761ddb5feb8eaa6f2e20891f9a34145e"
+    "sha256": "a9d92cfd496c79783f456a9c98d53ded3be4dcb31e97fb4972cd85252454630a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-23T09:35:11.639036Z",
+    "fetchedAt": "2026-10-23T09:50:15.944979Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
