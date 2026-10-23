@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T14:50:54.977935Z",
+  "generatedAt": "2026-10-23T15:00:25.352740Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-23T14:46:39Z",
-    "fetchedAt": "2026-10-23T14:50:54.977935Z",
+    "sourceAt": "2026-10-23T14:55:40Z",
+    "fetchedAt": "2026-10-23T15:00:25.352740Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F][M][R] trains are running with delays in both directions after NYPD concluded an investigation at Northern Blvd.",
-        "description": "Jamaica Center-Parsons/Archer-bound [E] and Jamaica-179 St-bound [F] trains have resumed making regular station stops.",
+        "header": "[E][F]  trains are running with delays in both directions after NYPD concluded an investigation at Northern Blvd.",
+        "description": "",
         "periods": [
           {
             "start": 1792765816,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792765816,
-        "updatedAt": 1792766322
+        "updatedAt": 1792767339
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808318799
+            "end": 1808319340
           }
         ],
         "createdAt": 1784303199,
@@ -58,18 +58,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "552ccab076fe7e6c730225e4096ce66f8b141d6b33d6cbc3758f5125eef60ac3"
+    "sha256": "0bcd14b1806372121b6f60a5cc1b2b7173b792fd9de5dca998399786e007453d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-23T14:50:54.977935Z",
+    "fetchedAt": "2026-10-23T15:00:25.352740Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-10-23T14:55:49Z",
+            "toDate": "2026-10-24T00:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
