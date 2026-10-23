@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T10:01:06.830018Z",
+  "generatedAt": "2026-10-23T10:05:16.324343Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-10-23T10:00:25Z",
-    "fetchedAt": "2026-10-23T10:01:06.830018Z",
+    "fetchedAt": "2026-10-23T10:05:16.324343Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273118:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after track maintenance near Woodhaven Blvd concluded.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792746232,
-            "end": 1792749900
-          }
-        ],
-        "createdAt": 1792746232,
-        "updatedAt": 1792748336
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-23T10:01:06.830018Z",
+    "fetchedAt": "2026-10-23T10:05:16.324343Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
