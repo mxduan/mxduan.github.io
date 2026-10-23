@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T14:20:51.278077Z",
+  "generatedAt": "2026-10-23T14:35:54.879962Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-23T14:15:16Z",
-    "fetchedAt": "2026-10-23T14:20:51.278077Z",
+    "sourceAt": "2026-10-23T14:33:25Z",
+    "fetchedAt": "2026-10-23T14:35:54.879962Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273166:25",
+        "type": "Express to Local",
+        "planned": false,
+        "priority": 25,
+        "header": "Jamaica Center-Parsons/Archer-bound [E] and Jamaica-179 St-bound [F] trains are running local from Queens Plaza to Jackson Heights-Roosevelt Av.",
+        "description": "What's happening? \nNYPD is conducting an investigation at Northern Blvd.\nExpect delays in [M][R] service as trains share tracks.",
+        "periods": [
+          {
+            "start": 1792765816,
+            "end": null
+          }
+        ],
+        "createdAt": 1792765816,
+        "updatedAt": 1792765816
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808316914
+            "end": 1808318005
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e8cc9c438aae350726b4a181e96b819ff143f327bfbea9381b3e2da578cbc840"
+    "sha256": "37800b8de1ce247c5661abadfca782a3047de702d89dd7d7d151c86df5766786"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-23T14:20:51.278077Z",
+    "fetchedAt": "2026-10-23T14:35:54.879962Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
