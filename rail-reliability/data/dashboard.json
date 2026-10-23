@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T14:35:54.879962Z",
+  "generatedAt": "2026-10-23T14:50:54.977935Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-23T14:33:25Z",
-    "fetchedAt": "2026-10-23T14:35:54.879962Z",
+    "sourceAt": "2026-10-23T14:46:39Z",
+    "fetchedAt": "2026-10-23T14:50:54.977935Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:273166:25",
-        "type": "Express to Local",
+        "id": "lmm:alert:273166:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 25,
-        "header": "Jamaica Center-Parsons/Archer-bound [E] and Jamaica-179 St-bound [F] trains are running local from Queens Plaza to Jackson Heights-Roosevelt Av.",
-        "description": "What's happening? \nNYPD is conducting an investigation at Northern Blvd.\nExpect delays in [M][R] service as trains share tracks.",
+        "priority": 26,
+        "header": "[E][F][M][R] trains are running with delays in both directions after NYPD concluded an investigation at Northern Blvd.",
+        "description": "Jamaica Center-Parsons/Archer-bound [E] and Jamaica-179 St-bound [F] trains have resumed making regular station stops.",
         "periods": [
           {
             "start": 1792765816,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792765816,
-        "updatedAt": 1792765816
+        "updatedAt": 1792766322
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808318005
+            "end": 1808318799
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "37800b8de1ce247c5661abadfca782a3047de702d89dd7d7d151c86df5766786"
+    "sha256": "552ccab076fe7e6c730225e4096ce66f8b141d6b33d6cbc3758f5125eef60ac3"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-23T14:35:54.879962Z",
+    "fetchedAt": "2026-10-23T14:50:54.977935Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
