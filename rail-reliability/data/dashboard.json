@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T10:20:19.714999Z",
+  "generatedAt": "2026-10-23T10:35:26.838945Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-23T10:00:25Z",
-    "fetchedAt": "2026-10-23T10:20:19.714999Z",
+    "sourceAt": "2026-10-23T10:30:08Z",
+    "fetchedAt": "2026-10-23T10:35:26.838945Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273130:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running with delays after we removed a train with mechanical problems from service at Jackson Heights-Roosevelt Av.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792751407,
+            "end": 1792752300
+          }
+        ],
+        "createdAt": 1792751407,
+        "updatedAt": 1792751407
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808301624
+            "end": 1808303405
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5db696b702fd4b7c99203869635abdb0a5ea46795e1bbddc6d8befdf65feee6d"
+    "sha256": "32f364a0d39a719479954c590eaa98acf484b8afc73b310b4b601ab3606b6fb9"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-23T10:20:19.714999Z",
+    "fetchedAt": "2026-10-23T10:35:26.838945Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
