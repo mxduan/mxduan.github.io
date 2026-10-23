@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T15:05:57.306443Z",
+  "generatedAt": "2026-10-23T19:08:49.286718Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-23T15:03:20Z",
-    "fetchedAt": "2026-10-23T15:05:57.306443Z",
+    "sourceAt": "2026-10-23T19:08:02Z",
+    "fetchedAt": "2026-10-23T19:08:49.286718Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:273166:26",
+        "id": "lmm:alert:273209:26",
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F]  trains are running with delays in both directions after NYPD concluded an investigation at Northern Blvd.",
+        "header": "Downtown [C][E] trains are running with delays after we addressed a door problem on a train at 14 St.",
         "description": "",
         "periods": [
           {
-            "start": 1792765816,
+            "start": 1792781977,
             "end": null
           }
         ],
-        "createdAt": 1792765816,
-        "updatedAt": 1792767339
+        "createdAt": 1792781977,
+        "updatedAt": 1792782482
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808319800
+            "end": 1808334482
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8788276ea741686901f2c6056d41a1a9803191e87cf32b8e56f7d491feb5f917"
+    "sha256": "389acfc63ddf9c80f725a13df13c2dca3f1e3a31241dbb877529bd7f81c36621"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-23T15:05:57.306443Z",
+    "fetchedAt": "2026-10-23T19:08:49.286718Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -2735,6 +2735,13 @@
   "performance": {
     "months": [
       {
+        "month": "2026-09-01T00:00:00.000",
+        "passengers": 7966793.958984375,
+        "journeyOnTime": 0.8718023220016221,
+        "extraWait": 1.1023182756524113,
+        "extraRide": 0.42696329529311927
+      },
+      {
         "month": "2026-08-01T00:00:00.000",
         "passengers": 8297566.7861328125,
         "journeyOnTime": 0.8473372531394875,
@@ -2810,17 +2817,10 @@
         "journeyOnTime": 0.8411692865233578,
         "extraWait": 1.3155529796416328,
         "extraRide": 0.7686880636129071
-      },
-      {
-        "month": "2025-09-01T00:00:00.000",
-        "passengers": 8380895.65625,
-        "journeyOnTime": 0.8690585940177249,
-        "extraWait": 0.99773794283558,
-        "extraRide": 0.5025852478752472
       }
     ],
     "state": "ok",
-    "fetchedAt": "2026-10-22T18:49:53.249245Z",
+    "fetchedAt": "2026-10-23T19:08:49.286718Z",
     "source": "https://data.ny.gov/resource/r7qk-6tcy.json"
   }
 }
