@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T00:08:31.173664Z",
+  "generatedAt": "2026-10-23T00:19:55.172373Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-22T23:59:37Z",
-    "fetchedAt": "2026-10-23T00:08:31.173664Z",
+    "sourceAt": "2026-10-23T00:12:49Z",
+    "fetchedAt": "2026-10-23T00:19:55.172373Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E] trains are running with delays in both directions while we request NYPD assistance with someone being disruptive on a train at Jamaica Center-Parsons/Archer.",
+        "header": "[E] trains are running with delays in both directions after we requested NYPD for someone being disruptive on a train at Jamaica Center-Parsons/Archer.",
         "description": "",
         "periods": [
           {
             "start": 1792713576,
-            "end": null
+            "end": 1792714800
           }
         ],
         "createdAt": 1792713576,
-        "updatedAt": 1792713576
+        "updatedAt": 1792714317
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808265577
+            "end": 1808266368
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6e12b16bdafe527f97d25f5437163bb9182784a8abff978ca964eb3a24611c72"
+    "sha256": "913cc0237f67164d2fea673f5a86e44129c857907c7fc9eaa7b274354d061fab"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-23T00:08:31.173664Z",
+    "fetchedAt": "2026-10-23T00:19:55.172373Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
