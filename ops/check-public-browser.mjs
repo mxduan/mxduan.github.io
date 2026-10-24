@@ -12,7 +12,7 @@ try {
   page.on('pageerror',()=>errors.push('Page JavaScript error'));
   const result={viewport:name,ok:false};
   try {
-   await page.goto('https://mxduan.github.io/rail-reliability/',{waitUntil:'domcontentloaded',timeout:30000});
+   await page.goto('https://cantolope.github.io/mxduan.github.io/rail-reliability/',{waitUntil:'domcontentloaded',timeout:30000});
    await page.locator('#arrival-age-card[data-fresh="true"]').waitFor({timeout:15000});
    const station=page.locator('#rider-station');
    const directionControl=page.locator('#rider-direction');

@@ -111,8 +111,8 @@ function serviceHealth({ rider: rider2, observations: observations2, dashboard: 
 }
 
 // scripts/check-public.mjs
-var base = "https://mxduan.github.io/rail-reliability/";
-var riderURL = "https://raw.githubusercontent.com/mxduan/mxduan.github.io/master/rail-reliability/data/rider/";
+var base = "https://cantolope.github.io/mxduan.github.io/rail-reliability/";
+var riderURL = "https://raw.githubusercontent.com/cantolope/mxduan.github.io/master/rail-reliability/data/rider/";
 async function json(url) {
   try {
     const response = await fetch(url, { cache: "no-store", signal: AbortSignal.timeout(1e4) });
