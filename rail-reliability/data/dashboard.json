@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-24T07:35:22.334106Z",
+  "generatedAt": "2026-10-24T07:50:20.896661Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-24T07:32:45Z",
-    "fetchedAt": "2026-10-24T07:35:22.334106Z",
+    "sourceAt": "2026-10-24T07:50:08Z",
+    "fetchedAt": "2026-10-24T07:50:20.896661Z",
     "state": "ok",
     "alerts": [
       {
@@ -39,6 +39,22 @@
         ],
         "createdAt": 1792826988,
         "updatedAt": 1792827164
+      },
+      {
+        "id": "lmm:alert:273304:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E] trains are delayed while we address a switch problem at Briarwood.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792828159,
+            "end": null
+          }
+        ],
+        "createdAt": 1792828159,
+        "updatedAt": 1792828159
       },
       {
         "id": "lmm:planned_work:34778",
@@ -66,7 +82,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808379164
+            "end": 1808380208
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +90,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "30cbfa73fd4fde283139ae68ba49c1d5f169ed2e765197f45484e27463153002"
+    "sha256": "b8740b227f9f495cbfa32a1979833e6e919163a03bcd1ab95de061527d31a04c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-24T07:35:22.334106Z",
+    "fetchedAt": "2026-10-24T07:50:20.896661Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
