@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-24T08:05:20.783916Z",
+  "generatedAt": "2026-10-24T08:20:21.303742Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-24T08:03:14Z",
-    "fetchedAt": "2026-10-24T08:05:20.783916Z",
+    "sourceAt": "2026-10-24T08:09:53Z",
+    "fetchedAt": "2026-10-24T08:20:21.303742Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [E][F] trains are delayed while we address a switch problem at Briarwood.",
-        "description": "As an alternative, consider taking a [J] train or Q44-SBS bus.",
+        "header": "Downtown [E][F] trains are running with delays after we addressed a switch problem at Briarwood.",
+        "description": "",
         "periods": [
           {
             "start": 1792828159,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1792828159,
-        "updatedAt": 1792828993
+        "updatedAt": 1792829393
       },
       {
         "id": "lmm:planned_work:34778",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808380993
+            "end": 1808381392
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b31f0efa16fc99b5d9a3889aebc5e39e2f4863089dd07deaf8001db6d863a7c0"
+    "sha256": "374cfc6c3e6a45026f483496b8a124bbb259706cf3aa9ae967cd65aec45da901"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-24T08:05:20.783916Z",
+    "fetchedAt": "2026-10-24T08:20:21.303742Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
