@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-24T07:50:20.896661Z",
+  "generatedAt": "2026-10-24T08:05:20.783916Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,33 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-24T07:50:08Z",
-    "fetchedAt": "2026-10-24T07:50:20.896661Z",
+    "sourceAt": "2026-10-24T08:03:14Z",
+    "fetchedAt": "2026-10-24T08:05:20.783916Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273302:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are running with delays after NYPD conducted an investigation at 75 Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792826988,
-            "end": 1792828380
-          }
-        ],
-        "createdAt": 1792826988,
-        "updatedAt": 1792827164
-      },
       {
         "id": "lmm:alert:273304:26",
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [E] trains are delayed while we address a switch problem at Briarwood.",
-        "description": "",
+        "header": "Downtown [E][F] trains are delayed while we address a switch problem at Briarwood.",
+        "description": "As an alternative, consider taking a [J] train or Q44-SBS bus.",
         "periods": [
           {
             "start": 1792828159,
@@ -54,7 +38,7 @@
           }
         ],
         "createdAt": 1792828159,
-        "updatedAt": 1792828159
+        "updatedAt": 1792828993
       },
       {
         "id": "lmm:planned_work:34778",
@@ -82,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808380208
+            "end": 1808380993
           }
         ],
         "createdAt": 1784303199,
@@ -90,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b8740b227f9f495cbfa32a1979833e6e919163a03bcd1ab95de061527d31a04c"
+    "sha256": "b31f0efa16fc99b5d9a3889aebc5e39e2f4863089dd07deaf8001db6d863a7c0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-24T07:50:20.896661Z",
+    "fetchedAt": "2026-10-24T08:05:20.783916Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
