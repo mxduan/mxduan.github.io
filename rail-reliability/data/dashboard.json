@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-24T06:20:20.260714Z",
+  "generatedAt": "2026-10-24T06:35:20.931564Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-24T06:13:16Z",
-    "fetchedAt": "2026-10-24T06:20:20.260714Z",
+    "sourceAt": "2026-10-24T06:32:07Z",
+    "fetchedAt": "2026-10-24T06:35:20.931564Z",
     "state": "ok",
     "alerts": [
       {
@@ -45,7 +45,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are delayed while we replace a rail at Woodhaven Blvd.",
+        "header": "Jamaica-bound [E][F] trains are running with delays after we replaced a rail at Woodhaven Blvd.",
         "description": "",
         "periods": [
           {
@@ -54,7 +54,7 @@
           }
         ],
         "createdAt": 1792821969,
-        "updatedAt": 1792821969
+        "updatedAt": 1792823065
       },
       {
         "id": "lmm:planned_work:34778",
@@ -82,7 +82,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808374395
+            "end": 1808375525
           }
         ],
         "createdAt": 1784303199,
@@ -90,11 +90,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "769fe9bc481bf141cfe51e505f8439e00826f8ab7ee1178ab9273bb82774e782"
+    "sha256": "0687ecf97175cdf2bf97a9974f48d3c894fe280038c635e1ba21d0e85124f1ea"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-24T06:20:20.260714Z",
+    "fetchedAt": "2026-10-24T06:35:20.931564Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
