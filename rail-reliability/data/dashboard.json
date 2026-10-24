@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-24T07:05:19.585660Z",
+  "generatedAt": "2026-10-24T07:20:20.044828Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,42 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-24T06:57:14Z",
-    "fetchedAt": "2026-10-24T07:05:19.585660Z",
+    "sourceAt": "2026-10-24T07:14:31Z",
+    "fetchedAt": "2026-10-24T07:20:20.044828Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273283:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we addressed a mechanical problem on a train at Jamaica Center-York College.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792818066,
-            "end": null
-          }
-        ],
-        "createdAt": 1792818066,
-        "updatedAt": 1792819515
-      },
-      {
-        "id": "lmm:alert:273295:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are running with delays after we replaced a rail at Woodhaven Blvd.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792821969,
-            "end": null
-          }
-        ],
-        "createdAt": 1792821969,
-        "updatedAt": 1792823065
-      },
       {
         "id": "lmm:planned_work:34778",
         "type": "Planned - Reroute",
@@ -82,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808377033
+            "end": 1808378068
           }
         ],
         "createdAt": 1784303199,
@@ -90,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "acd54b7792f379e769dcfac093d8170d9647aa869d096210d4ec05f1f32a3133"
+    "sha256": "1fa9a68ea4cb816f18f806ef46290ba7561f5e8dd83ab8c778045504651d4eb4"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-24T07:05:19.585660Z",
+    "fetchedAt": "2026-10-24T07:20:20.044828Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
