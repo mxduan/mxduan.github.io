@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-24T07:20:20.044828Z",
+  "generatedAt": "2026-10-24T07:35:22.334106Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-24T07:14:31Z",
-    "fetchedAt": "2026-10-24T07:20:20.044828Z",
+    "sourceAt": "2026-10-24T07:32:45Z",
+    "fetchedAt": "2026-10-24T07:35:22.334106Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273302:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica-bound [E][F] trains are running with delays after NYPD conducted an investigation at 75 Av.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792826988,
+            "end": 1792828380
+          }
+        ],
+        "createdAt": 1792826988,
+        "updatedAt": 1792827164
+      },
       {
         "id": "lmm:planned_work:34778",
         "type": "Planned - Reroute",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808378068
+            "end": 1808379164
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1fa9a68ea4cb816f18f806ef46290ba7561f5e8dd83ab8c778045504651d4eb4"
+    "sha256": "30cbfa73fd4fde283139ae68ba49c1d5f169ed2e765197f45484e27463153002"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-24T07:20:20.044828Z",
+    "fetchedAt": "2026-10-24T07:35:22.334106Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
