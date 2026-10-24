@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-24T01:02:20.051134Z",
+  "generatedAt": "2026-10-24T05:20:05.252713Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,42 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-24T01:00:24Z",
-    "fetchedAt": "2026-10-24T01:02:20.051134Z",
+    "sourceAt": "2026-10-24T05:09:20Z",
+    "fetchedAt": "2026-10-24T05:20:05.252713Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273283:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E] trains are delayed while we address a mechanical problem on a train at Jamaica Center-York College.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792818066,
+            "end": null
+          }
+        ],
+        "createdAt": 1792818066,
+        "updatedAt": 1792818066
+      },
+      {
+        "id": "lmm:planned_work:34778",
+        "type": "Planned - Reroute",
+        "planned": true,
+        "priority": 18,
+        "header": "Jamaica Center-bound [E] runs via the Roosevelt Island [F] from W 4 St-Wash Sq, Manhattan to 21 St-Queensbridge",
+        "description": "[shuttle bus icon] Free Q96 shuttle buses run overnight only between Court Sq-23 St and 21 St-Queensbridge, stopping at Queens Plaza.\n\nTravel alternatives:\nFor 14 St, 23 St, 34 St-Penn Station, 42 St-Port Authority and 50 St, take the [A] or use nearby [F] stations along 6 Av.\n\nFor 7 Av, take the [D] instead.\n\nFor 5 Av/53 St, use nearby [D] 47-50 Sts station.\n\nFor Lexington Av/53 St, use the nearby Lexington Av/59 St [N]  station.\n\nFor Court Sq-23 St, take the [7].\n\nFor Queens Plaza, take the [R] (days/evenings) or a Manhattan-bound [E], use the nearby Queensboro Plaza [accessibility icon] | [7][N] station or take [shuttle bus icon] free shuttle buses (between 9:30 PM and 5 AM only).\n\nTransfer stations:\nW 4 St-Wash Sq [accessibility icon] | [A][C][E][D][F]\n34 St-Herald Sq [accessibility icon] | Jamaica-bound [E], [D][F][N][R]\n42 St-Port Authority/Times Sq/Bryant Park\n[7][A][C][E][D][F][N][R]\n47-50 Sts-Rockefeller Ctr [accessibility icon] | [D], Jamaica-bound [E], [F]\nCourt Sq-23 St [accessibility icon] | [7][G], Manhattan-bound [E] and [shuttle bus icon]\n21 St-Queensbridge [accessibility icon] | Jamaica-bound [E], [F] and [shuttle bus icon]\nQueens Plaza [accessibility icon] | [R], Manhattan-bound [E] and [shuttle bus icon]\nSteinway St [E][F][R]\nJackson Hts-Roosevelt Av/74 St-Broadway [accessibility icon] | [7][E][F][R]\nWhat's happening?\nTrack maintenance\n\n[accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully accessible. Please contact 511 to plan your trip.",
+        "periods": [
+          {
+            "start": 1792813500,
+            "end": 1793005200
+          }
+        ],
+        "createdAt": 1789652885,
+        "updatedAt": 1790363481
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808355622
+            "end": 1808370560
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3cd87386a44881b7f7eee682d77ffb00e22e6910faca8cf8b1809000725aca17"
+    "sha256": "e79c5821b0af78ef8119aafcc0071b1e755cfe495ba767492a578802d61156f3"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-24T01:02:20.051134Z",
+    "fetchedAt": "2026-10-24T05:20:05.252713Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -60,24 +92,10 @@
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",
-    "fetchedAt": "2026-10-23T03:50:07.957549Z",
+    "fetchedAt": "2026-10-24T05:20:05.252713Z",
     "source": "https://data.ny.gov/resource/7kct-peq7.json",
     "periods": {
       "day": [
-        {
-          "start": "2026-06-25",
-          "end": "2026-06-26",
-          "coverage": "archive-window",
-          "count": 1,
-          "days": 1
-        },
-        {
-          "start": "2026-06-26",
-          "end": "2026-06-27",
-          "coverage": "archive-window",
-          "count": 6,
-          "days": 1
-        },
         {
           "start": "2026-06-27",
           "end": "2026-06-28",
@@ -900,6 +918,20 @@
         {
           "start": "2026-10-22",
           "end": "2026-10-23",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-23",
+          "end": "2026-10-24",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-10-24",
+          "end": "2026-10-25",
           "coverage": "unavailable",
           "count": null,
           "days": null
